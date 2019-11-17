@@ -1,0 +1,23 @@
+.page__hero--nrb {
+    background-color: $brand-contrast;
+    background-position: top right -210px;
+    background-size: contain;
+    padding-right: 100px;
+
+    @include breakpoint($small) {
+        padding-right: 150px;
+    }
+
+    @include breakpoint($medium) {
+        padding-right: 230px;
+    }
+
+    @include breakpoint($large) {
+        background-position: top right -210px;
+    }
+
+    @include breakpoint($x-large) {
+        padding-right: 400px;
+        background-position: top right;
+    }
+}

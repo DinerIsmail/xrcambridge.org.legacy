@@ -1,0 +1,23 @@
+<article class="gridMaker__item gridMaker__item--{{ archive.color }}">
+    <div class="gridMaker__header">
+      <span class="gridMaker__tab">{{ archive.title }}</span>
+    </div>
+    <div class="gridMaker__hero">
+        <a href="{{ archive.url }}" class="gridMaker__imageCover {% unless archive.image %} gridMaker__imageCover--fallback {% endunless %}" {% if archive.image %} style="background-image: url({{ archive.image }})" {% endif %} target="_blank" rel="noopener">
+            <span class="sr-only">{{event.title}}</span>
+        </a>
+    </div>
+    <div class="gridMaker__body">
+      {{ archive.description | markdownify }}
+    </div>
+  
+    <div class="gridMaker__footer">
+      <a
+        href="{{ archive.url }}"
+        class="gridMaker__button gridMaker__button--small"
+      >
+        {{ archive.buttonText }}
+      </a>
+    </div>
+  </article>
+  

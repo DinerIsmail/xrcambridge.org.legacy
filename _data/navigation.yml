@@ -1,0 +1,22 @@
+main:
+  - title: Events
+    description: Keep on top of Extinction Rebellion Events and actions happening in your area. Rebels are organising talks, events and demonstrations all the time. Nothing happening near you? Organise something!
+    url: /events
+  - title: Sign Up
+    description: If you’d like to receive regular information and newsletters from Extinction Rebellion Manchester about events, actions, meetings and other information about what we’re doing and how you can help - please sign up here.
+    url: /signup
+  - title: Blog
+    description: Explore Extinction Rebellion Cambridge's archives of news, events, interviews and actions.
+    url: /blog
+  - title: Get Involved
+    description: Want to get involved with the organisational side of XR Cambridge? This is where to start. Here you'll find the relevant contact details of our various working groups. We are looking forward to hearing from you!
+    url: /get_involved
+  - title: FAQs
+    description: Frequently Asked Questions
+    url: /frequently-asked-questions
+  - title: Donate
+    description: Donate to XR Cambridge
+    url: /donate
+  # - title: Resources
+  #   description: Reference materials, pictures, posters and art tools, guidance and help. Dig in!
+  #   url: /resources

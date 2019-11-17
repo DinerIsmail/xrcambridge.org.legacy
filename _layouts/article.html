@@ -1,0 +1,93 @@
+---
+layout: default
+---
+
+{% if page.last_modified_at %}
+{% assign publish_date = page.last_modified_at | date: "%B %d, %Y" %}
+{% elsif page.date %}
+{% assign publish_date = page.date | date: "%B %d, %Y" %}
+{% endif %}
+
+{% if page.author %}
+{% assign author = site.data.authors[page.author] %}
+{% else %}
+{% assign author = null %}
+{% endif %}
+
+
+{% if page.quote %}
+{% include xr-blocks/headers/quote.html %}
+{% else %}
+{% include xr-blocks/headers/hero.html %}
+{% endif %}
+
+{% if author and publish_date and page.read_time %}
+    {% assign showMetas = true %}
+{% else %}
+    {% assign showMetas = false %}
+{% endif %}
+
+
+<main role="main"
+      class="blogArticle blogArticle--{{page.theme | default : 'default'}}"
+      itemscope
+      itemtype="https://schema.org/CreativeWork">
+
+    {% if page.title %}
+    <meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+
+    {% if page.excerpt %}
+    <meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">
+    {% endif %}
+
+    {% if publish_date %}
+    <meta itemprop="datePublished" content="{{ publish_date }}">
+    {% endif %}
+
+    <span itemprop="author" itemscope itemtype="https://schema.org/Person">
+        <meta itemprop="name" content="{{author.name}}"/>
+    </span>
+
+    <article class="blogArticle__container">
+
+        {% if page.quote %}
+        <header class="blogArticle__header">
+            <h1 class="blogArticle__title" itemprop="headline">
+                {{ page.title | markdownify | strip_html }}
+            </h1>
+        </header>
+        {% endif %}
+
+        {% if showMetas %}
+        {% unless page.hideMetas %}
+        <aside class="blogArticle__meta">
+            {% include xr-blocks/article/meta.html %}
+        </aside>
+        {% endunless %}
+        {% endif %}
+
+        <section class="blog-article__content" itemprop="text">
+            {{ content }}
+        </section>
+
+        {% if page.share %}
+        <aside class="blogArticle__socials">
+            {% include xr-blocks/social-share.html %}
+        </aside>
+        {% endif %}
+
+        <footer class="blogArticle__pagination">
+            {% include xr-blocks/article/pagination.html %}
+        </footer>
+
+    </article>
+
+    {% unless page.exclude-recent %}
+    <aside class="blogArticle__recent">
+        {% include xr-blocks/recent-posts.html %}
+    </aside>
+    {% endunless %}
+
+</main>
+

@@ -1,0 +1,17 @@
+---
+layout: xr-splash
+theme: pink
+permalink: "/resources/arts"
+title: Keeping our movement on brand
+excerpt: |-
+  The Art Group makes sure that we look fabulous and recognisable. Anyone can
+  produce art of all kinds to spread the word about XR - but XR also has lots of
+  ready made resources available to anyone who wants to use them to spread the
+  word.
+---
+
+<div class="gridMaker">
+    {%- for doc in site.data.artsDocs %}
+        {%- include xr-blocks/resource-block.html -%}
+    {%- endfor -%}
+</div>

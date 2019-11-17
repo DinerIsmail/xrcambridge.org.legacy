@@ -1,0 +1,34 @@
+<footer class="footer footer--default">
+	<ul class="footer__socialIcons">
+		{% if site.footer.links %} {% for link in site.footer.links %} {% if
+		link.label and link.url %}
+		<li class="footer__socialIconsItem">
+			<a
+				class="footer__socialIcons-link"
+				href="{{ link.url }}"
+				rel="nofollow noopener noreferrer"
+				target="{{ link.target }}"
+			>
+				<span class="footer__socialIconsItemIcon">
+					<i
+						class="{{ link.icon | default: 'fas fa-link' }}"
+						aria-hidden="true"
+					></i>
+				</span>
+				<span class="footer__socialIconsItemText">
+					{{ link.label }}
+				</span>
+			</a>
+		</li>
+		{% endif %} {% endfor %} {% endif %}
+	</ul>
+
+	<span class="footer__logo">
+		<img alt="Manchester Bee Logo" src="/assets/images/bee-logo.svg" />
+	</span>
+
+	<div class="footer__copyright">
+		&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}.
+		Fight for life. Rebel for life.
+	</div>
+</footer>

@@ -1,0 +1,22 @@
+{% if page.previous or page.next %}
+<nav class="articlePagination">
+
+    {% if page.previous %}
+    <a href="{{ page.previous.url | relative_url }}"
+       class="articlePagination__pager articlePagination__pager--prev"
+       title="{{ page.previous.title | markdownify | strip_html }}">
+        <i class="fa fa-chevron-left"></i>
+        Previous Article
+    </a>
+    {% endif %}
+
+    {% if page.next %}
+    <a href="{{ page.next.url | relative_url }}"
+       class="articlePagination__pager articlePagination__pager--next"
+       title="{{ page.next.title | markdownify | strip_html }}">
+        Next Article
+        <i class="fa fa-chevron-right"></i>
+    </a>
+    {% endif %}
+</nav>
+{% endif %}

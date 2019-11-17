@@ -1,0 +1,10 @@
+@function colour-contrast($colour, $light: #FFF, $dark: $brand-primary) {
+  $color-brightness: round((red($colour) * 299) + (green($colour) * 587) + (blue($colour) * 114) / 1000);
+  $light-color: round((red(#ffffff) * 299) + (green(#ffffff) * 587) + (blue(#ffffff) * 114) / 1000);
+
+  @if abs($color-brightness) < ($light-color/2) {
+    @return $light;
+  } @else {
+    @return $dark;
+  }
+}

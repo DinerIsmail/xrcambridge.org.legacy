@@ -1,0 +1,15 @@
+<section class="viewMore">
+
+    <h3 class="viewMore__header">Upcoming Events</h3>
+
+    <div class="gridMaker gridMaker-2Col">
+        {% for event in site.data.events limit:3 %}
+            {% include xr-blocks/event-block.html %}
+        {% endfor %}
+    </div>
+
+    <div class="viewMore__linkWrapper">
+        <a href="/events" class="viewMore__link">View more events</a>
+    </div>
+
+</section>

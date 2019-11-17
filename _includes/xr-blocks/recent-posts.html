@@ -1,0 +1,15 @@
+<section class="viewMore">
+
+    <h3 class="viewMore__header">Recent Posts</h3>
+
+    <div class="gridMaker gridMaker--2col">
+        {% for post in site.posts limit:4 %}
+            {% include xr-blocks/post-block.html %}
+        {% endfor %}
+    </div>
+
+    <div class="viewMore__linkWrapper">
+        <a href="/blog" class="viewMore__link">View more posts</a>
+    </div>
+
+</section>

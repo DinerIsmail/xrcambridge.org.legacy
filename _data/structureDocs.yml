@@ -1,0 +1,47 @@
+- title: XR Principles and Values
+  description: Visit the National Extinction Rebellion website to learn about our core principles and values.
+  url: https://rebellion.earth/the-truth/about-us/
+  icon: share-alt
+  buttonText: View document
+
+- title: XR in Greater Manchester
+  description: An outline of how XR MCR currently works and how and where you can get involved.
+  url: https://docs.google.com/document/d/1YeTZm8YrXrnthm0_GWcITgjh1G6ZuCE0uf2esKJZuEk/edit
+  icon: file-alt
+  buttonText: View document
+
+- title: Find your local group in Manchester
+  description: Visit our local groups page to find active rebels, meetings and events in your area.
+  url: /local-groups
+  icon: map-marker-alt
+  buttonText: Find out more
+
+- title: Starting an XR local group
+  description: Guidance on how to start a local group, if you are interested in forming an XR group for your region of Manchester.
+  url: https://docs.google.com/document/d/1Z83dqFGWvpoG2S8oWvJrrX3t-x5lFLqxAUW_JLI-cu8/edit
+  icon: map-marker-alt
+  buttonText: View document
+
+- title: Join a working group
+  description: Want to get involved with the organisational side of XRMCR? This is where to start.
+  url: /get_involved
+  icon: network-wired
+  buttonText: Contact us
+
+- title: What goes on at XR meetings?
+  description: View published minutes of our core meetings that happen on Monday events in central Manchester.
+  url: https://drive.google.com/drive/u/0/folders/13yaizhOvg1vlPrlub5zC2sd0T0DTpR5f
+  icon: file-alt
+  buttonText: View document
+
+- title: Finances
+  description: View our financial policy and expenses claim form.
+  url: https://drive.google.com/drive/u/0/folders/18bLMf4JNfpz2OTXPzQDmm3B2DXJDrSdd
+  icon: piggy-bank
+  buttonText: View document
+
+- title: More information
+  description: If you have any more questions about how the structure of XR works, contact us to get your answers.
+  url: mailto:coreops@xrmcr.org?subject=Contact%20from%20xrmcr.org
+  icon: address-book
+  buttonText: Email coreops@xrmcr.org

@@ -1,0 +1,15 @@
+#find-your-nearest {
+  margin: 20px -20px 20px -20px;
+  --brand-contrast: #{$xr_green};
+  --title-color: #fff;
+
+  // Fixes issue with Minimial Mistakes & Google Maps
+  .gm-control-active img {
+    margin: 0 !important
+  }
+
+  .xrSplash-pink & {
+    --brand-contrast: #{$xr_angry};
+    --title-color: #fff;
+  }  
+}

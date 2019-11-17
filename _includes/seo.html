@@ -1,0 +1,29 @@
+<!-- begin _includes/seo.html -->
+{% if page.canonical_url %}
+{%- assign canonical_url = page.canonical_url %}
+{% else %}
+{%- assign canonical_url = page.url | replace: "index.html", "" | absolute_url %}
+{% endif %}
+
+{%- if page.date -%}
+{%- assign og_type = "article" -%}
+{%- else -%}
+{%- assign og_type = "website" -%}
+{%- endif -%}
+
+<meta property="og:type" content="{{ og_type }}">
+
+{% if site.twitter.username %}<meta name="twitter:url" content="{{ canonical_url }}">{% endif %}
+{% if site.facebook.publisher_id %}<meta property="fb:pages" content="{{site.facebook.publisher_id}}"/>{% endif %}
+
+
+{% if page.video %}
+{% if page.video.url %}<meta property="og:video:url" content="{{page.video.url | absolute_url}}" />{% endif %}
+{% if page.video.url %}<meta property="og:video:secure_url" content="{{page.video.url | absolute_url}}" />{% endif %}
+{% if page.video.type %}<meta property="og:video:type" content="{{page.video.type}}" />{% endif %}
+{% if page.video.width %}<meta property="og:video:width" content="{{page.video.width}}" />{% endif %}
+{% if page.video.height %}<meta property="og:video:height" content="{{page.video.height}}" />{% endif %}
+{% endif %}
+
+{% seo %}
+<!-- end _includes/seo.html -->

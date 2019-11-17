@@ -1,0 +1,15 @@
+---
+layout: xr-splash
+permalink: "/resources/structure-of-xr"
+theme: green
+title: How Extinction Rebellion works
+excerpt: |-
+  Extinction Rebellion is a decentralised and autonomous movement, meaning that
+  anyone can act in its name as long as they adhere to the core principles and values.
+---
+
+<div class="gridMaker">
+    {%- for doc in site.data.structureDocs -%}
+        {%- include xr-blocks/resource-block.html -%}
+    {%- endfor -%}
+</div>

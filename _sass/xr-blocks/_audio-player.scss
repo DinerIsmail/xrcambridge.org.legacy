@@ -1,0 +1,16 @@
+
+.audio-player-app {
+  --primary: #FDC916;
+  --secondary: #FFF;
+  --tertiary: #000;
+
+  --background-color: var(--tertiary);
+  --button-color: var(--secondary);
+  --button-color-active: var(--primary);
+
+  --font-color: var(--primary);
+  --font-family: FUCXED CAPS;
+  --font-base-size: 16px;
+
+  margin-bottom: 20px;
+}

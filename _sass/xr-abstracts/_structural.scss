@@ -1,0 +1,45 @@
+%body_container {
+	// TODO: Move to main variable file when custom theme is done
+	// $small-max-width: 100%;
+	// $medium-max-width: 600px;
+	// $large-max-width: 700px;
+	// $xlarge-max-width: 800px;
+
+	margin: auto;
+	// max-width: $small-max-width;
+	max-width: 1280px;
+
+	padding-left: 20px;
+	padding-right: 20px;
+
+	@include breakpoint($medium) {
+		// max-width: $medium-max-width;
+
+		// padding-left: 0;
+		// padding-right: 0;
+	}
+
+	@include breakpoint($large) {
+		// max-width: $large-max-width;
+	}
+
+	@include breakpoint($x-large) {
+		// max-width: $xlarge-max-width;
+	}
+}
+
+// TODO: functionise this
+// Also the hacky crap is because of find-your-nearest :P
+.spaceMaker {
+	display: block;
+	width: 100%;
+	height: 1px;
+
+	&--8x {
+		margin-bottom: 79px;
+	}
+
+	&--4x {
+		margin-bottom: 39px;
+	}
+}

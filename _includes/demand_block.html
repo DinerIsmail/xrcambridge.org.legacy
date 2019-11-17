@@ -1,0 +1,18 @@
+<div class="gridMaker__item gridMaker__item--{{ demand.colour }}">
+
+    <div class="gridMaker__header">
+        <span class="gridMaker__tab">{{ demand.title }}</span>
+    </div>
+
+    <div class="gridMaker__hero">
+        <div class="gridMaker__imageCover" style="background-image: url({{ demand.image_path }})"></div>
+    </div>
+
+    <div class="gridMaker__body">
+        <h2 class="gridMaker__title" itemprop="name">{{ demand.title }}</h2>
+        <p class="gridMaker__text">
+            {{ demand.description }}
+        </p>
+    </div>
+
+</div>

@@ -1,0 +1,129 @@
+// TODO: Change font-size to rems
+
+body {
+  --base-font-size: 16px;
+
+  --heading-font: "Fucxed Caps";
+  --heading-font-family: var(--heading-font), "Helvetica Neue", Arial,
+    sans-serif;
+  --heading-font-size: calc(var(--base-font-size) * 3); // 3rem
+  --heading-line-height: 1.2em;
+
+  --body-font: "Crimson Text";
+  --body-font-family: var(--body-font), Georgia, Times, serif;
+  --body-font-size: calc(var(--base-font-size) * 1.2); // 1.2rem;
+  --body-line-height: 1.2em;
+
+  --prominent-font-family: var(--heading-font);
+  --prominent-font-size: calc(var(--base-font-size) * 1.4); // 1.2rem;
+  --prominent-line-height: 1.2em;
+
+  --button-font-family: var(--heading-font);
+  --button-font-size: calc(var(--base-font-size) * 1.4); // 1.2rem;
+
+  --lead-font-family: var(--body-font);
+  --lead-font-size: calc(var(--base-font-size) * 1.4); // 1.4rem;
+  --lead-line-height: 1.2em;
+
+  --small-font-family: var(--body-font);
+  --small-font-size: var(--base-font-size);
+  --small-line-height: 1em;
+
+  @include breakpoint($medium) {
+    --prominent-font-size: calc(var(--base-font-size) * 2); // 2rem;
+  }
+
+  --facebook-color: #3c5a99;
+  --facebook-color-contrast: #fff;
+
+  --twitter-color: #38a1f3;
+  --twitter-color-contrast: #fff;
+
+  --linkedin-color: #0077b5;
+  --linkedin-color-contrast: #fff;
+
+  --border-radius: 4px;
+}
+
+// TODO: Remove once we've gotten rid of Minimal Mistakes
+%_minimal-mistakes_font-reset {
+  font-style: normal;
+  font-weight: normal;
+  transition: none;
+  letter-spacing: optical;
+
+  * {
+    transition: none;
+  }
+}
+
+%lead {
+  @extend %_minimal-mistakes_font-reset;
+  font-size: var(--lead-font-size);
+  font-family: var(--lead-font-family);
+  line-height: var(--lead-line-height);
+}
+
+%prominent {
+  @extend %_minimal-mistakes_font-reset;
+  font-family: var(--heading-font-family);
+  font-size: var(--prominent-font-size);
+  line-height: var(--prominent-line-height);
+}
+
+%title {
+  @extend %_minimal-mistakes_font-reset;
+  font-family: var(--heading-font-family);
+  font-size: var(--heading-font-size);
+  line-height: var(--heading-line-height);
+  margin-bottom: 20px;
+}
+
+%body {
+  @extend %_minimal-mistakes_font-reset;
+  font-family: var(--body-font-family);
+  font-size: var(--body-font-size);
+  line-height: var(--body-line-height);
+}
+
+%small {
+  font-size: calc(var(--body-font-size) * 0.9); // 0.8rem;
+}
+
+%definitionList {
+  @extend %body;
+
+  display: grid;
+  grid-template-columns: auto 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 5px;
+
+  dt {
+    font-weight: bold;
+
+    .fa-fw {
+      margin-right: 5px;
+      margin-top: -2px;
+    }
+  }
+
+  dd {
+    margin: 0;
+    line-height: 17px;
+  }
+}
+
+%button {
+  border-radius: var(--border-radius);
+  font-family: var(--button-font-family);
+  font-size: var(--button-font-size);
+  padding: 10px;
+  text-align: center;
+
+  &:hover,
+  &:focus,
+  &:visited:hover {
+    background-color: $brand-primary;
+    color: $brand-contrast;
+  }
+}

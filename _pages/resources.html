@@ -1,0 +1,13 @@
+---
+layout: xr-splash
+theme: lightGreen
+permalink: "/resources/index.html"
+title: Extinction Rebellion Resources
+excerpt: A hub of media, articles and resource packs to help you get started with XR.
+---
+
+<div class="gridMaker">
+    {%- for resource in site.data.resourcesHub -%}
+        {%- include xr-blocks/resources-hub-block.html -%}
+    {%- endfor -%}
+</div>

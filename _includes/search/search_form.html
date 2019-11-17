@@ -1,0 +1,18 @@
+{% comment %} Putting this script tag here so that it's not blocking {% endcomment %}
+<script src="{{ '/node_modules/@xrmcr-digital/search/dist/search.umd.min.js' | relative_url }}"></script>
+
+<div id="searchApp">
+    <search></search>
+</div>
+
+<script>
+    new Vue({
+        data: {
+            label: 'Search',
+            api: '/api/search-data.json',
+        },
+        components: {
+            search: search
+        }
+    }).$mount('#searchApp')
+</script>

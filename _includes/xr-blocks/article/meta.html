@@ -1,0 +1,39 @@
+    <dl class="metaList">
+
+        {% if author %}
+        <dt>
+            <i class="fas fa-fw fa-user" aria-hidden="true"></i>
+            Author:
+        </dt>
+        <dd>
+            {{author.name}}
+        </dd>
+        {% endif %}
+
+
+        {% if publish_date %}
+        <dt>
+            <i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i>
+            Updated:
+        </dt>
+        <dd>
+            <time datetime="{{ publish_date | date: '%Y-%m-%d' }}">
+                {{ publish_date }}
+            </time>
+        </dd>
+        {% endif %}
+
+
+        {% if page.read_time %}
+        <dt>
+            <i class="fas fa-fw fa-clock" aria-hidden="true"></i>
+            Read Time:
+        </dt>
+        <dd>
+            <time datetime="{{ publish_date | date: '%Y-%m-%d' }}">
+                {% include read-time.html %}
+            </time>
+        </dd>
+        {% endif %}
+
+    </dl>

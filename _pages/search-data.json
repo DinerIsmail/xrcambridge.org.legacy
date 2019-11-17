@@ -1,0 +1,27 @@
+---
+layout: none
+permalink: "/api/search-data.json"
+sitemap: false
+---
+
+[
+
+{%- for entry in site.posts -%}
+  {%- include xr-blocks/page-entry.json -%}
+{%- endfor -%}
+
+{%- for entry in site.pages -%}
+  {%- if entry.permalink -%}
+    {% unless site.data.searchExcludePaths contains entry.permalink %}
+      {%- include xr-blocks/page-entry.json -%}
+    {% endunless %}
+  {%- endif -%}
+{%- endfor -%}
+
+
+{%- comment -%}
+The next line is a dirty hack as jekyll cant tell me authoritatively whether there is another article
+{%- endcomment -%}
+  {}
+
+]

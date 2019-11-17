@@ -1,0 +1,19 @@
+.parallax {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+  transition: none;
+
+  &:after {
+    position: absolute;
+    display: block;
+    content: '';
+    height: 10px;
+    background-color: transparent;
+    bottom: -10px;
+    left: 0;
+    right: 0;
+    box-shadow: 0 0 10px 10px rgba(0,0,0,0.3);
+  }
+}

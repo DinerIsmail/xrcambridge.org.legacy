@@ -1,0 +1,25 @@
+<header
+	class="bigHeader bigHeader--{{ page.theme | default: 'default' }}"
+	style="background-image: url({{ page.image }}"
+>
+	<div class="bigHeader__strip">
+		<div class="bigHeader__container">
+			<h1 class="bigHeader__title" itemprop="text">
+				{{ page.title | markdownify | strip_html }}
+			</h1>
+			<h1 class="bigHeader__subtitle" itemprop="text">
+				{{ page.subtitle | markdownify | strip_html }}
+			</h1>
+			<a
+				href="/get_involved"
+				class="gridMaker__button bigHeader_button"
+				rel="noopener"
+			>
+				Get Involved
+			</a>
+			<p class="bigHeader__excerpt" itemprop="text">
+				{{ page.excerpt | markdownify | strip_html }}
+			</p>
+		</div>
+	</div>
+</header>

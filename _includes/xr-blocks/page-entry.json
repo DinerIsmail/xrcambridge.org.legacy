@@ -1,0 +1,6 @@
+{
+  "title": {{entry.title | strip_html | jsonify}},
+  "permalink": "{{entry.url}}",
+  "excerpt": {{entry.excerpt | strip_html | jsonify}},
+  "content": {{entry.content | strip_html | jsonify}}
+},

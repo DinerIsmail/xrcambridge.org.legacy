@@ -1,0 +1,30 @@
+<div
+  class="accordion {% if accordion_color %} accordion--{{accordion_color}} {% endif %} {% if accordion_rainbow %} accordion--rainbow {% endif %} {% if accordion_random %} accordion--randomize {% endif %}"
+  itemscope
+  itemprop="mainEntity"
+  itemtype="https://schema.org/Question"
+>
+  <input
+    id="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    name="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    class="accordion__state"
+    type="checkbox"
+  />
+
+  <label
+    for="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    class="accordion__header"
+    itemprop="name"
+  >
+    {{ faq.question }}
+  </label>
+
+  <div
+    class="accordion__body"
+    itemscope
+    itemprop="acceptedAnswer"
+    itemtype="https://schema.org/Answer"
+  >
+    <div itemprop="text">{{ faq.answer | markdownify }}</div>
+  </div>
+</div>

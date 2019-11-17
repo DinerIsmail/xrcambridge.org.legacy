@@ -1,0 +1,12 @@
+.xrHome {
+	max-width: 1280px;
+	margin: auto;
+	padding: 0 20px;
+	width: 100%;
+
+	@media (max-width: 768px) {
+		.logo-insects {
+			display: none;
+		}
+	}
+}

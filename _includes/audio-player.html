@@ -1,0 +1,17 @@
+<script src="/assets/js/audio-player.js"></script>
+
+<div id="app">
+    <demo></demo>
+</div>
+
+<script>
+    new Vue({
+        components: {
+            demo: xrmcrAudioPlayer
+        },
+        data: {
+            file: "{{include.file}}",
+            name: "{{include.title}}",
+        },
+    }).$mount('#app')
+</script>

@@ -1,0 +1,23 @@
+- title: Actions Checklist
+  description: A suggested checklist for planning, carrying out and following up actions.
+  url: https://docs.google.com/document/d/1PW77ma7CvvAV3H9r76OT_uobjLt7htzy1d234K-wnak/edit?usp=sharing
+  icon: tasks
+  buttonText: View document
+
+- title: Actions Consensus
+  description: This is the binding framework for non violent direct actions undertaken during the Extinction Rebellion campaign, outlining the movement’s international principles and values.
+  url: https://rebellion.earth/act-now/action-consensus/
+  icon: external-link-alt
+  buttonText: Open link
+
+- title: Actions and Logistics Manual
+  description: This manual outlines the suggested steps for visioning, preparing for, and carrying out an action, including roles for actions and a checklist of steps.
+  url: https://docs.google.com/document/d/1q18P5h8LyM6WHvcd7rNWwrkI6DwncwsfcuQfh4GSHhs/edit
+  icon: file-alt
+  buttonText: View document
+
+- title: More information
+  description: If you are concerned about arrest or any criminal charges, get in touch with the wellbeing and regenerative culture working group.
+  url: mailto:xrmcr_actions@protonmail.com?subject=Contact%20from%20xrmcr.org
+  icon: address-book
+  buttonText: Email xrmcr_actions@protonmail.com

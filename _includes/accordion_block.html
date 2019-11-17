@@ -1,0 +1,15 @@
+<div class="accordion {% if accordion_color %} accordion--{{accordion_color}} {% endif %} {% if accordion_rainbow %} accordion--rainbow {% endif %} {% if accordion_random %} accordion--randomize {% endif %}">
+
+  <input id="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+           name="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+           class="accordion__state"
+           type="checkbox"/>
+
+    <label for="accordion-{{ accordion_prefix }}-{{ forloop.index }}" class="accordion__header">
+        {{ accordion.title }}
+    </label>
+
+    <div class="accordion__body">
+        {{ accordion.content | markdownify }}
+    </div>
+</div>

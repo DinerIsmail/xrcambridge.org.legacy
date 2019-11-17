@@ -1,0 +1,288 @@
+.gridMaker {
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	margin-bottom: 1em;
+
+	@include breakpoint($medium) {
+		grid-template-columns: repeat(2, 2fr);
+	}
+
+	@include breakpoint($large) {
+		grid-template-columns: repeat(3, 2fr);
+	}
+
+	&--2col {
+		@include breakpoint($large) {
+			grid-template-columns: repeat(2, 2fr);
+		}
+	}
+
+	&--1col {
+		@include breakpoint($medium) {
+			grid-template-columns: repeat(1, 2fr);
+		}
+
+		@include breakpoint($large) {
+			grid-template-columns: repeat(1, 2fr);
+		}
+	}
+}
+
+.gridMaker__item {
+	background-color: var(--background-color);
+	border: 2px solid var(--background-color);
+	border-radius: $border-radius;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	overflow: hidden;
+	transition: box-shadow 300ms, transform 300ms;
+
+	&:focus-within,
+	&:hover {
+		transform: scale(1.05);
+		box-shadow: 0 8px 8px -3px rgba(0, 0, 0, 0.8);
+	}
+
+	&--red {
+		@extend %xrRed;
+	}
+
+	&--lightGreen {
+		@extend %xrLightGreen;
+	}
+
+	&,
+	&--yellow,
+	&--randomize {
+		@extend %xrYellow;
+	}
+
+	&--lightPink,
+	&--randomize:nth-child(2n + 1),
+	&--randomize2:nth-child(5n + 3) {
+		@extend %xrLightPink;
+	}
+
+	&--blue,
+	&--randomize:nth-child(3n + 2),
+	&--randomize2:nth-child(7n + 5) {
+		@extend %xrLightBlue;
+	}
+
+	&--purple,
+	&--randomize:nth-child(5n + 3),
+	&--randomize2:nth-child(11n + 7) {
+		@extend %xrPurple;
+	}
+
+	&--pink,
+	&--randomize:nth-child(7n + 5),
+	&--randomize2:nth-child(2n + 1) {
+		@extend %xrPink;
+	}
+
+	&--green,
+	&--randomize:nth-child(11n + 7),
+	&--randomize2:nth-child(3n + 2) {
+		@extend %xrGreen;
+	}
+}
+
+.gridMaker__strip {
+	background-color: var(--background-color);
+	border: none;
+	color: var(--foreground-color);
+	margin-left: -11px;
+	margin-right: -11px;
+	padding: 10px;
+}
+
+.gridMaker__address {
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+.gridMaker__header {
+	align-self: flex-start;
+	order: 1;
+	padding: 5px 10px;
+	width: 100%;
+}
+
+.gridMaker__tab {
+	font-family: $header-font-family;
+	color: var(--foreground-color);
+	font-size: 20px;
+}
+
+.gridMaker__hero {
+	order: 2;
+	position: relative;
+}
+
+.gridMaker__map {
+	display: block;
+
+	iframe {
+		max-width: 100%;
+		max-height: 8em;
+	}
+}
+
+.gridMaker__icon-container {
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+	border-radius: 0;
+	margin-bottom: 2em;
+	height: 8em;
+	margin-bottom: 10px;
+	position: relative;
+	border-radius: 4px;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gridMaker__icon {
+	width: 10em !important; //because font-awesome
+	height: 5em !important; //because font-awesome
+}
+
+.gridMaker__body {
+	background-color: #fff;
+	flex-grow: 1;
+	order: 3;
+	margin-bottom: -1px;
+	padding: 11px;
+
+	*:first-child {
+		margin-top: 0;
+	}
+
+	*:last-child {
+		margin-bottom: 0;
+	}
+}
+
+.gridMaker__footer {
+	background-color: #fff;
+	order: 4;
+	padding: 10px;
+}
+
+.gridMaker__footer a,
+.gridMaker__footer a:hover {
+	text-decoration: none;
+}
+
+.gridMaker__button,
+.gridMaker__button:visited {
+	@extend .btn;
+	@extend .btn--primary;
+
+	background-color: var(--background-color);
+	color: var(--foreground-color);
+	margin-bottom: 0;
+	font-size: 16px !important;
+}
+
+.gridMaker__button:focus,
+.gridMaker__button:hover,
+.gridMaker__button:visited:hover {
+	background-color: black;
+	color: var(--background-color);
+}
+
+.gridMaker__button--small {
+	font-size: 18px;
+}
+
+.gridMaker__imageCover {
+	background-color: var(--background-color, #{$brand-contrast});
+	background-position: center;
+	background-size: contain;
+	display: block;
+	height: 0;
+	padding-bottom: percentage(
+		9/16
+	); //Even if the image doesnt load, this gives us a 19:6 ratio
+	width: 100%;
+}
+
+.gridMaker__imageCover--fallback {
+	background-image: var(--background-image);
+	background-size: 60%;
+	background-position: right -40px center;
+	background-repeat: no-repeat;
+}
+
+.gridMaker__imageCover--cover {
+	background-size: cover;
+}
+
+.gridMaker_title {
+	font-size: 24px;
+	font-family: $header-font-family;
+	color: $brand-primary;
+	margin-bottom: 0.5em;
+	margin-top: 0;
+
+	&-link {
+		text-decoration: none;
+	}
+}
+
+.gridMaker_text {
+	font-size: 1.2em;
+	font-family: $global-font-family;
+	color: $brand-primary;
+	margin-bottom: 1em;
+	margin-top: 0;
+
+	@media screen and (min-width: $medium) {
+		font-size: 1em;
+	}
+}
+
+.gridMaker_subtext {
+	font-size: 1.2em;
+	font-family: $global-font-family;
+	color: $brand-primary;
+	margin-bottom: 1em;
+	margin-top: 0;
+
+	@media screen and (min-width: $medium) {
+		font-size: 0.8em;
+	}
+}
+
+.gridMaker_headline {
+	font-family: $header-font-family;
+	font-size: 1.8em;
+	color: $brand-primary;
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	justify-content: center;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+.gridMaker_link {
+	font-family: $header-font-family;
+	font-size: 1em;
+	color: $brand-primary;
+	display: flex;
+	flex-direction: row;
+	flex-basis: 100%;
+	justify-content: center;
+	margin-top: 0;
+	margin-bottom: 1em;
+	text-decoration: none;
+	align-items: center;
+}

@@ -1,0 +1,52 @@
+$dark-image: url('/assets/images/flowers-background-black.png');
+$light-image: url('/assets/images/flowers-background-white.png');
+
+@mixin xr-theme($color) {
+  --background-color: #{$color};
+  --background-image: #{colour-contrast($color, $light-image, $dark-image)};
+  --foreground-color: #{colour-contrast($color)};
+}
+
+%xrYellow {
+  @include xr-theme($brand-contrast);
+}
+
+%xrRed {
+  @include xr-theme($xr-red);
+}
+
+%xrLightPink {
+  @include xr-theme($xr_pink);
+}
+
+%xrLightBlue {
+  @include xr-theme($xr_light_blue);
+}
+
+%xrPurple {
+  @include xr-theme($xr_purple);
+}
+
+%xrPink {
+  @include xr-theme($xr_angry);
+}
+
+%xrLightGreen {
+  @include xr-theme($xr_light_green);
+}
+
+%xrGreen {
+  @include xr-theme($xr_green);
+}
+
+%xrBlue {
+  @include xr-theme($xr_dark_blue);
+}
+
+%xrLemon {
+  @include xr-theme($xr_lemon);
+}
+
+%xrWhite {
+  @include xr-theme(#FFF);
+}

@@ -1,0 +1,30 @@
+---
+layout: xr-splash
+theme: lightGreen
+permalink: "/resources/wellbeing"
+title: Wellbeing is at the heart of our movement
+excerpt: |-
+  We will not allow the degenerative dominant culture to persistently deplete
+  the Earth and us. We are planting the seeds of a Regenerative, Nourishing
+  Culture!
+---
+
+<figure class="youtube_embed youtube_embed--16-by-9">
+    <iframe allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen frameborder="0" height="315" loading="lazy" src="https://www.youtube.com/embed/WCboH6kMuHs" title="Extinction Rebellion Regenerative Culture: Explained" width="560"></iframe>
+</figure>
+
+{% assign accordion_random = true %}
+{% assign accordion_prefix = 'wellbeingFaqs' %}
+
+{%- for faq in site.data.wellbeingFaqs -%}
+    {%- include faq_block.html -%}
+{%- endfor -%}
+
+<div class="spaceMaker--8x"></div>
+
+<div class="gridMaker gridMaker--2col">
+    {%- for doc in site.data.wellbeingDocs -%}
+        {%- include
+  xr-blocks/resource-block.html -%}
+    {%- endfor -%}
+</div>

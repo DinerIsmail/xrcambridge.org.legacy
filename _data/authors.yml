@@ -1,0 +1,61 @@
+default:
+  name: "Manchester Rebel"
+  bio: "This is an emergency."
+  avatar: "/assets/images/default.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@xrmcr.org"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://xrmcr.org"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/XR_MCR"
+      default:
+xr_trafford:
+  name: "XR Trafford"
+  bio: "From this moment, despair ends and tactics begin."
+  avatar: "/assets/images/default.png"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope-square"
+      url: "mailto:hello@xrmcr.org"
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://xrmcr.org"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/XR_MCR"
+jake:
+  name: Jake Rigby
+  bio:
+  avatar: "/assets/images/bluejay.jpg"
+natalie:
+  name: Natalie Barbosa
+  bio: "Office Services WG Co-ord and Acting Creative Arts WG co-ord"
+  avatar: "/assets/images/natalie.png"
+clare:
+  name: Clare Carlile
+  bio:
+  avatar: "/assets/images/default.png"
+stockysatlarge:
+  name: Claire Stocks
+  bio:
+  avatar: "/assets/images/default.png"
+ian_leather:
+  name: Ian Leather
+  bio: "Dreaming of a debt-free society."
+  avatar: "/assets/images/default.png"
+grahame:
+  name: Grahame
+  bio:
+  avatar: "/assets/images/default.png"
+david:
+  name: David
+  bio:
+  avatar: "/assets/images/default.png"
+zoe:
+  name: Zoe
+  bio:
+  avatar: "/assets/images/default.png"

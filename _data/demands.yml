@@ -1,0 +1,12 @@
+- title: Tell the truth
+  image_path: /assets/images/tell_the_truth.jpg
+  description: The government must tell the truth by declaring a climate and ecological emergency, working with other institutions to communicate the urgency for change.
+  colour: green
+- title: Act now
+  image_path: /assets/images/act_now.jpg
+  description: The government must act now to halt biodiversity loss and reduce greenhouse gas emissions to net zero by 2025.
+  colour: pink
+- title: Beyond politics
+  image_path: /assets/images/there_is_no_planet_b.jpg
+  description: The government must create and be led by the decisions of a Citizens’ Assembly on climate and ecological justice.
+  colour: blue

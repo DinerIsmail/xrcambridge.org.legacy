@@ -1,0 +1,21 @@
+---
+layout: article
+permalink: "/frequently-asked-questions"
+title: "Frequently Asked Questions"
+description: "Get the answers to your frequently asked questions"
+exclude-recent: true
+
+header:
+    overlay_color: "#111"
+    overlay_image: /assets/images/blog-hero.jpg
+
+excerpt: "Get the answers to your frequently asked questions"
+---
+
+<section itemscope itemtype="https://schema.org/FAQPage">
+    {% assign accordion_random = true %}
+    {% assign accordion_prefix = 'faqs' %}
+    {% for faq in site.data.faqs %}
+        {% include faq_block.html %}
+    {% endfor %}
+</section>

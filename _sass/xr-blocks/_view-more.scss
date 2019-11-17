@@ -1,0 +1,22 @@
+.viewMore {
+
+  &__header {
+    @extend %prominent;
+    text-align: center;
+  }
+
+  &__linkWrapper {
+    text-align: center;
+  }
+
+  &__link {
+    @extend %button;
+
+    transition: text-decoration-color 300ms;
+
+    &:hover {
+      text-decoration-color: transparent;
+    }
+  }
+
+}

@@ -1,0 +1,25 @@
+<div class="resourcePack" itemscope itemtype="https://schema.org/Intangible">
+    <div class="resourcePack__header">
+        <h3 class="resourcePack__title" itemprop="name">{{pack.name}}</h3>
+    </div>
+
+    <div class="resourcePack__images {{grid_class}}">
+        {% for assets in pack.assets %}
+        {% assign url = assets[0] %}
+        {% assign thumbnail = assets[1] %}
+
+        <a href="{{url}}" class="resourcePack__imageLink" target="_blank" itemprop="url">
+            <img src="{{thumbnail}}"
+                 class="resourcePack__image"
+                 alt="{{pack.name}} - Image {{forloop.index}}"
+                 itemprop="image"/>
+        </a>
+
+        {% endfor %}
+
+    </div>
+
+    <div class="resourcePack__footer">
+        <a href="{{pack.all_assets}}" class="resourcePack__link" itemprop="url">Download Pack</a>
+    </div>
+</div>

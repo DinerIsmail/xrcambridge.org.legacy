@@ -1,0 +1,62 @@
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<article class="gridMaker__item gridMaker__item--randomize2"
+         itemscope
+         itemtype="https://schema.org/CreativeWork">
+
+    <div class="gridMaker__body">
+
+        <h2 class="gridMaker__title" itemprop="headline">
+
+            {% if post.link %}
+
+            <a class="gridMaker__title--link" href="{{ post.link }}" rel="noopener">
+                {{ title | truncate: 40 }}
+            </a>
+
+            <a class="gridMaker__title--link"
+               href="{{ post.url | relative_url }}"
+               rel="permalink">
+                <i class="fas fa-link" aria-hidden="true" title="permalink"></i>
+                <span class="sr-only">Permalink</span>
+            </a>
+
+            {% else %}
+
+            <a class="gridMaker__title--link"
+               href="{{ post.url | relative_url }}"
+               rel="permalink">
+                {{ title | truncate: 40 }}
+            </a>
+
+            {% endif %}
+        </h2>
+
+        {% if post.read_time %}
+        <p class="gridMaker__subtext">
+            <i class="far fa-clock" aria-hidden="true"></i>
+            {% include read-time.html %}
+        </p>
+        {% endif %}
+
+        {% if post.excerpt %}
+        <p class="gridMaker__text" itemprop="description">
+            {{ post.excerpt | markdownify | strip_html | truncate: 160 }}
+        </p>
+        {% endif %}
+    </div>
+
+    <div class="gridMaker__footer">
+        <a href="{{ post.url | relative_url }}"
+           class="gridMaker__button gridMaker__button--small"
+           rel="noopener"
+           target="_blank">
+            Read More
+        </a>
+    </div>
+
+</article>

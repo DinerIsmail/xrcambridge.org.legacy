@@ -1,0 +1,181 @@
+/* ==========================================================================
+   Variables
+   ========================================================================== */
+
+/*
+   Typography
+   ========================================================================== */
+
+$doc-font-size: 16 !default;
+
+/* paragraph indention */
+$paragraph-indent: false !default; // true, false (default)
+$indent-var: 1.3em !default;
+
+/* system typefaces */
+$serif: 'Crimson Text', Georgia, Times, serif !default;
+$sans-serif: 'Helvetica Neue', 'Lucida Grande', Arial, sans-serif !default;
+$monospace: Monaco, Consolas, 'Lucida Console', monospace !default;
+
+/* sans serif typefaces */
+$sans-serif-narrow: $sans-serif !default;
+$helvetica: Helvetica, 'Helvetica Neue', Arial, sans-serif !default;
+
+/* serif typefaces */
+$georgia: Georgia, serif !default;
+$times: Times, serif !default;
+$bodoni: 'Bodoni MT', serif !default;
+$calisto: 'Calisto MT', serif !default;
+$garamond: Garamond, serif !default;
+
+$global-font-family: $serif !default;
+$header-font-family: 'FUCXED CAPS', 'Helvetica Neue', Arial, sans-serif !default;
+$caption-font-family: $serif !default;
+
+/* type scale */
+$type-size-1: 2.5em !default;
+$type-size-2: 2em !default;
+$type-size-3: 1.75em !default;
+$type-size-4: 1.5em !default;
+$type-size-5: 1.5em !default;
+$type-size-6: 1em !default;
+$type-size-7: 1em !default;
+$type-size-8: 1em !default;
+
+/*
+   Colors
+   ========================================================================== */
+
+// XR colours
+
+$xr_green: #14aa37 !default;
+$xr_black: #000000 !default;
+$xr_lemon: #f7ee6a !default;
+$xr_light_blue: #75d0f1 !default;
+$xr_pink: #ed9bc4 !default;
+$xr_purple: #986297 !default;
+$xr_light_green: #bed276 !default;
+$xr_warm_yellow: #ffc11e !default;
+$xr_bright_pink: #cf6298 !default;
+$xr_red: #dc4f00 !default;
+$xr_dark_blue: #3860aa !default;
+$xr_angry: #c80082 !default;
+$xr_white: #ffffff !default;
+
+$brand-primary: #111111 !default;
+$brand-contrast: rgb(255, 193, 30) !default;
+
+$gray: #7a8288 !default;
+$dark-gray: mix(#000, $gray, 40%) !default;
+$darker-gray: mix(#000, $gray, 60%) !default;
+$light-gray: mix(#fff, $gray, 50%) !default;
+$lighter-gray: mix(#fff, $gray, 90%) !default;
+
+$background-color: #fff !default;
+$code-background-color: #fafafa !default;
+$code-background-color-dark: $light-gray !default;
+$text-color: $brand-primary !default;
+$muted-text-color: $text-color !default;
+$border-color: $brand-primary !default;
+$form-background-color: $lighter-gray !default;
+$footer-background-color: $brand-primary !default;
+
+$primary-color: $brand-primary !default;
+$success-color: #3fa63f !default;
+$warning-color: #d67f05 !default;
+$danger-color: #ee5f5b !default;
+$info-color: #3b9cba !default;
+$focus-color: $primary-color !default;
+$active-color: mix(#fff, $primary-color, 80%) !default;
+
+/* YIQ color contrast */
+$yiq-contrasted-dark-default: $dark-gray !default;
+$yiq-contrasted-light-default: #fff !default;
+$yiq-contrasted-threshold: 175 !default;
+$yiq-debug: false !default;
+
+/* brands */
+$behance-color: #1769ff !default;
+$bitbucket-color: #205081 !default;
+$dribbble-color: #ea4c89 !default;
+$facebook-color: #3b5998 !default;
+$flickr-color: #ff0084 !default;
+$foursquare-color: #0072b1 !default;
+$github-color: #171516 !default;
+$gitlab-color: #e24329 !default;
+$instagram-color: #517fa4 !default;
+$lastfm-color: #d51007 !default;
+$linkedin-color: #007bb6 !default;
+$mastodon-color: #2b90d9 !default;
+$pinterest-color: #cb2027 !default;
+$reddit-color: #ff4500 !default;
+$rss-color: #fa9b39 !default;
+$soundcloud-color: #ff3300 !default;
+$stackoverflow-color: #fe7a15 !default;
+$tumblr-color: #32506d !default;
+$twitter-color: #327eda !default; // New semi-accessible Twitter colour
+$vimeo-color: #1ab7ea !default;
+$vine-color: #00bf8f !default;
+$youtube-color: #bb0000 !default;
+$xing-color: #006567 !default;
+
+/* links */
+$link-color: $brand-primary !default;
+$link-color-hover: mix(#000, $link-color, 25%) !default;
+$link-color-visited: mix(#fff, $link-color, 15%) !default;
+
+$masthead-link-color: $brand-primary !default;
+$masthead-background-color: $brand-contrast !default;
+$masthead-link-color-hover: $masthead-link-color !default;
+$navicon-link-color-hover: $xr_green !default;
+
+/* syntax highlighting (base16) */
+$base00: #000000 !default;
+$base01: #242422 !default;
+$base02: #484844 !default;
+$base03: #6c6c66 !default;
+$base04: #918f88 !default;
+$base05: #b5b3aa !default;
+$base06: #d9d7cc !default;
+$base07: #fdfbee !default;
+$base08: #ff6c60 !default;
+$base09: #e9c062 !default;
+$base0a: #ffffb6 !default;
+$base0b: #a8ff60 !default;
+$base0c: #c6c5fe !default;
+$base0d: #96cbfe !default;
+$base0e: #ff73fd !default;
+$base0f: #b18a3d !default;
+
+/*
+   Breakpoints
+   ========================================================================== */
+
+$small: 600px !default;
+$medium: 768px !default;
+$medium-wide: 900px !default;
+$large: 1024px !default;
+$x-large: 1280px !default;
+$max-width: $x-large !default;
+
+/*
+   Grid
+   ========================================================================== */
+
+$right-sidebar-width-narrow: 200px !default;
+$right-sidebar-width: 300px !default;
+$right-sidebar-width-wide: 400px !default;
+
+/*
+   Other
+   ========================================================================== */
+
+$border-radius: 4px !default;
+$box-shadow: 0 1px 1px rgba(0, 0, 0, 0.125) !default;
+$nav-height: 2em !default;
+$nav-toggle-height: 2rem !default;
+$navicon-width: 1.5rem !default;
+$navicon-border-radius: 4px !default;
+$navicon-height: 0.25rem !default;
+$global-transition: all 0.2s ease-in-out !default;
+$intro-transition: intro 0.3s both !default;

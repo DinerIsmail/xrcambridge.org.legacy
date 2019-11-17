@@ -1,0 +1,38 @@
+<div
+  class="gridMaker__item gridMaker__item--randomize"
+  itemscope
+  itemtype="http://schema.org/CreativeWork"
+>
+  <div class="gridMaker__header">
+    <span class="gridMaker__tab" itemprop="name">{{ resource.name }}</span>
+    <span
+      itemprop="learningResourceType"
+      content="Activism Resource Pack"
+    ></span>
+  </div>
+
+  <div class="gridMaker__hero">
+    <div class="gridMaker__icon-container">
+      <i class="gridMaker__icon fa fa-{{ resource.icon }}"></i>
+    </div>
+  </div>
+
+  <div class="gridMaker__body">
+    {% for paragraph in resource.text %}
+
+    <p class="gridMaker__text">
+      {{ paragraph }}
+    </p>
+
+    {% endfor %}
+  </div>
+
+  <div class="gridMaker__footer">
+    <a
+      class="gridMaker__button"
+      href="{{ site.url }}/resources/{{ resource.slug }}"
+      itemprop="url"
+      >{{ resource.buttonText }}</a
+    >
+  </div>
+</div>

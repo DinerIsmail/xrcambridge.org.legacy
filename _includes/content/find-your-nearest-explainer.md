@@ -1,0 +1,1 @@
+For more information on the structure of XR MCR and setting up a local group, [visit our resources area](/resources/structure-of-xr).

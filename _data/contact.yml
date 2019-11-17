@@ -1,0 +1,94 @@
+- name: Actions and Logistics / Debrief and Reflection
+  email: xr_cam_actions_anchor@protonmail.com
+  description: Developing the plan for NVDA escalation within XR Cambridge, organising AGs and ensuring best practice is followed during all actions (including debrief and reflection).
+  icon: bullhorn
+  color: red
+
+- name: Arts
+  email: linda@lindarichardson.net
+  description: Coordinating artwork for XR Cambridge actions and activities.
+  icon: paint-brush
+  color: yellow
+
+- name: General Enquiries
+  email: info@xrcambridge.org
+  description: If you don't know which department to contact, email our general enquiries inbox and we'll direct you to the most suitable place.
+  icon: info-circle
+  color: blue
+
+- name: Media and Messaging
+  email: xrcambridgemedia@protonmail.com
+  description: Developing our PR and media strategy and liaising with members of the press.
+  icon: broadcast-tower
+  color: pink
+
+- name: Systems and Tech
+  email: xr_cam_systems_and_tech@protonmail.com
+  description: Providing IT and technical solutions needed to run XR Cambridge's activities.
+  icon: laptop-code
+  color: purple
+
+- name: Regenerative Culture
+  email: xrcam.regen@gmail.com
+  description: Making sure members and activists are supported before, during, after and between actions and promoting a culture of well-being for activists.
+  icon: hand-holding-heart
+  color: green
+
+- name: Community and Outreach
+  email: trison@protonmail.com
+  description: Outreach to recruit more activists and supporters and communicate our message to the public, through various activities including talks, social media, literature etc (and to work with media/messaging team as appropriate).
+  icon: hands-helping
+  color: lightBlue
+
+- name: Families
+  email: training.outreach@xrmcr.org
+  description:
+    (i) to make sure that where possible there are opportunities for families to get involved in XR actions and
+    activities (ii) to set up activities for families (iii) to outreach to schools and colleges to encourage
+    involvement of students in XR Cambridge [will work with Community team on this] (iv) inform young people and
+    families about related movements (e.g. Youth Strike 4 Climate) and provide support where needed if young people
+    want to take part.
+  icon:
+  color: lightGreen
+
+- name: Performers
+  email: xr_cam_performers@protonmail.com
+  description: Organising performances for XR Cambridge actions and activities, including publicity events, fundraisers and social events.
+  icon:
+  color: lightBlue
+
+- name: Finance and Fundraising
+  email: xr_cam_finance@protonmail.com
+  description: (i) to raise money for XR Cambridge (ii) to put in place proper procedures for managing our finances and paying expenses.
+  icon:
+  color: green
+
+- name: Training
+  email: dereklangleyxr@protonmail.com
+  description: Organise and deliver NVDA training. As the Working Group expands, it may also take on the organisation of "Heading for Extinction" talks and wellbeing training.
+  icon:
+  color: blue
+
+- name: Growing Resistance
+  email: xr_growing_resistance@protonmail.com
+  description: We are a group who love plants, wildlife and nature and want to help nurture and promote these in our city and surrounding areas. Through guerilla gardening and education, working with and lobbying local government and through other environmental care we aim to create a regenerative culture - Regenerating Nature and Regenerating Ourselves. Join the Facebook group www.facebook.com/groups/362995691016535/.
+  icon:
+  color: red
+
+- name: Teachers for Truth
+  email: xr_cam_teachers_for_truth@protonmail.com
+  description: We are a group of teachers and other people who work with children. We've set ourselves up so that we can talk about how to get the Climate Crisis into our lessons, and to help each other come to terms with teaching a generation of children that are going to have a very uncertain future.
+  icon:
+  color: purple
+
+- name: Arrestee Support
+  email: xrcamarrestsupport@protonmail.com
+  description: This is a group to support people who are at risk of arrest, who are arrested or who have previously been arrested as part of an XR protest action.
+  icon:
+  color: lightGreen
+
+- name: Local Politics and Government
+  email: info@xrcambridge.org
+  description: A group to discuss how XR engages with politicians and local government to push forward XR’s demands and the urgent action necessary.
+  icon:
+  color: lightBlue

@@ -1,0 +1,28 @@
+{% if site.category_archive.path %}
+    {% capture page_categories %}
+        {% for category in page.categories %}
+            {{ category | downcase }}|{{ category }}
+            {% unless forloop.last %},
+            {% endunless %}
+        {% endfor %}
+    {% endcapture %}
+    {% assign category_hashes = page_categories | split: ',' | sort %}
+
+    <p class="page__taxonomy">
+        <i aria-hidden="true" class="fas fa-fw fa-box-open"></i>
+        <span class="title">Categories</span>
+        <span itemprop="keywords">
+            {% for hash in category_hashes %}
+                {% assign keyValue = hash | split: '|' %}
+                {% capture category_word %}
+                    {{ keyValue[1] | strip_newlines }}
+                {% endcapture %}
+                <a href="{{ category_word | slugify | prepend: path_type | prepend: site.category_archive.path | relative_url }}" class="page__taxonomy-item" rel="tag">{{ category_word }}</a>
+                {% unless forloop.last %}
+                    <span class="separator">,
+                    </span>
+                {% endunless %}
+            {% endfor %}
+        </span>
+    </p>
+{% endif %}

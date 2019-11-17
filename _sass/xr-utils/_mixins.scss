@@ -1,0 +1,15 @@
+@mixin colourize() {
+  &--default,
+  &--yellow {@extend %xrYellow};
+
+  &--lemon { @extend %xrLemon };
+  &--lightPink { @extend %xrLightPink };
+  &--lightBlue { @extend %xrLightBlue };
+  &--lightGreen { @extend %xrLightGreen };
+  &--red { @extend %xrRed };
+  &--green { @extend %xrGreen };
+  &--blue { @extend %xrBlue };
+  &--purple { @extend %xrPurple };
+  &--pink { @extend %xrPink };
+  &--white { @extend %xrWhite };
+}

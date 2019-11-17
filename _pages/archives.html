@@ -1,0 +1,14 @@
+---
+layout: xr-splash
+theme: green
+permalink: "/archives/index.html"
+title: Extinction Rebellion Archives
+description: "A look back at historical protests, actions and rebellions and related resources."
+excerpt: "Look back at historical protests, actions, rebellions and related resources"
+---
+
+<div class="gridMaker">
+    {%- for archive in site.data.archives -%}
+        {%- include xr-blocks/archive-block.html -%}
+    {%- endfor -%}
+</div>

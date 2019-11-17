@@ -1,0 +1,23 @@
+<article class="gridMaker__item gridMaker__item--randomize">
+  <div class="gridMaker__header">
+    <span class="gridMaker__tab">{{ doc.title }}</span>
+  </div>
+  <div class="gridMaker__hero">
+    <div class="gridMaker__icon-container">
+      <i class="gridMaker__icon fa fa-{{ doc.icon }}"></i>
+    </div>
+  </div>
+  <div class="gridMaker__body">
+    {{ doc.description | markdownify }}
+  </div>
+
+  <div class="gridMaker__footer">
+    <a
+      href="{{ doc.url }}"
+      class="gridMaker__button gridMaker__button--small"
+      target="_blank"
+    >
+      {{ doc.buttonText }}
+    </a>
+  </div>
+</article>

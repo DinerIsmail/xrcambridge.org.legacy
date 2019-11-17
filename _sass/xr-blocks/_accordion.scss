@@ -1,0 +1,187 @@
+.accordion {
+
+  @extend %xrYellow;
+
+  position: relative;
+  margin-bottom: 10px;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &__state {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+  }
+
+  &__state:focus ~ &__header {
+    text-decoration: underline;
+  }
+
+  &__state:checked ~ &__header {
+    border-radius: $border-radius $border-radius 0 0;
+
+    &:before {
+      transform: rotate(90deg);
+    }
+
+    &:after {
+      transform: rotate(180deg);
+    }
+  }
+
+  &__state:checked ~ &__body {
+    border-width: 1px;
+    max-height: unset;
+    opacity: 1;
+    padding: 20px;
+    transform: translateY(0);
+    transition: transform 200ms, opacity 200ms;
+    visibility: visible;
+  }
+
+  &__header {
+    background-color: var(--background-color);
+    border-radius: $border-radius;
+    color: var(--foreground-color);
+    font-family: "FUCXED CAPS", "Helvetica Neue", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 45px 10px 10px;
+    position: relative;
+
+    &:before,
+    &:after {
+      content: "";
+      display: block;
+      position: absolute;
+      background-color: var(--foreground-color);
+      transition: transform 200ms ease-out;
+      width: 20px;
+      height: 20px;
+    }
+
+    &:before {
+      top: 50%;
+      margin-top: -10px;
+      right: 23px;
+      width: 4px;
+    }
+
+    &:after {
+      top: 50%;
+      right: 15px;
+      height: 4px;
+      margin-top: -2px;
+    }
+
+  }
+
+  &__body {
+    background-color: #FFF;
+    border: 0 solid var(--background-color);
+    border-radius: 0 0 $border-radius $border-radius;
+    color: $text-color;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: none;
+    visibility: hidden;
+
+    *:first-child {
+      margin-top: 0;
+    }
+
+    *:last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  &__button,
+  &__button:visited {
+    @extend .btn;
+    @extend .btn--primary;
+    background-color: var(--background-color);
+    color: var(--foreground-color);
+  }
+
+  &__button--small {
+    font-size: 18px;
+  }
+
+  &__button:hover,
+  &__button:visited:hover {
+    background-color: black;
+    color: var(--background-color);
+  }
+
+  &--blue {
+    @extend %xrBlue;
+  }
+
+  &--lemon {
+    @extend %xrLemon;
+  }
+
+  &--green {
+    @extend %xrGreen;
+  }
+
+  &--yellow {
+    @extend %xrYellow;
+  }
+
+  &--white {
+    @extend %xrWhite;
+  }
+
+  &--lightPink,
+  &--randomize:nth-of-type(2n + 1) {
+    @extend %xrLightPink;
+  }
+
+  &--lightBlue,
+  &--randomize:nth-of-type(3n + 2) {
+    @extend %xrLightBlue;
+  }
+
+  &--purple,
+  &--randomize:nth-of-type(5n + 3) {
+    @extend %xrPurple;
+  }
+
+  &--pink,
+  &--randomize:nth-of-type(7n + 5) {
+    @extend %xrPink;
+  }
+
+  &--lightGreen,
+  &--randomize:nth-of-type(11n + 7) {
+    @extend %xrLightGreen;
+  }
+
+  &--rainbow:nth-of-type(4n+1) {
+    @extend %xrLightPink;
+  }
+
+  &--rainbow:nth-of-type(4n+2) {
+    @extend %xrLemon;
+  }
+
+  &--rainbow:nth-of-type(4n+3) {
+    @extend %xrLightGreen;
+  }
+
+  &--rainbow:nth-of-type(4n+4) {
+    @extend %xrLightBlue;
+  }
+
+
+  hr {
+    border-top-color: var(--background-color);
+  }
+
+}

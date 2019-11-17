@@ -1,0 +1,77 @@
+/*!
+ * Minimal Mistakes Jekyll Theme 4.16.4 by Michael Rose
+ * Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+ * Licensed under MIT (https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE)
+*/
+
+@import 'xr-utils/font-face';
+
+/* Variables */
+@import 'minimal-mistakes/variables';
+
+/* Mixins and functions */
+@import 'minimal-mistakes/vendor/breakpoint/breakpoint';
+@include breakpoint-set('to ems', true);
+@import 'minimal-mistakes/vendor/magnific-popup/magnific-popup'; // Magnific Popup
+@import 'minimal-mistakes/vendor/susy/susy';
+@import 'minimal-mistakes/mixins';
+
+/* Core CSS */
+@import 'minimal-mistakes/reset';
+@import 'minimal-mistakes/base';
+@import 'minimal-mistakes/forms';
+@import 'minimal-mistakes/tables';
+@import 'minimal-mistakes/animations';
+
+/* Components */
+@import 'minimal-mistakes/buttons';
+@import 'minimal-mistakes/notices';
+@import 'minimal-mistakes/masthead';
+@import 'minimal-mistakes/navigation';
+@import 'minimal-mistakes/search';
+@import 'minimal-mistakes/syntax';
+
+/* Utility classes */
+@import 'minimal-mistakes/utilities';
+
+/* Layout specific */
+@import 'minimal-mistakes/page';
+@import 'minimal-mistakes/archive';
+@import 'minimal-mistakes/sidebar';
+@import 'minimal-mistakes/print';
+
+/* NEW AMAZING XR THEME */
+
+@import 'xr-utils/_functions';
+@import 'xr-utils/_mixins';
+
+@import 'css-abstract-classes';
+@import 'third-party-overrides/action_network';
+@import 'find-your-nearest';
+
+@import 'xr-blocks/audio-player';
+@import 'xr-blocks/accordion';
+@import 'xr-blocks/resource-pack';
+@import 'xr-blocks/article-pagination';
+@import 'xr-blocks/big-header';
+@import 'xr-blocks/hero-header';
+@import 'xr-blocks/social-share';
+@import 'xr-blocks/meta';
+@import 'xr-blocks/view-more';
+@import 'xr-blocks/parallax';
+@import 'xr-blocks/lineup';
+@import 'xr-blocks/footer';
+@import 'xr-blocks/nrb_header';
+@import 'xr-blocks/modal';
+
+@import 'xr-layouts/blog-article';
+@import 'xr-layouts/grid-maker';
+@import 'xr-layouts/home';
+
+@import 'xr-utils/address';
+@import 'xr-utils/local_groups';
+@import 'xr-utils/responsive_youtube';
+@import 'xr-utils/buttons';
+
+@import 'xr-micro-frontends/search';
+@import 'custom';

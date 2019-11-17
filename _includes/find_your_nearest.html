@@ -1,0 +1,18 @@
+<script src="/assets/js/find-your-nearest.js"></script>
+
+<div id="find-your-nearest">
+    <find-your-nearest></find-your-nearest>
+</div>
+
+<script type="text/javascript">
+    new Vue({
+        components: {
+            'find-your-nearest': findYourNearest,
+        },
+        data: {
+            title: 'Find Your Nearest XR Group',
+            groups: {{site.data.localGroups | jsonify}},
+        },
+    }).$mount('#find-your-nearest');
+</script>
+

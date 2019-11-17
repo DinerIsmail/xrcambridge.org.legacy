@@ -1,0 +1,126 @@
+{%- capture start_time -%}
+    {{ event.startTime | date: "%d %b" }}
+{%- endcapture -%}
+
+{%- capture end_time -%}
+    {{ event.endTime | date: "%d %b" }}
+{%- endcapture -%}
+
+{%- assign show_end_time = false -%}
+
+{%- if start_time != end_time -%}
+    {%- assign show_end_time = true -%}
+{%- endif -%}
+
+{%- capture friendly_location -%}
+    {{ event.location.name }},
+    {{ event.location.street }},
+    {{ event.location.city }},
+    {{ event.location.zip }}
+{%- endcapture -%}
+
+<div class="gridMaker__item gridMaker__item--randomize {% if event.is_cancelled %}gridMaker__item--red{% endif %}" itemscope itemtype="http://schema.org/Event">
+
+    <meta content="{{ event.startTime }}" itemprop="startDate"/>
+    <meta content="{{ event.endTime }}" itemprop="endDate"/>
+    <meta content="Extinction Rebellion Manchester" itemprop="performer"/>
+    <meta content="https://xrmcr.org/assets/images/default-event.png" itemprop="image"/>
+    <meta content="{{ event.title }}" itemprop="name"/>
+    <meta content="{{ event.description }}" itemprop="description"/>
+
+    <span itemprop="location" itemscope itemtype="http://schema.org/Place">
+        <meta itemprop="name" content="{{event.location.name}}"/>
+        <meta itemprop="address" content="{{ friendly_location }}"/>
+    </span>
+
+    <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+        <link itemprop="url" href="{{ event.url }}"/>
+        <meta content="0" itemprop="price"/>
+        <meta content="GBP" itemprop="priceCurrency"/>
+        <meta itemprop="validFrom" content="{{ site.time | date: '%Y-%m-%d' }}"/>
+        <link href="http://schema.org/InStock" itemprop="availability"/>
+    </span>
+
+    <span itemprop="organizer" itemscope itemtype="http://schema.org/Organization">
+        <meta itemprop="name" content="{{event.hosted_by.name}}"/>
+    </span>
+
+    <div class="gridMaker__header">
+        <span class="gridMaker__tab">
+
+            {% if event.is_cancelled %}
+                <i aria-hidden="true" class="fas fa-exclamation-circle"></i>
+                Cancelled
+            {% endif %}
+
+            {{ event.startTime | date: "%d %b" }}
+
+            {% if show_end_time %}
+                {{ event.endTime | date: "%d %b" | prepend: " - " }}
+            {% endif %}
+
+        </span>
+    </div>
+
+    <div class="gridMaker__hero">
+        <a href="{{ event.url }}" class="gridMaker__imageCover {% unless event.image %} gridMaker__imageCover--fallback {% endunless %}" {% if event.image %} style="background-image: url({{ event.image }})" {% endif %} target="_blank" rel="noopener">
+            <span class="sr-only">{{event.title}}</span>
+        </a>
+    </div>
+
+    <div class="gridMaker__body">
+
+        <h2 class="gridMaker__title">{{ event.title }}</h2>
+
+        <p class="gridMaker__text" itemprop="description">
+            {{ event.description | truncate: 160 }}
+        </p>
+
+        {% comment %}
+        <!-- Removing this as it looks ugly, if people moan it can come back -->
+
+        {% if event.hosted_by %}
+        <p class="gridMaker__subtext">
+            <i class="fas fa-user" aria-hidden="true"></i>
+            <span itemscope itemprop="organizer" itemtype="http://schema.org/Organization">
+                Hosted by
+                <a href="{{event.hosted_by.url}}" target="_blank" rel="nofollow" itemprop="url">
+                      <span itemprop="name">{{event.hosted_by.name}}</span>
+                </a>
+            </span>
+        </p>
+        {% endif %}
+
+        {% if event.location %}
+        <span>
+            <i class="fas fa-map-marker-alt item-icon" aria-hidden="true"></i>
+            Address:
+        </span>
+        <address class="gridMaker__text gridMaker__address"
+                 itemprop="location"
+                 itemscope
+                 itemtype="http://schema.org/Place">
+
+            <meta itemprop="name" content="{{event.location.name}}"/>
+            <span itemprop="address">{{event.location.asArray | join: "<br/>"}}</span>
+        </address>
+        {% endif %}
+
+        {% endcomment %}
+
+
+        <p class="gridMaker__subtext">
+            <i aria-hidden="true" class="far fa-clock"></i>
+            {{ event.startTime | date: "%H:%M" }}
+            -
+            {{ event.endTime | date: "%H:%M" }}
+        </p>
+
+    </div>
+
+    <div class="gridMaker__footer">
+        <a href="{{ event.url }}" class="gridMaker__button" rel="noopener" target="_blank">More info</a>
+    </div>
+
+
+</div>

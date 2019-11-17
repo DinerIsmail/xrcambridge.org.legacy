@@ -1,0 +1,63 @@
+{% assign quote = page.quote %}
+
+<header class="heroHeader heroHeader--{{page.theme | default : 'default'}}" itemscope
+        itemtype="http://schema.org/Quotation">
+
+    <meta itemprop="image" content="{{quote.image.url | relative_url}}"/>
+    <meta itemprop="citation" content="{{quote.citation}}"/>
+
+    <span itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <meta itemprop="name" content="{{quote.author}}"/>
+        <meta itemprop="jobTitle" content="{{quote.profession}}"/>
+    </span>
+
+
+    <div class="heroHeader__container heroHeader__container--quote">
+
+        {% if quote.image %}
+        <div class="heroHeader__image">
+            <img src="{{quote.image.url | relative_url}}" alt="{{quote.image.alt}}"/>
+        </div>
+        {% endif %}
+
+        {% comment %} <!-- https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote --> {% endcomment %}
+
+        <blockquote class="heroHeader__quote" {% if quote.citationUrl %}cite="{{quote.citationUrl}}" {% endif %}>
+
+            <span itemprop="text">
+            {% for paragraph in quote.text %}
+                {{paragraph | markdownify }}
+            {% endfor %}
+            </span>
+
+            {% if quote.author || quote.title || quote.date || quote.citation %}
+            <footer class="heroHeader__credit">
+
+                {% if quote.author %}
+                {{quote.author}}
+                {% endif %}
+
+                {% if quote.profession or quote.dates %}
+                <div>
+                    {% if quote.profession %}
+                    {{quote.profession}}
+                    {% endif %}
+
+                    {% if (quote.dates) %}
+                    ({{ quote.dates | join: ' - ' }})
+                    {% endif %}
+                </div>
+                {% endif %}
+
+                {% if quote.citation %}
+                <cite class="heroHeader__citation">
+                    {{quote.citation}}
+                </cite>
+                {% endif %}
+            </footer>
+            {% endif %}
+
+        </blockquote>
+
+    </div>
+</header>

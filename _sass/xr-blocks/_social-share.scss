@@ -1,0 +1,68 @@
+.socialShare {
+
+}
+
+.socialShare__links {
+  display: grid;
+  grid-template-columns: min-content min-content min-content;
+  grid-column-gap: 10px;
+
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.socialShare__link {
+  margin: 0;
+  padding: 0;
+}
+
+.socialShare__button {
+  align-items: center;
+  background-color: var(--contrast-color);
+  border:  1px solid var(--color);
+  border-radius: 4px;
+  color: var(--color);
+  display: block;
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  position: relative;
+  transition: color 300ms background-color 300ms;
+  overflow: hidden;
+
+  &:visited {
+    background-color: var(--contrast-color);
+    color: var(--color);
+  }
+
+  &:hover,
+  &:focus,
+  &:visited:hover {
+    background-color: var(--color);
+    color: var(--contrast-color);
+  }
+
+  &--facebook {
+    --color: var(--facebook-color);
+    --contrast-color: var(--facebook-color-contrast);
+  }
+
+  &--twitter {
+    --color: var(--twitter-color);
+    --contrast-color: var(--twitter-color-contrast);
+  }
+
+  &--linkedin {
+    --color: var(--linkedin-color);
+    --contrast-color: var(--linkedin-color-contrast);
+  }
+
+  i, svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

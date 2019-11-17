@@ -1,0 +1,28 @@
+#searchApp {
+  --search-border-bottom-color: #{$dark-gray};
+  --search-label-color: #{$brand-primary};
+  --search-label-font-family: Fucxed Caps;
+  --search-label-font-size: 20px;
+  --search-input-font-family: Crimson Text;
+  --search-input-font-size: 20px;
+  --search-active-border-bottom-color: #{$brand-contrast};
+  --search-active-label-color: #{$dark-gray};
+  --search-active-label-font-size: 16px;
+
+  --search-results-header-font-family: Fucxed Caps;
+  --search-results-header-font-size: 26px;
+  --search-result-font-family: Fucxed Caps;
+  --search-result-font-size: 20x;
+  --search-result-border-color: #{$brand-primary};
+  --search-excerpt-font-family: Crimson Text;
+  --search-excerpt-color: #{$brand-primary};
+
+  margin-top: -20px;
+  margin-bottom: -20px;
+
+  form {
+    padding: 20px;
+    margin-left: -20px;
+    margin-right: -20px;
+  }
+}

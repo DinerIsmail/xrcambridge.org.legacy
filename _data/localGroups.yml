@@ -1,0 +1,15 @@
+- name: Cambridge Central
+  email: info@xrcambridge.org
+  day: Wed
+  time: '19:30'
+  location: Unitarian Church, Emmanuel Road, CB1 1JW
+  coordinates: 52.205089, 0.126060
+  mapsEmbed: '<iframe loading="lazy" title="Extinction Rebellion Cambridge" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2374.879065347681!2d-2.238790084161293!3d53.470621380005234!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb1933a3396f7%3A0x1a29220e06cad93a!2sThe+Bread+Shed!5e0!3m2!1sen!2suk!4v1561544909153!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'
+
+- name: Ely
+  email: ''
+  day: Thur
+  time: '18:00'
+  location: Fuel Bar, 448 Wilmslow Road, Withington, M20 3BW
+  coordinates: 52.399149, 0.262653
+  mapsEmbed: '<iframe loading="lazy" title="Extinction Rebellion Withington Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2376.8958484973973!2d-2.2301751841626287!3d53.43457047999765!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487bb238ab8da0b7%3A0xe277075c5be64419!2sFuel+Cafe+Bar!5e0!3m2!1sen!2suk!4v1561545057997!5m2!1sen!2suk" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'

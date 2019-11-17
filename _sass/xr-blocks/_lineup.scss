@@ -1,0 +1,78 @@
+.lineup {
+  @include colourize();
+  &:first-child {
+    margin-top: 60px;
+  }
+}
+
+.lineup__date {
+  @extend %prominent;
+  background-color: var(--background-color);
+  background-repeat: no-repeat;
+  border-radius: 4px;
+  color: var(--foreground-color);
+  margin-bottom: 40px;
+  padding: 19px;
+  text-align: center;
+
+  @include breakpoint($medium) {
+    background-image: var(--background-image);
+    background-position: calc(50% + 320px) center;
+    background-size: 340px;
+  }
+
+  @include breakpoint($large) {
+    background-image: var(--background-image);
+    background-position: calc(50% + 390px) center;
+    background-size: 450px;
+  }
+
+}
+
+.lineup__grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 20px;
+
+  @include breakpoint($medium) {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+}
+
+.lineup__location {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.lineup__locationName {
+  @extend %prominent;
+  color: var(--background-color);
+}
+
+.lineup__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.lineup__listItem {
+  @extend %body;
+  position: relative;
+  margin: 0 auto 50px;
+  max-width: 240px;
+
+  &:not(:last-child):after {
+    background-image: url('/assets/images/nrb/femur.jpg');
+    background-size: cover;
+    display: block;
+    height: 20px;
+    bottom: -35px;
+    content: '';
+    left: calc(50% - 43px);
+    position: absolute;
+    width: 86px;
+    opacity: 0.2;
+  }
+}

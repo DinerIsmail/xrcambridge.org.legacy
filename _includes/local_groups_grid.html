@@ -1,0 +1,62 @@
+<p>Other Extinction Rebellion Groups</p>
+
+<div class="gridMaker">
+    {% for item in site.data.localGroups %}
+    {% if !item.coordinates == nil %}
+    <div class="gridMaker__item gridMaker__item--randomize" id="{{ item.name }}">
+        <div class="gridMaker__hero">
+            {% if item.mapsEmbed %}
+            <div class="gridMaker__map">
+                {{ item.mapsEmbed }}
+            </div>
+            {% else %}
+            <div class="gridMaker__icon-container">
+                <i class="gridMaker__icon fas fa-map-marker-alt" aria-hidden="true"></i>
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="gridMaker__body">
+            {% if item.name %}
+            <h2 class="gridMaker__title">{{ item.name }}</h2>
+            {% endif %} {% if item.location %}
+            <div class="archive__item-excerpt">
+                {{ item.location | markdownify }}
+            </div>
+            {% endif %} {% if item.day && item.time %}
+            <div class="archive__item-excerpt">
+                {{ item.day }}
+                {{ item.time }}
+            </div>
+            {% endif %}
+        </div>
+
+        <div class="gridMaker__footer">
+            {% if item.facebook or item.instagram %} Social: {% if item.facebook %}
+            <a href="{{ item.facebook }}" target="_blank">
+                <i class="table_localgroups-icon fab fa-facebook-square"></i>
+                <span class="sr-only">Facebook</span>
+            </a>
+            {% endif %} {% if item.instagram %}
+            <a href="{{ item.instagram }}" target="_blank">
+                <i class="table_localgroups-icon fab fa-instagram"></i>
+                <span class="sr-only">Instagram</span>
+            </a>
+            {% endif %}
+
+            <br />
+
+            {% endif %} {% if item.email %}
+            <a
+                    class="gridMaker__button gridMaker__button--small"
+                    href="mailto:{{ item.email }}?subject=Contact%20from%20xrmcr.org"
+                    target="_blank"
+            >
+                {{ item.email }}
+            </a>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+    {% endfor %}
+</div>
