@@ -30,27 +30,15 @@
 	"scripts": {
 		"events": "events-hub --path _data --filename events.json --pages facebook_pages.json",
 		"build": "JEKYLL_ENV=production bundle exec jekyll build -d _site",
-		"cy:run": "cypress run --record false",
-		"cy:open": "cypress open",
 		"grunt": "grunt",
-		"test": "concurrently 'npm:cy:open' 'npm:serve' --kill-others --success first",
-		"lighthouse": "lighthouse http://localhost:8080/ --quiet --chrome-flags=\"--headless --no-sandbox\" --output json --output html --output-path ./results/lighthouse.json",
 		"serve": "http-server _site -g -i --silent",
-		"test:ci": "concurrently 'npm:cy:run' 'npm:serve' --kill-others --success first",
-		"test:lighthouse": "mkdir -p results && concurrently 'npm:lighthouse' 'npm:serve' --kill-others --success first",
-		"posttest:lighthouse": "node .bin/read-lighthouse.js",
-		"postcss": "postcss _site/assets/css/**.css --replace --verbose",
-		"build:newsletter": "node .bin/newsletter-builder.js --path _posts --output newsletter-preview.html --frequency 7",
-		"send:newsletter": "node .bin/send-newsletter.js --to xrmcr.newsletter@gmail.com --subject 'XRMCR Newsletter' --html newsletter-preview.html"
+		"postcss": "postcss _site/assets/css/**.css --replace --verbose"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+ssh://git@gitlab.com/xrmcr-digital/xrmcr.git"
+		"url": "https://github.com/DinerIsmail/xrcambridge.org.v2.git"
 	},
 	"author": "",
 	"license": "ISC",
-	"bugs": {
-		"url": "https://gitlab.com/xrmcr-digital/xrmcr/issues"
-	},
-	"homepage": "https://gitlab.com/xrmcr-digital/xrmcr#readme"
+	"homepage": "http://xrcambridge.org"
 }
