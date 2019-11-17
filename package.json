@@ -1,0 +1,56 @@
+{
+	"name": "xrcambridge",
+	"version": "1.0.0",
+	"description": "This is an emergency. Join the international rebellion to save the planet for our children.",
+	"main": "index.js",
+	"dependencies": {},
+	"devDependencies": {
+		"args": "^5.0.1",
+		"autoprefixer": "^9.6.1",
+		"axe-core": "^3.3.0",
+		"chalk": "^2.4.2",
+		"concurrently": "^4.1.1",
+		"console.table": "^0.10.0",
+		"grunt": "^1.0.4",
+		"grunt-cli": "^1.3.2",
+		"grunt-contrib-imagemin": "^3.1.0",
+		"grunt-image-autoresize": "0.0.5",
+		"grunt-remove-comments": "^0.1.6",
+		"grunt-remove-logging": "^0.2.0",
+		"http-server": "^0.11.1",
+		"jsdom": "^15.1.1",
+		"lighthouse": "^5.1.0",
+		"node-fetch": "^2.6.0",
+		"postcss": "^7.0.17",
+		"postcss-cli": "^6.1.3",
+		"postcss-discard-comments": "^4.0.2",
+		"request-promise": "4.2.4",
+		"xml2js": "^0.4.19"
+	},
+	"scripts": {
+		"events": "events-hub --path _data --filename events.json --pages facebook_pages.json",
+		"build": "JEKYLL_ENV=production bundle exec jekyll build -d _site",
+		"cy:run": "cypress run --record false",
+		"cy:open": "cypress open",
+		"grunt": "grunt",
+		"test": "concurrently 'npm:cy:open' 'npm:serve' --kill-others --success first",
+		"lighthouse": "lighthouse http://localhost:8080/ --quiet --chrome-flags=\"--headless --no-sandbox\" --output json --output html --output-path ./results/lighthouse.json",
+		"serve": "http-server _site -g -i --silent",
+		"test:ci": "concurrently 'npm:cy:run' 'npm:serve' --kill-others --success first",
+		"test:lighthouse": "mkdir -p results && concurrently 'npm:lighthouse' 'npm:serve' --kill-others --success first",
+		"posttest:lighthouse": "node .bin/read-lighthouse.js",
+		"postcss": "postcss _site/assets/css/**.css --replace --verbose",
+		"build:newsletter": "node .bin/newsletter-builder.js --path _posts --output newsletter-preview.html --frequency 7",
+		"send:newsletter": "node .bin/send-newsletter.js --to xrmcr.newsletter@gmail.com --subject 'XRMCR Newsletter' --html newsletter-preview.html"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://git@gitlab.com/xrmcr-digital/xrmcr.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://gitlab.com/xrmcr-digital/xrmcr/issues"
+	},
+	"homepage": "https://gitlab.com/xrmcr-digital/xrmcr#readme"
+}
