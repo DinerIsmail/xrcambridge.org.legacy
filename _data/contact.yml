@@ -4,6 +4,12 @@
   icon: bullhorn
   color: red
 
+- name: Arrestee Support
+  email: xrcamarrestsupport@protonmail.com
+  description: This is a group to support people who are at risk of arrest, who are arrested or who have previously been arrested as part of an XR protest action.
+  icon:
+  color: lightGreen
+
 - name: Arts
   email: linda@lindarichardson.net
   description: Coordinating artwork for XR Cambridge actions and activities.
@@ -12,7 +18,7 @@
 
 - name: General Enquiries
   email: info@xrcambridge.org
-  description: If you don't know which department to contact, email our general enquiries inbox and we'll direct you to the most suitable place.
+  description: If you don't know which working group to contact, email our general enquiries inbox and we'll direct you to the most suitable place.
   icon: info-circle
   color: blue
 
@@ -80,12 +86,6 @@
   description: We are a group of teachers and other people who work with children. We've set ourselves up so that we can talk about how to get the Climate Crisis into our lessons, and to help each other come to terms with teaching a generation of children that are going to have a very uncertain future.
   icon:
   color: purple
-
-- name: Arrestee Support
-  email: xrcamarrestsupport@protonmail.com
-  description: This is a group to support people who are at risk of arrest, who are arrested or who have previously been arrested as part of an XR protest action.
-  icon:
-  color: lightGreen
 
 - name: Local Politics and Government
   email: info@xrcambridge.org

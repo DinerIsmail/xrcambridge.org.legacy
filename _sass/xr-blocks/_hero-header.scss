@@ -1,110 +1,104 @@
-
 .heroHeader {
-  background-color: var(--background-color);
-  background-repeat: no-repeat;
-  color: var(--foreground-color);
-  display: block;
-  transition: none;
+	background-color: var(--background-color);
+	background-repeat: no-repeat;
+	color: var(--foreground-color);
+	display: block;
+	transition: none;
 
-  @include colourize();
+	@include colourize();
 
-  @include breakpoint($medium) {
-    background-image: var(--background-image);
-    background-size: 320px;
-    background-position: calc(50% + 450px) -30px;
-  }
+	@include breakpoint($medium) {
+		background-image: var(--background-image);
+		background-size: 320px;
+		background-position: calc(50% + 450px) -30px;
+	}
 
-  @include breakpoint($large) {
-    background-size: 320px;
-    background-position: calc(50% + 490px) -30px;
-  }
+	@include breakpoint($large) {
+		background-size: 320px;
+		background-position: calc(50% + 490px) -30px;
+	}
 
-  @include breakpoint($x-large) {
-    background-size: 340px;
-    background-position: calc(50% + 550px) -50px;
-  }
+	@include breakpoint($x-large) {
+		background-size: 340px;
+		background-position: calc(50% + 550px) -50px;
+	}
 }
 
 .heroHeader__container {
-  @extend %body_container;
+	@extend %body_container;
 
-  padding-top: 40px;
-  padding-bottom: 40px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 
-  &--quote {
+	&--quote {
+		display: flex;
+		flex-direction: column;
 
-    display: flex;
-    flex-direction: column;
+		@media (max-width: $medium) {
+			max-width: 500px;
+		}
 
-    @media (max-width: $medium) {
-      max-width: 500px
-    }
-
-    @include breakpoint($medium) {
-      flex-direction: row;
-    }
-
-  }
-
+		@include breakpoint($medium) {
+			flex-direction: row;
+		}
+	}
 }
 
 .heroHeader__image {
-  align-self: center;
-  border: 4px solid #FFF;
-  border-radius: $border-radius;
-  margin-bottom: 20px;
-  max-width: 200px;
+	align-self: center;
+	border: 4px solid #fff;
+	border-radius: $border-radius;
+	margin-bottom: 20px;
+	max-width: 200px;
 
-  @include breakpoint($medium) {
-    align-self: flex-start;
-    flex: 1;
-  }
+	@include breakpoint($medium) {
+		align-self: flex-start;
+		flex: 1;
+	}
 
-  img {
-    width: 100%;
-  }
+	img {
+		width: 100%;
+	}
 }
 
 .heroHeader__title {
-  @extend %title;
-  margin-bottom: 0;
+	@extend %title;
+	margin-bottom: 0;
 }
 
 .heroHeader__excerpt {
-  @extend %lead;
-  margin-bottom: 0;
+	@extend %lead;
+	margin-bottom: 0;
 }
 
 .heroHeader__quote {
-  padding: 0;
-  border: 0;
-  margin: 0;
+	padding: 0;
+	border: 0;
+	margin: 0;
 
-  @include breakpoint($medium) {
-    margin-left: 20px;
-    flex: 3;
-  }
+	@include breakpoint($medium) {
+		margin-left: 20px;
+		flex: 3;
+	}
 
-  /* Cos it's markdonw */
-  p {
-    @extend %lead;
-    margin-top: 0;
-    margin-bottom: 20px;
-  }
+	/* Cos it's markdonw */
+	p {
+		@extend %lead;
+		margin-top: 0;
+		margin-bottom: 20px;
+	}
 }
 
 .heroHeader__credit {
-  @extend %prominent;
+	@extend %prominent;
 }
 
-
 .heroHeader__citation {
-  display: block;
-  font-size: 0.9em;
-  font-style: normal;
+	display: block;
+	font-size: 0.9em;
+	font-style: normal;
 
-  &:before {
-    display: none;
-  }
-
+	&:before {
+		display: none;
+	}
 }

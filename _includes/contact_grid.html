@@ -1,33 +1,33 @@
 <div class="feature__wrapper gridMaker">
-  {% for item in site.data.contact %}
+	{% for item in site.data.contact %}
 
-  <div class="gridMaker__item gridMaker__item--{{ item.color }}">
-    {% if item.name %}
-    <div class="gridMaker__header">
-      <span class="gridMaker__tab">{{ item.name }}</span>
-    </div>
-    {% endif %} {% if item.icon %}
-    <div class="gridMaker__hero">
-      <div class="gridMaker__icon-container">
-        <i class="gridMaker__icon fa fa-{{ item.icon }}"></i>
-      </div>
-    </div>
-    {% endif %} {% if item.description %}
-    <div class="gridMaker__body">
-      {{ item.description | markdownify }}
-    </div>
-    {% endif %} {% if item.email %}
-    <div class="gridMaker__footer">
-      <a
-        class="gridMaker__button gridMaker__button--small"
-        href="mailto:{{ item.email }}?subject=Contact%20from%20xrmcr.org"
-        target="_blank"
-      >
-        <i class="fa fa-envelope"></i> {{ item.email }}
-      </a>
-    </div>
-    {% endif %}
-  </div>
+	<div class="gridMaker__item gridMaker__item--{{ item.color }}">
+		{% if item.name %}
+		<div class="gridMaker__header">
+			<span class="gridMaker__tab">{{ item.name }}</span>
+		</div>
+		{% endif %} {% if item.icon %}
+		<div class="gridMaker__hero">
+			<div class="gridMaker__icon-container">
+				<i class="gridMaker__icon fa fa-{{ item.icon }}"></i>
+			</div>
+		</div>
+		{% endif %} {% if item.description %}
+		<div class="gridMaker__body">
+			{{ item.description | markdownify }}
+		</div>
+		{% endif %} {% if item.email %}
+		<div class="gridMaker__footer">
+			<a
+				class="gridMaker__button gridMaker__button--small"
+				href="mailto:{{ item.email }}?subject=Contact%20from%20xrcambridge.org"
+				target="_blank"
+			>
+				<i class="fa fa-envelope"></i> {{ item.email }}
+			</a>
+		</div>
+		{% endif %}
+	</div>
 
-  {% endfor %}
+	{% endfor %}
 </div>
