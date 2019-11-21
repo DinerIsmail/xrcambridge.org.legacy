@@ -9,18 +9,18 @@
 
 	@include breakpoint($medium) {
 		background-image: var(--background-image);
-		background-size: 320px;
-		background-position: calc(50% + 450px) -30px;
+		background-size: 250px;
+		background-position: calc(50% + 330px);
 	}
 
 	@include breakpoint($large) {
-		background-size: 320px;
-		background-position: calc(50% + 490px) -30px;
+		background-size: 250px;
+		background-position: calc(50% + 400px);
 	}
 
 	@include breakpoint($x-large) {
-		background-size: 340px;
-		background-position: calc(50% + 550px) -50px;
+		background-size: 250px;
+		background-position: calc(50% + 500px);
 	}
 }
 

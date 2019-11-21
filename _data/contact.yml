@@ -4,6 +4,11 @@
   icon: bullhorn
   color: red
 
+- name: Affinity Group Support
+  email: xr_cam_ag_support_wg@protonmail.com
+  description: This working group supports affinity groups and their coordinators, and promotes autonomy and decentralisation within XR Cambridge. Please contact us if you are looking to join an affinity group and we will try to match you up.
+  color: lightBlue
+
 - name: Arrestee Support
   email: xrcamarrestsupport@protonmail.com
   description: This is a group to support people who are at risk of arrest, who are arrested or who have previously been arrested as part of an XR protest action.
