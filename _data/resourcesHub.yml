@@ -2,11 +2,11 @@
   slug: actions
   icon: bullhorn
   text: [
-      " Non-violent direct action (NVDA) is central to the Extinction Rebellion
+      ' Non-violent direct action (NVDA) is central to the Extinction Rebellion
       movement. Anyone can engage in NVDA as long as they adhere to the XR
-      Principles and Values.",
-      "Here are some things you may want to consider before engaging in direct
-      action, as well as supporting resources.",
+      Principles and Values.',
+      'Here are some things you may want to consider before engaging in direct
+      action, as well as supporting resources.',
     ]
   buttonText: Actions Resources
 
@@ -14,11 +14,11 @@
   slug: legal
   icon: balance-scale
   text: [
-      "  Before attending an action or protest, it’s crucial that you are
+      '  Before attending an action or protest, it’s crucial that you are
       informed about your rights as a protester and the possible consequences
-      of arrest.",
-      "Take a look at some information on what having a criminal record might
-      mean in terms of future employment and other possible concerns.",
+      of arrest.',
+      'Take a look at some information on what having a criminal record might
+      mean in terms of future employment and other possible concerns.',
     ]
   buttonText: Legal Resources
 
@@ -26,9 +26,9 @@
   slug: wellbeing
   icon: hand-holding-heart
   text: [
-      " Wellbeing is at the heart of Extinction Rebellion and its important to
+      ' Wellbeing is at the heart of Extinction Rebellion and its important to
       learn the facts and skills on how to support yourself and one another
-      during an action.",
+      during an action.',
       " We've got a wealth of resources for wellbeing during actions, and further reading and templates for regen documents.",
     ]
   buttonText: Wellbeing Resources
@@ -37,10 +37,10 @@
   slug: arts
   icon: paint-brush
   text: [
-      " The Art Group makes sure that we are recognisable and make an impact.",
-      "Anyone can produce art of all kinds to spread the word about XR - and we have
+      ' The Art Group makes sure that we are recognisable and make an impact.',
+      'Anyone can produce art of all kinds to spread the word about XR - and we have
       lots of ready made resources available to anyone who wants to use them
-      to spread the word.",
+      to spread the word.',
     ]
   buttonText: Arts Resources
 
@@ -48,9 +48,9 @@
   slug: media-platforms
   icon: broadcast-tower
   text: [
-      " We are using media and online platforms to make people aware of the
+      ' We are using media and online platforms to make people aware of the
       climate crisis and its dire consequences, and spreading the word
-      about the amazing rebels resisting the catastrophe we face.",
+      about the amazing rebels resisting the catastrophe we face.',
       "If you'd like to write for the website, or help with online
       social media in any way, our resources pack will help to get you started.",
     ]
@@ -60,11 +60,11 @@
   slug: structure-of-xr
   icon: dot-circle
   text: [
-      " Extinction Rebellion is a decentralised and autonomous movement, meaning
+      ' Extinction Rebellion is a decentralised and autonomous movement, meaning
       that anyone can act in its name as long as they adhere to the XR
-      Principles and Values.",
-      "There are lots of active rebels in Manchester and
+      Principles and Values.',
+      'There are lots of active rebels in Cambridge and
       many ways that you can get involved, either through your local group or
-      through a central working group.",
+      through a central working group.',
     ]
   buttonText: Structure of XR Resources
