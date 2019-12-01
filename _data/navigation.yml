@@ -5,9 +5,9 @@ main:
   - title: Sign Up
     description: If you’d like to receive regular information and newsletters from Extinction Rebellion Cambridge about events, actions, meetings and other information about what we’re doing and how you can help - please sign up here.
     url: /signup
-  - title: Blog
-    description: Explore Extinction Rebellion Cambridge's archives of news, events, interviews and actions.
-    url: /blog
+  # - title: Blog
+  #   description: Explore Extinction Rebellion Cambridge's archives of news, events, interviews and actions.
+  #   url: /blog
   - title: Get Involved
     description: Want to get involved with the organisational side of XR Cambridge? This is where to start. Here you'll find the relevant contact details of our various working groups. We are looking forward to hearing from you!
     url: /get_involved
