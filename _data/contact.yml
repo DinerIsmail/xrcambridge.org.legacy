@@ -21,30 +21,6 @@
   icon: paint-brush
   color: yellow
 
-- name: General Enquiries
-  email: info@xrcambridge.org
-  description: If you don't know which working group to contact, email our general enquiries inbox and we'll direct you to the most suitable place.
-  icon: info-circle
-  color: blue
-
-- name: Media and Messaging
-  email: xrcambridgemedia@protonmail.com
-  description: Developing our PR and media strategy and liaising with members of the press.
-  icon: broadcast-tower
-  color: pink
-
-- name: Systems and Tech
-  email: xr_cam_systems_and_tech@protonmail.com
-  description: Providing IT and technical solutions needed to run XR Cambridge's activities.
-  icon: laptop-code
-  color: purple
-
-- name: Regenerative Culture
-  email: xrcam.regen@gmail.com
-  description: Making sure members and activists are supported before, during, after and between actions and promoting a culture of well-being for activists.
-  icon: hand-holding-heart
-  color: green
-
 - name: Community and Outreach
   email: trison@protonmail.com
   description: Outreach to recruit more activists and supporters and communicate our message to the public, through various activities including talks, social media, literature etc (and to work with media/messaging team as appropriate).
@@ -62,22 +38,16 @@
   icon:
   color: lightGreen
 
-- name: Performers
-  email: xr_cam_performers@protonmail.com
-  description: Organising performances for XR Cambridge actions and activities, including publicity events, fundraisers and social events.
-  icon:
-  color: lightBlue
-
 - name: Finance and Fundraising
   email: xr_cam_finance@protonmail.com
   description: (i) to raise money for XR Cambridge (ii) to put in place proper procedures for managing our finances and paying expenses.
   icon:
   color: green
 
-- name: Training
-  email: dereklangleyxr@protonmail.com
-  description: Organise and deliver NVDA training. As the Working Group expands, it may also take on the organisation of "Heading for Extinction" talks and wellbeing training.
-  icon:
+- name: General Enquiries
+  email: info@xrcambridge.org
+  description: If you don't know which working group to contact, email our general enquiries inbox and we'll direct you to the most suitable place.
+  icon: info-circle
   color: blue
 
 - name: Growing Resistance
@@ -86,14 +56,50 @@
   icon:
   color: red
 
+- name: Local Politics and Government
+  email: info@xrcambridge.org
+  description: A group to discuss how XR engages with politicians and local government to push forward XR’s demands and the urgent action necessary.
+  icon:
+  color: lightBlue
+
+- name: Mass Mobilisation
+  email: xrcmassmobilisation@protonmail.com
+  description: This group is focused on mobilising people in Cambridge both for local actions, and ready for the April Rebellion, creating teams of rebel ringers, online outreach volunteers, and flyering and flyposting volunteers.
+  icon:
+  color: green
+
+- name: Media and Messaging
+  email: xrcambridgemedia@protonmail.com
+  description: Developing our PR and media strategy and liaising with members of the press.
+  icon: broadcast-tower
+  color: pink
+
+- name: Performers
+  email: xr_cam_performers@protonmail.com
+  description: Organising performances for XR Cambridge actions and activities, including publicity events, fundraisers and social events.
+  icon:
+  color: lightBlue
+
+- name: Regenerative Culture
+  email: xrcam.regen@gmail.com
+  description: Making sure members and activists are supported before, during, after and between actions and promoting a culture of well-being for activists.
+  icon: hand-holding-heart
+  color: green
+
+- name: Systems and Tech
+  email: xr_cam_systems_and_tech@protonmail.com
+  description: Providing IT and technical solutions needed to run XR Cambridge's activities.
+  icon: laptop-code
+  color: purple
+
 - name: Teachers for Truth
   email: xr_cam_teachers_for_truth@protonmail.com
   description: We are a group of teachers and other people who work with children. We've set ourselves up so that we can talk about how to get the Climate Crisis into our lessons, and to help each other come to terms with teaching a generation of children that are going to have a very uncertain future.
   icon:
   color: purple
 
-- name: Local Politics and Government
-  email: info@xrcambridge.org
-  description: A group to discuss how XR engages with politicians and local government to push forward XR’s demands and the urgent action necessary.
+- name: Training
+  email: dereklangleyxr@protonmail.com
+  description: Organise and deliver Non-Violent Direct Action training.
   icon:
-  color: lightBlue
+  color: blue
