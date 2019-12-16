@@ -1,38 +1,57 @@
-<meta charset="utf-8">
+<meta charset="utf-8" />
 
 {% include seo.html %}
 
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Extinction Rebellion Cambridge" />
+<meta
+	name="keywords"
+	content="xr cambridge, environmental protest,climate change,climate breakdown,climate chaos,global warming,ecocide,extinction rebellion cambridge,xr cambridge,zero carbon,carbon neutral,greenhouse gas emissions,greenhouse gas reduction,greenhouse gas emissions target,climate emergency mobilization,cambridge climate emergency,truth about climate change,climate change truth,declare a climate emergency"
+/>
+<meta property="og:image" content="https://xrcambridge.org/media/xr-logo.jpg" />
 
 <script>
-  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+	document.documentElement.className =
+		document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
-<!--[if IE ]>
-  <temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><temp data-prettydiff-ignore><style>
-    /* old IE unsupported flexbox fixes */
-    .greedy-nav .site-title {
-      padding-right: 3em;
-    }
-    .greedy-nav button {
-      position: absolute;
-      top: 0;
-      right: 0;
-      height: 100%;
-    }
-  </style></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp></temp>
-<![endif]-->
+<script
+	type="text/javascript"
+	src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
+	data-dojo-config="usePlainJson: true, isDebug: false"
+></script>
+<script type="text/javascript">
+	window.dojoRequire(['mojo/signup-forms/Loader'], function(L) {
+		L.start({
+			baseUrl: 'mc.us7.list-manage.com',
+			uuid: 'f237d12b000d4f05995bb918d',
+			lid: '56eaf004a5',
+			uniqueMethods: true
+		});
+	});
+</script>
 
-{% if site.head_scripts %}
-  {% for script in site.head_scripts %}
-    {% if script contains "://" %}
-      {% capture script_path %}{{ script }}{% endcapture %}
-    {% else %}
-      {% capture script_path %}{{ script | relative_url }}{% endcapture %}
-    {% endif %}
-    <script src="{{ script_path }}"></script>
-  {% endfor %}
-{% endif %}
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script
+	async
+	src="https://www.googletagmanager.com/gtag/js?id=UA-139160122-1"
+></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-139160122-1');
+</script>
+
+{% if site.head_scripts %} {% for script in site.head_scripts %} {% if script
+contains "://" %} {% capture script_path %}{{ script }}{% endcapture %} {% else
+%} {% capture script_path %}{{ script | relative_url }}{% endcapture %} {% endif
+%}
+<script src="{{ script_path }}"></script>
+{% endfor %} {% endif %}
