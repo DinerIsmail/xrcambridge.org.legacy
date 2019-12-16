@@ -8,6 +8,11 @@ This website was adapted and updated based on the xrmcr.org website. It's built 
 
 The website is hosted on Netlify, which is currently configured to automatically deploy the content everytime code is pushed.
 
+## Prerequisites
+
+Ruby - https://www.ruby-lang.org/en/downloads/
+Bundler - 'gem install bundler' from the terminal, once Ruby is installed.
+
 ## How to run the website locally
 
 After cloning the repository locally, open a terminal window in the root directory of the website, and type the following commands:
