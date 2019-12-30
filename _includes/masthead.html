@@ -23,6 +23,7 @@ endcapture %} {% else %} {% capture logo_path %}{{ site.logo }}{% endcapture %}
 					link.url | relative_url -%} {%- endif -%}
 					<li class="masthead__menu-item">
 						<a
+							class="{% if link.highlight %}highlightMenuItem{% endif %}"
 							href="{{ url }}"
 							{%
 							if

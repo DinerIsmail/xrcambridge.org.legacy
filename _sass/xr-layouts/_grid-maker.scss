@@ -138,8 +138,8 @@
 	color: var(--foreground-color);
 	border-radius: 0;
 	margin-bottom: 2em;
-	height: 8em;
-	margin-bottom: 10px;
+	height: 5em;
+	margin-bottom: 8px;
 	position: relative;
 	border-radius: 4px;
 	overflow: hidden;
@@ -149,8 +149,8 @@
 }
 
 .gridMaker__icon {
-	width: 10em !important; //because font-awesome
-	height: 5em !important; //because font-awesome
+	width: 6em !important; //because font-awesome
+	height: 3em !important; //because font-awesome
 }
 
 .gridMaker__body {

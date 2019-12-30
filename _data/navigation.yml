@@ -17,6 +17,7 @@ main:
   - title: Donate
     description: Donate to XR Cambridge
     url: /donate
+    highlight: true
   # - title: Resources
   #   description: Reference materials, pictures, posters and art tools, guidance and help. Dig in!
   #   url: /resources
