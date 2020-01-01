@@ -10,3 +10,14 @@
 		margin-top: 5px !important;
 	}
 }
+
+@include breakpoint($large) {
+	.three-demands {
+		display: flex;
+		margin-top: -20px;
+
+		img {
+			padding: 10px;
+		}
+	}
+}

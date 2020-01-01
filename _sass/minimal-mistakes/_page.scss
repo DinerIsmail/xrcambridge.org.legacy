@@ -171,6 +171,15 @@
 			}
 		}
 
+		@include breakpoint($large) {
+			.wrapper.showRaisedFist {
+				background-image: url('../../assets/images/raised-fist.png');
+				background-repeat: no-repeat;
+				background-position-x: right 50px;
+				background-position-y: bottom;
+			}
+		}
+
 		.page__title,
 		.page__meta,
 		.page__lead,
