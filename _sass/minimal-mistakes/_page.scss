@@ -171,14 +171,22 @@
 			}
 		}
 
-		@include breakpoint($large) {
-			.wrapper.showRaisedFist {
-				background-image: url('../../assets/images/raised-fist.png');
-				background-repeat: no-repeat;
-				background-position-x: right 50px;
-				background-position-y: bottom;
-			}
-		}
+		// @include breakpoint($large) {
+		// 	.wrapper.showRaisedFist {
+		// 		background-image: url('../../assets/images/raised-fist.png');
+		// 		background-repeat: no-repeat;
+		// 		background-position-x: right 50px;
+		// 		background-position-y: bottom;
+		// 	}
+		// }
+
+		// _::-webkit-full-page-media,
+		// _:future,
+		// :root .safari_only {
+		// 	.wrapper.showRaisedFist {
+		// 		background-image: none !important;
+		// 	}
+		// }
 
 		.page__title,
 		.page__meta,
