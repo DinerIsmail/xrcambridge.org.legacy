@@ -11,7 +11,7 @@
 	}
 }
 
-@include breakpoint($large) {
+@include breakpoint(min-width $large) {
 	.three-demands {
 		display: flex;
 		margin-top: -20px;
