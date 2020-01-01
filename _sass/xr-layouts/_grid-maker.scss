@@ -6,7 +6,7 @@
 	margin-bottom: 1em;
 
 	@include breakpoint($medium) {
-		grid-template-columns: repeat(2, 2fr);
+		grid-template-columns: repeat(3, 2fr);
 	}
 
 	@include breakpoint($large) {
@@ -188,7 +188,7 @@
 	background-color: var(--background-color);
 	color: var(--foreground-color);
 	margin-bottom: 0;
-	font-size: 14px !important;
+	font-size: 12px !important;
 }
 
 .gridMaker__button:focus,

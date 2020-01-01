@@ -37,6 +37,10 @@
 	font-size: 24px !important;
 }
 
+.bigHeader_button.red {
+	background-color: $xr_red !important;
+}
+
 .bigHeader__strip {
 	background-color: transparentize($color: $brand-primary, $amount: 0.2);
 	width: 100%;

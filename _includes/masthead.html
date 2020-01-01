@@ -21,9 +21,10 @@ endcapture %} {% else %} {% capture logo_path %}{{ site.logo }}{% endcapture %}
 					{%- for link in site.data.navigation.main -%} {%- if link.url contains
 					'://' -%} {%- assign url = link.url -%} {%- else -%} {%- assign url =
 					link.url | relative_url -%} {%- endif -%}
-					<li class="masthead__menu-item">
+					<li
+						class="masthead__menu-item {% if link.highlight %}highlightMenuItem{% endif %}"
+					>
 						<a
-							class="{% if link.highlight %}highlightMenuItem{% endif %}"
 							href="{{ url }}"
 							{%
 							if

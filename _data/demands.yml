@@ -1,0 +1,12 @@
+- title: University of Cambridge
+  image_path: /assets/images/kings-college.jpg
+  description: The University of Cambridge must cut ties with the fossil fuel industry.
+  colour: green
+- title: Cambridge City Council
+  image_path: /assets/images/guildhall.jpg
+  description: Cambridge City Council must hold a Citizens’ Assembly on climate justice.
+  colour: pink
+- title: Cambridgeshire County Council
+  image_path: /assets/images/shire-hall.jpg
+  description: Cambridgeshire County Council must work with other relevant regional authorities to provide a plan for a just transition away from an inadequate transport system reliant on fossil fuels.
+  colour: blue

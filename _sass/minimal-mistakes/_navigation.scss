@@ -214,14 +214,14 @@
 			-webkit-box-flex: 0;
 			-ms-flex: none;
 			flex: none;
+
+			&.highlightMenuItem > a {
+				color: #36a826;
+			}
 		}
 
 		a {
 			position: relative;
-
-			&.highlightMenuItem {
-				color: #36a826;
-			}
 
 			&:before {
 				content: '';
@@ -238,14 +238,8 @@
 			}
 
 			&:hover {
-				color: white;
+				color: white !important;
 			}
-
-			// &:hover:before {
-			// 	-webkit-transform: scaleX(1);
-			// 	-ms-transform: scaleX(1);
-			// 	transform: scaleX(1); // reveal
-			// }
 		}
 	}
 
