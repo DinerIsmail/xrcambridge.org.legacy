@@ -150,7 +150,6 @@
 		@include clearfix;
 		background-size: cover;
 		background-repeat: no-repeat;
-		background-position: center;
 		-webkit-animation: $intro-transition;
 		animation: $intro-transition;
 		-webkit-animation-delay: 0.25s;
@@ -171,23 +170,6 @@
 			}
 		}
 
-		// @include breakpoint($large) {
-		// 	.wrapper.showRaisedFist {
-		// 		background-image: url('../../assets/images/raised-fist.png');
-		// 		background-repeat: no-repeat;
-		// 		background-position-x: right 50px;
-		// 		background-position-y: bottom;
-		// 	}
-		// }
-
-		// _::-webkit-full-page-media,
-		// _:future,
-		// :root .safari_only {
-		// 	.wrapper.showRaisedFist {
-		// 		background-image: none !important;
-		// 	}
-		// }
-
 		.page__title,
 		.page__meta,
 		.page__lead,
@@ -206,6 +188,12 @@
 			@include breakpoint($small) {
 				font-size: $type-size-1;
 			}
+		}
+	}
+
+	@media (min-width: $large) {
+		&--overlay {
+			background-position: center;
 		}
 	}
 }
