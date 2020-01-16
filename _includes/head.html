@@ -18,20 +18,15 @@
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
 
-<script
-	type="text/javascript"
-	src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js"
-	data-dojo-config="usePlainJson: true, isDebug: false"
-></script>
+<!-- Telegram widget -->
 <script type="text/javascript">
-	window.dojoRequire(['mojo/signup-forms/Loader'], function(L) {
-		L.start({
-			baseUrl: 'mc.us7.list-manage.com',
-			uuid: 'f237d12b000d4f05995bb918d',
-			lid: '56eaf004a5',
-			uniqueMethods: true
-		});
-	});
+	(function() {
+		var script = document.createElement('script');
+		script.type = 'text/javascript';
+		script.async = true;
+		script.src = '//telegram.im/widget-button/index.php?id=@xrcambridge';
+		document.getElementsByTagName('head')[0].appendChild(script);
+	})();
 </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
