@@ -1,21 +1,26 @@
 ---
 layout: article
-permalink: "/frequently-asked-questions"
-title: "Frequently Asked Questions"
-description: "Get the answers to your frequently asked questions"
+permalink: '/frequently-asked-questions'
+title: 'Frequently Asked Questions'
+description: 'Get the answers to your frequently asked questions'
 exclude-recent: true
 
 header:
-    overlay_color: "#111"
-    overlay_image: /assets/images/blog-hero.jpg
+  overlay_color: '#111'
+  overlay_image: /assets/images/blog-hero.jpg
 
-excerpt: "Get the answers to your frequently asked questions"
+excerpt: 'Get the answers to your frequently asked questions'
 ---
 
+<a
+	href="https://t.me/s/xrcambridge"
+	target="_blank"
+	class="telegram_floating_button telegramim_button telegramim_shadow telegramim_pulse"
+	title="Join announcements channel"
+	><i></i> Join announcements channel</a
+>
+
 <section itemscope itemtype="https://schema.org/FAQPage">
-    {% assign accordion_random = true %}
-    {% assign accordion_prefix = 'faqs' %}
-    {% for faq in site.data.faqs %}
-        {% include faq_block.html %}
-    {% endfor %}
+	{% assign accordion_random = true %} {% assign accordion_prefix = 'faqs' %} {%
+	for faq in site.data.faqs %} {% include faq_block.html %} {% endfor %}
 </section>

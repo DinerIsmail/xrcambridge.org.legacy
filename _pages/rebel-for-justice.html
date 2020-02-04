@@ -12,14 +12,78 @@ header:
   title: <img alt="Northern Rebellion Logo" src='/assets/images/nrb/rebel-for-justice-black.png'/> -->
 ---
 
+<a
+	href="https://t.me/s/rebel_for_justice"
+	target="_blank"
+	class="telegram_floating_button telegramim_button telegramim_shadow telegramim_pulse"
+	title="Join Rebel for Justice channel"
+	><i></i> Join Rebel for Justice channel</a
+>
+
 {% include meta/nrb-schema-org.html %}
 
 <p>
 	From 16th February, XR Cambridge and XR Youth Cambridge will bring the city to
 	a halt with a week-long roadblock if the institutions of Cambridge do not meet
-	our three local demands on climate and social justice:
+	our three local demands on climate and social justice.
 </p>
 
+
+<div
+  class="r4j-location-announcement accordion {% if accordion_color %} accordion--{{accordion_color}} {% endif %} {% if accordion_rainbow %} accordion--rainbow {% endif %} {% if accordion_random %} accordion--randomize {% endif %}"
+  itemscope
+  itemprop="mainEntity"
+  itemtype="https://schema.org/Question"
+>
+  <input
+    id="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    name="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    class="accordion__state"
+    type="checkbox"
+  />
+
+  <label
+    for="accordion-{{ accordion_prefix }}-{{ forloop.index }}"
+    class="accordion__header"
+    itemprop="name"
+  >
+    Site location announced!
+  </label>
+
+  <div
+    class="accordion__body"
+    itemscope
+    itemprop="acceptedAnswer"
+    itemtype="https://schema.org/Answer"
+  >
+    <div itemprop="text">
+      <p>
+        We are now announcing the location of our week-long roadblock: The roundabout on Trumpington Road intersecting with Fen Causeway in Cambridge City Centre!
+      </p>
+      <img width="200" src="../assets/images/r4j-location.jpg" alt="Rebel for Justice site location map" />
+      <p>
+        The location has been specifically chosen to target the three institutions we have issued demands of: The University of Cambridge, Cambridge City Council, and Cambridgeshire County Council. This site will heavily disrupt Cambridge's road network.
+      </p>
+      <p>The site will become a base for more disruptive satellite actions to take place all across Cambridge, and the roadblock itself will be a place of peace, learning, and above all a commitment to social and climate justice.</p>
+      <p>There will be a different theme for satellite actions on each day of the rebellion. These are: </p>
+
+      <ul>
+        <li><b>Sunday 16th - A Space For Justice.</b> We’ll be setting up our home for the week - a creative space focused on our shared vision for change.</li>
+        <li><b>Monday 17th - Whose Earth?</b> Monday’s actions and activities will be focused on land exploitation and its impacts.</li>
+        <li><b>Tuesday 18th - Fossil Fools.</b> Our focus for Tuesday is on harmful extractivism.</li>
+        <li><b>Wednesday 19th - The Road to Climate Catastrophe.</b> This day will be focused on transport justice.</li>
+        <li><b>Thursday 20th - Another World is Possible.</b> On Thursday, we’ll focus on highlighting the inequalities in our city and region, and creating a vision for a more just society.</li>
+        <li><b>Friday 21st - Dear World… Yours, Cambridge.</b> Friday’s actions will call attention to Cambridge’s place in an unjust world.</li>
+        <li><b>Saturday 22nd and Sunday 23rd - Time is Running Out.</b> As we call this week of rebellion to a close, we will look to the future and our part in it.</li>
+      </ul>
+
+      <p>More information, including an information pack and details on some of the satellite actions will be coming very soon! Until then, make sure to join the <a href="https://t.me/s/rebel_for_justice">Telegram chat</a>.</p>
+    </div>
+  </div>
+</div>
+
+
+<h2>Our three demands are:</h2>
 <div class="gridMaker threeDemands">
 	<a class="demand-image" href="/university-demand" target="blank"><img src="../assets/images/demand-1.jpg" /></a>
 	<a class="demand-image" href="/city-council-demand" target="blank"><img src="../assets/images/demand-2.jpg" /></a>
