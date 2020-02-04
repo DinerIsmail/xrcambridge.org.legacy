@@ -43,15 +43,15 @@
 	font-size: 12px;
 }
 
-.r4j-location-announcement {
-	img {
-		width: 60% !important;
-	}
-}
-
 @media (min-width: 768px) {
 	.telegram_floating_button {
 		width: 350px;
 		font-size: 20px;
+	}
+
+	.r4j-location-announcement {
+		img {
+			width: 60% !important;
+		}
 	}
 }
