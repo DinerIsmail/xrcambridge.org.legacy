@@ -1,0 +1,77 @@
+- name: Media & Messaging
+  email: xrcambridgemedia@protonmail.com
+  description: Developing our PR and media strategy, looking after our social media accounts and website, and liaising with members of the press.
+  icon: broadcast-tower
+  color: pink
+
+- name: Media & Messaging - Photo Content
+  email: xrc.photos@gmail.com
+  description: Taking and sharing photos at actions and events.
+  icon:
+  color: pink
+
+- name: Community & Outreach
+  email: xr_cam_outreach@protonmail.com
+  description: Outreach to recruit more activists and supporters and communicate our message to the public, through various activities including talks, social media, literature etc (and to work with media/messaging team as appropriate).
+  icon: hands-helping
+  color: lightBlue
+
+- name: Diversity & Inclusion
+  email: xr_cam_diversity_inclusion@protonmail.com
+  description: Ensuring all aspects of XR Cambridge are accessible to all rebels and that barriers to participation are removed.
+  icon: hands-helping
+  color: lightBlue
+
+- name: Families
+  email: xr_cam_parents@protonmail.com
+  description: Making sure that where possible there are opportunities for families to get involved in XR actions and activities. Providing peer support to parents and carers as they bring up children in the face of the climate and ecological crisis.
+  icon:
+  color: lightGreen
+
+- name: Mass Mobilisation
+  email: xrcmassmobilisation@protonmail.com
+  description: Mobilising people in Cambridge both for local actions and national rebellions as well as creating teams of rebel ringers, online outreach volunteers, and flyering and flyposting volunteers.
+  icon:
+  color: green
+
+- name: Mass Mobilisation - Flyposting
+  email: xr_cambridge_flyposting@protonmail.com
+  description: Getting our message across by flyposting around the city and wider area.
+  icon:
+  color: green
+
+- name: Mass Mobilisation - Rebel Ringing
+  email: emilyashton1000@gmail.com
+  description: Running phone campaigns (ringing people who have signed up on action network) to recruit more rebels and encourage people to get more actively involved in the local group.
+  icon:
+  color: lightBlue
+
+- name: Mass Mobilisation - Email Newsletter
+  email: newsletter@xrcambridge.org
+  description: Communicating key information to local rebels via our mailing list.
+  icon:
+  color: lightGreen
+
+- name: Local Politics and Government
+  email: info@xrcambridge.org
+  description: Focusing local non-violent direct action and civil disobedience by understanding where pressure points in the centres of power and influence lie.
+  icon:
+  color: pink
+
+- name: Training
+  email: dereklangleyxr@protonmail.com
+  description: Organise and deliver Non-Violent Direct Action training and other trainings.
+  icon:
+  color: blue
+
+- name: Teachers for Truth
+  email: xr_cam_teachers_for_truth@protonmail.com
+  description: We are a group of teachers and other people who work with children. We've set ourselves up so that we can talk about how to get the Climate Crisis into our lessons, and to help each other come to terms with teaching a generation of children that are going to have a very uncertain future.
+  icon:
+  color: purple
+
+- name: Growing Resistance
+  email: xr_growing_resistance@protonmail.com
+  description: 'We are a group who love plants, wildlife and nature and want to help nurture and promote these in our city and surrounding areas. Join the Facebook group: www.facebook.com/groups/362995691016535/.'
+  icon:
+  color: red

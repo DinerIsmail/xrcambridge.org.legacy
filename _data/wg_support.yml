@@ -1,0 +1,39 @@
+- name: Affinity Group Support
+  email: xr_cam_ag_support_wg@protonmail.com
+  description: Supporting affinity groups and their coordinators, and promoting autonomy and decentralisation within XR Cambridge. Please contact us if you are looking to join an affinity group and we will try to match you up.
+  color: lightBlue
+
+- name: Regenerative Culture
+  email: xrcam.regen@gmail.com
+  description: Making sure members and activists are supported before, during, after and between actions and promoting a culture of well-being for activists.
+  icon: hand-holding-heart
+  color: blue
+
+- name: Finance and Fundraising
+  email: xr_cam_finance@protonmail.com
+  description: Raising money for XR Cambridge and putting in place proper procedures for managing our finances and paying expenses.
+  icon:
+  color: green
+
+- name: General Meeting Facilitators
+  email: xrcamgmfacilitators@protonmail.com
+  description: Ensuring the General Meeting is organised and facilitated effectively and smoothly and that the content reflects the needs of the local group.
+  color: lightBlue
+
+- name: Safeguarding
+  email:
+  description: Offering safeguarding support to protect the health, well-being and rights of individuals in XR Cambridge to ensure all members – but particularly young people and vulnerable adults — can participate free from abuse and harm.
+  icon:
+  color: red
+
+- name: Systems and Tech
+  email: xr_cam_systems_and_tech@protonmail.com
+  description: Providing IT and technical solutions needed to run XR Cambridge's activities.
+  icon: laptop-code
+  color: purple
+
+- name: Working Group Support
+  email: xr_cam_wg_support@protonmail.com
+  description: Ensuring Working Groups are functioning, well-connected and have enough members.
+  icon:
+  color: purple
