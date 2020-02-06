@@ -41,3 +41,31 @@ intro:
 		if you’re ready and willing to take on responsibility for more than one.
 	</p>
 </div>
+
+<div class="roles">
+	{% for category in site.data.roles %}
+	<div class="working_group">
+		<h1>{{ category.working_group }}</h1>
+		<p>{{ category.description }}</p>
+		<a
+			class="gridMaker__button gridMaker__button--small green"
+			href="mailto:{{ category.email }}?subject=Contact%20from%20xrcambridge.org"
+			target="_blank"
+		>
+			<i class="fa fa-envelope"></i> {{ category.email }}
+		</a>
+		<div>
+			{% for role in category.roles %}
+			<div class="role">
+				{% if role.name %}
+				<h6>{{ role.name }}</h6>
+				<p>{{ role.description }}</p>
+				{% endif %}
+			</div>
+			{% endfor %}
+		</div>
+	</div>
+
+	<hr />
+	{% endfor %}
+</div>

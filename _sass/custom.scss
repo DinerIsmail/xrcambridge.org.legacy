@@ -55,3 +55,36 @@
 		}
 	}
 }
+
+/*  Roles page */
+.roles {
+	margin-bottom: 30px;
+
+	.working_group {
+		margin-top: 20px;
+
+		a.green {
+			background-color: $xr_warm_yellow;
+
+			&:hover {
+				opacity: 0.8;
+			}
+		}
+
+		.role {
+			margin: 5px 0;
+			padding: 10px 10px 0;
+			background-color: $xr_light_green;
+			border: 1px solid black;
+			border-radius: 0.5rem;
+
+			p {
+				font-size: 18px;
+			}
+		}
+	}
+
+	hr:last-child {
+		display: none;
+	}
+}
