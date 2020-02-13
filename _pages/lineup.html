@@ -1,0 +1,29 @@
+---
+layout: xr-splash
+permalink: '/r4j-lineup'
+title: 'Rebel for Justice <br/> Line Up'
+excerpt: "Day by day - stage by stage, find out what's going on at Rebel for Justice."
+---
+
+<section>
+	<p>
+		We've got a packed line up ahead, with talks from scientists and activists,
+		music provided by some fantastic artists and workshops going on all day.
+		Come along on the day and find out what's going on when.
+	</p>
+</section>
+
+{% for day in site.data.r4jLineUp %} {% include xr-blocks/lineup-block.html %}
+{% endfor %}
+
+<hr />
+
+<p class="text-center">
+	Have you remembered to sign up?
+</p>
+
+<p class="text-center">
+	<a class="btn btn--primary" href="/signup"
+		>Act Now - and join the rebellion!</a
+	>
+</p>

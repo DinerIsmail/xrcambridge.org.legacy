@@ -1,0 +1,131 @@
+- date: 2020-02-16
+  name: 'Rebel for Justice - Sunday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: 'green'
+  location:
+    - name: 'Main Stage'
+      activities:
+        - '4pm: Opening ceremony'
+        - '6pm: Memorial for Iggy Fox'
+        - '7-10pm: opening party with Rebel hoopers and Lift Up resident DJs'
+
+- date: 2020-02-17
+  name: 'Rebel for Justice - Monday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: 'pink'
+  location:
+    - name: 'Main Stage'
+      activities:
+        - '11am: Morning regenerative activity'
+        - '12pm: Heading for Extinction and What to Do About It'
+        - '2pm: Borders, profit and the climate crisis'
+        - '3pm: The impact of animal agriculture on land & resources'
+        - '5pm: Open mic'
+        - '6pm: Annie Rose - What Does Solidarity Mean?'
+        - '9pm: DJ Skunk'
+    - name: 'Regen Tent'
+      activities:
+        - '12pm: Intro to foraging for food (talk and offsite foraging walk)'
+        - '1pm: All about moths'
+        - '4:30pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+
+- date: 2020-02-18
+  name: 'Rebel for Justice - Tuesday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: blue
+  location:
+    - name: 'Main Stage'
+      activities:
+        - '11am: Morning regenerative activity'
+        - '12pm: A List of Accountability - Installation & Talk'
+        - 'Remembering land protectors murdered in 2018'
+        - '2pm: Miriam Instone'
+        - '5pm: Open mic'
+    - name: 'Regen tent'
+      activities:
+        - '2pm: Decolonisong XR (learning circle)'
+        - '4:30pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+        - '7pm: Yoga'
+
+- date: 2020-02-19
+  name: 'Rebel for Justice - Wednesday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: pink
+  location:
+    - name: 'Main Stage'
+      activities:
+        - '11am: Morning regenerative activity'
+        - '12 pm: soapbox hour - reflecting on the rebellion so far'
+        - '2pm: Ditching Fast Fashion (talk)'
+        - '2pm: Animal Rebellion - Veggie Dance Party'
+        - '5pm: Open mic'
+    - name: 'Regen tent'
+      activities:
+        - '12:30pm: Ethical banking workshop'
+        - '4pm: Reclaim the food! (how to feast on food waste)'
+        - '4:45pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+
+- date: 2020-02-20
+  name: 'Rebel for Justice - Thursday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: green
+  location:
+    - name: 'Main Stage'
+      activities:
+        - 'TBD'
+        - '5pm: Open mic'
+    - name: 'Regen tent'
+      activities:
+        - '12pm: Healthy aggression workshop'
+        - "2pm: 'Climate justice is social justice' learning circle"
+        - '4:30pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+        - '7pm: Yoga'
+
+- date: 2020-02-21
+  name: 'Rebel for Justice - Friday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: blue
+  location:
+    - name: 'Main Stage'
+      activities:
+        - 'TBD'
+        - '5pm: Open mic'
+    - name: 'Regen tent'
+      activities:
+        - '4:30pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+
+- date: 2020-02-22
+  name: 'Rebel for Justice - Saturday'
+  address:
+    location: 'Cambridge'
+    country: 'UK'
+  colour: green
+  location:
+    - name: 'Main Stage'
+      activities:
+        - '11am: Morning regenerative activity'
+        - '12pm: Rachel Caldwell'
+        - '2pm: Remembrance, Rage and Grief'
+        - '5pm: Open mic'
+    - name: 'Regen tent'
+      activities:
+        - '4:30pm: Guided meditation'
+        - '6pm: Climate justice film screening'
+        - '7pm: Closing reflections'
