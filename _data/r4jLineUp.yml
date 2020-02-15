@@ -10,6 +10,11 @@
         - '4pm: Opening ceremony'
         - '6pm: Memorial for Iggy Fox'
         - '7-10pm: opening party with Rebel hoopers and Lift Up resident DJs'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-17
   name: 'Rebel for Justice - Monday'
@@ -37,6 +42,11 @@
         - '4:30pm: Guided meditation'
         - '6pm: Screening of the film The Last Guardians (on the experience of indigenous communities in Ecuador facing oil extraction)'
         - '7pm: Spotlight on land ownership struggles (Canada, Slovenia, France, Standing Rock)'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-18
   name: 'Rebel for Justice - Tuesday'
@@ -59,6 +69,11 @@
         - '4:30pm: Guided meditation'
         - '6pm: Screening of the film Power Trip (on the fight against UK fracking)'
         - '7pm: Yoga'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-19
   name: 'Rebel for Justice - Wednesday'
@@ -82,6 +97,11 @@
         - '4:45pm: Guided meditation'
         - '6pm: Screening of the film Honey at the Top (on indigenous people in Kenya being removed from their land in the name of conservation)'
         - '7pm: Black lives matter UK roundtable discussion (streaming)'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-20
   name: 'Rebel for Justice - Thursday'
@@ -102,6 +122,11 @@
         - '4:30pm: Guided meditation'
         - '6pm: Screening of the film Disobedience (on civi disobedience tactics in the climate movement around the world)'
         - '7pm: Yoga'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-21
   name: 'Rebel for Justice - Friday'
@@ -119,6 +144,11 @@
         - '4:30pm: Guided meditation'
         - '6pm: Screening of the film The Other Debt Crisis (on climate debt, and the global South campaign for reparations)'
         - 'Video spotlight on Mexican-American and Indian environmental struggles'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
 
 - date: 2020-02-22
   name: 'Rebel for Justice - Saturday'
@@ -136,7 +166,12 @@
         - '5pm: Open mic'
     - name: 'Regen tent'
       activities:
-        - '2pm: A discussion on 'facing global ecocide' (streaming)
+        - '2pm: A discussion on facing global ecocide (streaming)'
         - '4:30pm: Guided meditation'
         - '6pm: Documentary about climate change and displacement'
         - '7pm: Closing reflections'
+    - name: 'Training tent'
+      activities:
+        - '9am: Intro to XR'
+        - '10am: Short Non-Violent Direct Action Training'
+        - '3pm: Intro to XR'
