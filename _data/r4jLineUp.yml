@@ -58,7 +58,6 @@
     - name: 'Main Stage'
       activities:
         - '11am: Morning regenerative activity'
-        - '12pm: A List of Accountability - Installation & Talk'
         - 'Remembering land protectors murdered in 2018'
         - '2pm: Miriam Instone'
         - '5pm: Open mic'
@@ -114,6 +113,7 @@
   location:
     - name: 'Main Stage'
       activities:
+        - '12pm: Talk from Kurdish Solidarity Network'
         - '2pm: On power, young people and climate collapse'
         - '3pm: Readings on race and the climate crisis'
         - '4pm: Music by Winter'
