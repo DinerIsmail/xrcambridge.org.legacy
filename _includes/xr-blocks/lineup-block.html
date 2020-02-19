@@ -1,63 +1,67 @@
-<div class="lineup {{day.colour | default: 'default' |  prepend: 'lineup--'}}" itemscope itemtype="http://schema.org/Event">
+<div
+	class="lineup {{day.colour | default: 'default' |  prepend: 'lineup--'}}"
+	itemscope
+	itemtype="http://schema.org/Event"
+>
+	<meta itemprop="name" content="{{day.name}}" />
 
-    <meta itemprop="name" content="{{day.name}}"/>
+	<span itemprop="location" itemscope itemtype="http://schema.org/Place">
+		<meta itemprop="name" content="{{day.address.location}}" />
+		<span
+			itemprop="address"
+			itemscope
+			itemtype="http://schema.org/PostalAddress"
+		>
+			<meta itemprop="addressLocality" content="{{day.address.location}}" />
+			<meta itemprop="addressCountry" content="{{day.address.country}}" />
+		</span>
+	</span>
 
-    <span itemprop="location" itemscope itemtype="http://schema.org/Place">
-        <meta itemprop="name" content="{{day.address.location}}"/>
-        <span itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-            <meta itemprop="addressLocality" content="{{day.address.location}}"/>
-            <meta itemprop="addressCountry" content="{{day.address.country}}"/>
-        </span>
-    </span>
+	<meta itemprop="endDate" content="{{ day.date | date : '%Y-%m-%d' }}" />
+	<meta itemprop="url" content="{{day.url}}" />
+	<meta itemprop="description" content="{{day.description}}" />
+	<meta
+		itemprop="image"
+		content="{{day.image | default: 'https://xrmcr.org/assets/images/default-event.png'}}"
+	/>
 
-    <meta itemprop="endDate" content="{{ day.date | date : '%Y-%m-%d' }}"/>
-    <meta itemprop="url" content="{{day.url}}"/>
-    <meta itemprop="description" content="{{day.description}}"/>
-    <meta itemprop="image" content="{{day.image | default: 'https://xrmcr.org/assets/images/default-event.png'}}"/>
+	<span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
+		<meta itemprop="url" content="{{day.url}}" />
+		<meta itemprop="price" content="0" />
+		<meta itemprop="priceCurrency" content="GBP" />
+		<meta itemprop="validFrom" content="{{ site.time | date: '%Y-%m-%d' }}" />
+		<meta itemprop="availability" content="http://schema.org/InStock" />
+	</span>
 
-    <span itemprop="offers" itemscope="" itemtype="http://schema.org/Offer">
-        <meta itemprop="url" content="{{day.url}}"/>
-        <meta itemprop="price" content="0"/>
-        <meta itemprop="priceCurrency" content="GBP"/>
-        <meta itemprop="validFrom" content="{{ site.time | date: '%Y-%m-%d' }}"/>
-        <meta itemprop="availability" content="http://schema.org/InStock"/>
-    </span>
+	<header
+		id="{{day.date | date : '%Y-%m-%d'}}"
+		class="lineup__date"
+		itemprop="startDate"
+		content="{{day.date | date : '%Y-%m-%d'}}"
+	>
+		{{day.date | date : '%A' }} {% assign d = day.date | date: "%-d" %} {% case
+		d %} {% when "1" or "21" or "31" %}{{ d }}st {% when "2" or "22" %}{{ d }}nd
+		{% when "3" or "23" %}{{ d }}rd {% else %} {{ d }}th {% endcase %} {{
+		day.date | date: "%B" }}
+	</header>
 
-    <header class="lineup__date" itemprop="startDate" content="{{day.date | date : '%Y-%m-%d'}}">
-        {{day.date | date : '%A' }}
+	<div class="lineup__grid">
+		{% for location in day.location %}
 
-        {% assign d = day.date | date: "%-d" %}
+		<div class="lineup__location">
+			<h3 class="lineup__locationName">{{location.name}}</h3>
 
-        {% case d %}
-            {% when "1" or "21" or "31" %}{{ d }}st
-            {% when "2" or "22" %}{{ d }}nd
-            {% when "3" or "23" %}{{ d }}rd
-        {% else %}
-            {{ d }}th
-        {% endcase %}
+			<ul class="lineup__list">
+				{% for activity in location.activities %}
 
-        {{ day.date | date: "%B" }}
-    </header>
+				<li class="lineup__listItem" itemprop="performer">
+					{{activity}}
+				</li>
 
-    <div class="lineup__grid">
-        {% for location in day.location %}
+				{% endfor %}
+			</ul>
+		</div>
 
-        <div class="lineup__location">
-            <h3 class="lineup__locationName">{{location.name}}</h3>
-
-            <ul class="lineup__list">
-                {% for activity in location.activities %}
-
-                <li class="lineup__listItem" itemprop="performer">
-                    {{activity}}
-                </li>
-
-                {% endfor %}
-            </ul>
-
-        </div>
-
-        {% endfor %}
-    </div>
-
+		{% endfor %}
+	</div>
 </div>
