@@ -8,6 +8,8 @@ author: linda
 excerpt: >-
 ---
 
+<img src="/assets/images/authors/linda.jpg" width="30%" style="float: right" />
+
 Yesterday, Extinction Rebellion in Cambridge dug up the lawn of Trinity College in what, to many people, was a wanton act of vandalism. I have to admit, it gave me quite a shock to see it, and then I thought about why I felt so shocked. Wikipedia says, "...the English lawn was a symbol of status of the aristocracy and gentry; it showed that the owner could afford to keep land that was not being used for a building, or for food production." Spokesperson for XR, Nathan Williams points out that "Trinity College is the third largest landowner [in the UK] and backer of fossil fuels," and his words made me consider my response more carefully.
 
 We all know beyond doubt that the continued use of fossil fuel is rapidly eroding any remaining hope we have of maintaining a planet that will support life. Those who back and invest in fossil fuels are causing destruction on a global scale. I'm seeing images of floating cars in the UK, a billion burnt animals in Australia, drowning Islands in the Pacific,a quarter of a million acres of California burnt....etc. So who, in this context is the vandal? Isn't the continued logging of the Amazon vandalism?
