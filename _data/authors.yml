@@ -13,3 +13,7 @@ default:
       icon: 'fab fa-fw fa-twitter-square'
       url: 'https://twitter.com/xr_cambridge'
       default:
+linda:
+  name: 'Linda Richardson'
+  bio: 'Linda Richardson is an artist and member of XR Cambridge.'
+  avatar: '/assets/images/authors/linda.jpg'
