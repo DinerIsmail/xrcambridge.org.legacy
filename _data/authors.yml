@@ -17,6 +17,9 @@ linda:
   name: 'Linda Richardson'
   bio: 'Linda Richardson is an artist and member of XR Cambridge.'
   avatar: '/assets/images/authors/linda.jpg'
+linda:
+  name: 'Angie Burrow'
+  bio: 'Angie is a resident of Lancashire.'
 nathan:
   name: 'Nathan Williams'
   bio: 'Nathan Williams works for a conservation NGO and is a spokesperson for XR Cambridge.'
