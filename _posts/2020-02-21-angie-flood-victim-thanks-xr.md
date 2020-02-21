@@ -1,5 +1,5 @@
 ---
-title: 'Flood victim from Lancashire thanks XR Cambridge'
+title: Flood victim from Lancashire thanks XR Cambridge
 layout: article
 theme: green
 share: true
