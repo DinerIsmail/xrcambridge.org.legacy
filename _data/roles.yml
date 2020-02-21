@@ -34,6 +34,21 @@
     - name: Social Media Contributors
       description: Liaising with content creators to get posts onto Facebook, Instagram and Twitter, and responding to messages on these platforms.
 
+- working_group: Regenerative Culture
+  description: Building long-term resilience, health and wellbeing in XR and the wider community.
+  email: polly.waterfield@icloud.com
+  roles:
+    - name: Liaison with XR Youth
+      description: to support the embedding of Regenerative Culture in all activities. 
+    - name: Wellbeing Coordinator for actions (coordinator and at least one other person).
+      description: Will liaise with Action Support WG and needs good organisational and communication skills.
+    - name: Listening Circle coordinator
+      description: Organise a regular weekly listening circle, either online or in person.
+    - name: Technical administrator
+      description: Develop and keep tabs on a web page of resources.
+    - name: Holistic therapists
+      description: Offer some free sessions to activists, to be listed on a resources page.
+
 - working_group: Working Group Support
   description: The Working Group Support group helps working groups to function successfully and will support the transition to and functioning of the SOS (Self-Organising System) in XR Cambridge.
   email: xr_cam_wg_support@protonmail.com
