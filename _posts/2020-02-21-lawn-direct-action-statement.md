@@ -6,7 +6,7 @@ share: true
 author_profile: true
 author: nathan
 excerpt: >-
-  Too often there is a double standard at play in the condemnation of civil disobedience and direct action undertaken by Extinction Rebellion, or any other group fighting for justice.
+  We are not here to win a popularity contest. We are here to sound the alarm and to create the tension that opens spaces for the change we so desperately need.
 ---
 
 In response to the digging up of the lawn at Trinity College in Cambridge by Extinction Rebellion Cambridge Youth and Extinction Rebellion Cambridge on Monday, Trinity College said it “draws the line at criminal damage.”
