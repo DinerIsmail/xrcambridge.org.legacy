@@ -6,6 +6,7 @@ share: true
 author_profile: true
 author: linda
 excerpt: >-
+  Yesterday, Extinction Rebellion in Cambridge dug up the lawn of Trinity College in what, to many people, was a wanton act of vandalism...
 ---
 
 <img src="/assets/images/authors/linda.jpg" width="30%" style="float: right" />
