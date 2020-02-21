@@ -1,5 +1,5 @@
 ---
-title: 'Lawngate: a “step too far” on the road to climate justice'
+title: 'Lawngate: a “step too far” on the road to climate justice?'
 layout: article
 theme: green
 share: true
