@@ -29,9 +29,8 @@ Research this week laid out the stark consequences of inaction on the climate cr
 
 We have waited 40 years for politicians and other decision makers to demonstrate the required urgency. They have utterly failed. Because of this deadly delay, scientists say we have 10 years to effect an almost total transformation of economies and societies. Because of this delay, many scientists believe 2 degrees of heating is the floor, not the ceiling of our ability to constrain temperature rise. 2 degrees has been called genocide by the majority world, vulnerable as billions are to the rising seas, heatwaves, storms and extreme weather that are already causing crop failure and driving millions from their homes.
 
-Martin Luther King Jr said that “nonviolent direct action seeks to create such a crisis and foster such a tension that a community which has constantly refused to negotiate is forced to confront the issue. It seeks to so dramatize the issue that it can no longer be ignored….there is a type of non-constructive violent tension which is necessary for growth.”
+Martin Luther King Jr said that “nonviolent direct action seeks to create such a crisis and foster such a tension that a community which has constantly refused to negotiate is forced to confront the issue. It seeks to so dramatize the issue that it can no longer be ignored….there is a type of constructive non-violent tension which is necessary for growth.”
 
 We are not here to win a popularity contest. We are here to sound the alarm and to create the tension that opens spaces for the change we so desperately need.
 
 We will go forward in this spirit, with courage, and with the refrain of the suffragettes ringing loudly in our ears: “Deeds, not words.”
-
