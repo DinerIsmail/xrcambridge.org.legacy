@@ -73,7 +73,7 @@ tag_archive:
 category_archive:
   path: /categories/
 
-og_image: /assets/images/default.png
+og_image: /assets/images/preview.jpg
 
 social:
   type: 'Organization'
@@ -100,6 +100,9 @@ defaults:
       comments: false
       share: true
       related: true
+  - scope:
+    values:
+      image: '/assets/images/generic-social-media-share.png'
 
 footer:
   links:
