@@ -100,9 +100,6 @@ defaults:
       comments: false
       share: true
       related: true
-  - scope:
-    values:
-      image: '/assets/images/generic-social-media-share.png'
 
 footer:
   links:
