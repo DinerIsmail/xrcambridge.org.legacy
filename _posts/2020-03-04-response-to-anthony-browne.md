@@ -1,11 +1,12 @@
 ---
-
 title: 'Response to Anthony Browne MP’s statement in Parliament and wrongful arrest of XR Cambridge activist'
 layout: article
 theme: green
 share: true
-excerpt: >-
----An Extinction Rebellion Cambridge activist was wrongfully arrested in the early hours of Wednesday for alleged involvement in the group’s removal of Cambridge University’s anti-bird nets on the West Cambridge site – an action she did not participate in.
+
+---
+
+An Extinction Rebellion Cambridge activist was wrongfully arrested in the early hours of Wednesday for alleged involvement in the group’s removal of Cambridge University’s anti-bird nets on the West Cambridge site – an action she did not participate in.
 
 Edie was awoken by police in her University accommodation at 4.30am on Wednesday. She was then arrested for criminal damage at a laboratory – which she says she had never heard of – on the West Cambridge site and taken to Parkside Police Station. Edie was later released with no further action after she, the police and her solicitor viewed video footage supposedly confirming her involvement in the action, which showed there was little resemblance between Edie and the person she was mistaken for in the video. Edie then had to walk back to her college in her pyjamas, an experience she describes as “humiliating”.
 

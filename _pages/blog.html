@@ -2,28 +2,28 @@
 layout: xr-splash
 permalink: '/news'
 title: XR Cambridge News
-excerpt: 'Keep up to date with news, actions and chilling insight into the current climate emergency from Extinction Rebellion Cambridge.'
+excerpt: 'Keep up to date with news, actions and statements from Extinction Rebellion Cambridge.'
 ---
 
 {% assign postsByYear = site.posts | group_by_exp: 'post', 'post.date | date:
 "%Y"' %}
 
 <div class="archive">
-	{% for year in postsByYear %}
+  {% for year in postsByYear %}
 
-	<div class="archive__item">
-		<section id="{{ year.name }}" class="taxonomy__section">
-			<h2 class="archive__subtitle">{{ year.name }}</h2>
-			<div class="entries-{{ page.entries_layout | default: 'list' }}">
-				{% for post in year.items %} {% include archive-single.html
+  <div class="archive__item">
+    <section id="{{ year.name }}" class="taxonomy__section">
+      <h2 class="archive__subtitle">{{ year.name }}</h2>
+      <div class="entries-{{ page.entries_layout | default: 'list' }}">
+        {% for post in year.items %} {% include archive-single.html
 				type=page.entries_layout %} {% endfor %}
-			</div>
-			<a class="btn btn--inverse back-to-top" href="#page-title">
-				<i class="fas fa-chevron-up back-top-top-icon"></i>
-				Back to Top
-			</a>
-		</section>
-	</div>
+      </div>
+      <a class="btn btn--inverse back-to-top" href="#page-title">
+        <i class="fas fa-chevron-up back-top-top-icon"></i>
+        Back to Top
+      </a>
+    </section>
+  </div>
 
-	{% endfor %}
+  {% endfor %}
 </div>
