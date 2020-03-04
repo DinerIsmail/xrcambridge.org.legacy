@@ -8,7 +8,7 @@ main:
   - title: Sign Up
     description: If you’d like to receive regular information and newsletters from Extinction Rebellion Cambridge about events, actions, meetings and other information about what we’re doing and how you can help - please sign up here.
     url: /signup
-  - title: News
+  - title: Stories
     description: Explore Extinction Rebellion Cambridge's archives of news, events, interviews and actions.
     url: /news
   - title: Get Involved
