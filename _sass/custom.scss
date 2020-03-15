@@ -11,6 +11,10 @@
 	}
 }
 
+.header-link {
+  display: none;
+}
+
 @include breakpoint($large) {
 	.three-demands {
 		margin-top: -20px;
