@@ -10,8 +10,7 @@ XR Youth Cambridge welcomes anyone between the ages of 18 and 30 years. If you:
 You can be part of several of these groups simultaneously.
 
 ## Events
-Details of all our meetings, trainings, talks and protests are on the main XR Cambridge events page:
-xrcambridge.org/events. You’re welcome at any of them!
+Details of all our meetings, trainings, talks and protests are on the [main XR Cambridge events page](/events). You’re welcome at any of them!
 
 ## Meetings
 Newcomers are welcome to join us! We’ll give you an introduction to XR Youth, show you how to get involved, and make you
@@ -20,7 +19,7 @@ aware of any upcoming protests. Vegan snacks are provided.
 * General meetings: one Sunday each month 12 - 3 PM. These are meetings where all the youth groups (XR Next Generation,
 XR Universities, and XR Youth) come together
 
-You can see the exact details for these on the events page.
+You can see the exact details for these [on the events page](/events).
 
 ## Social media and contact
 We’re pretty active on social media. Follow us for news, events, and public calling out of climate criminals. You can
@@ -34,21 +33,39 @@ also contact us through all of the below, whether it’s a question or a whistle
 ## Working groups
 XR Youth is a decentralised organisation - we have no leader, so the power to decide and do things is spread throughout everyone via working groups. Anything that’s needed or wanted can be planned and achieved via a working group, and everyone is free to join them or start new ones! Currently, we have:
 
-* Arts
-  * Creating artwork (including banners, placards and flags) for youth actions and events
-* Action Design
-  * Designing and facilitating youth/youth-led non-violent direct action
-* General meeting
-  * Organising the monthly Youth General Meeting, which includes XR Youth, XR Next Generation and XR Universities
-* LGBTQ+
-* Mass Mobilisation & Outreach
-  * Mobilising and recruiting youth rebels, and facilitating collaboration with or contributions to other groups and organisations
-* Media & Messaging
-  * Photography, videography, social media (Facebook, Instagram and Twitter) and press liaison
-* Regenerative Culture
-  * Organising regenerative events for youth rebels, and creating a culture of resilience, health and wellbeing
-* Talks & Trainings
-  * Organising and delivering talks and trainings (including youth non-violent direct action training) which are relevant and engaging for young people
+<div class="feature__wrapper gridMaker">
+	{% for item in site.data.wg_youth %}
+
+	<div class="gridMaker__item gridMaker__item--{{ item.color }}">
+		{% if item.name %}
+		<div class="gridMaker__header">
+			<span class="gridMaker__tab">{{ item.name }}</span>
+		</div>
+		{% endif %} {% if item.icon %}
+		<div class="gridMaker__hero">
+			<div class="gridMaker__icon-container">
+				<i class="gridMaker__icon fa fa-{{ item.icon }}"></i>
+			</div>
+		</div>
+		{% endif %} {% if item.description %}
+		<div class="gridMaker__body">
+			{{ item.description | markdownify }}
+		</div>
+		{% endif %} {% if item.email %}
+		<div class="gridMaker__footer">
+			<a
+				class="gridMaker__button gridMaker__button--small"
+				href="mailto:{{ item.email }}?subject=Contact%20from%20xrcambridge.org"
+				target="_blank"
+			>
+				<i class="fa fa-envelope"></i> {{ item.email }}
+			</a>
+		</div>
+		{% endif %}
+	</div>
+
+	{% endfor %}
+</div>
 
 Let us know if you’d like to be part of any of these or propose a new one.
 

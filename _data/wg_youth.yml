@@ -1,0 +1,31 @@
+- name: Arts
+  description: Creating artwork (including banners, placards and flags) for youth actions and events
+  color: red
+
+- name: Action Design
+  description: Designing and facilitating youth/youth-led non-violent direct action
+  color: yellow
+
+- name: General Meeting
+  description: Organising the monthly Youth General Meeting, which includes XR Youth, XR Next Generation and XR Universities
+  color: lightGreen
+
+- name: LGBTQ+
+  description: ''
+  color: yellow
+
+- name: Mass Mobilisation & Outreach
+  description: Mobilising and recruiting youth rebels, and facilitating collaboration with or contributions to other groups and organisations
+  color: lightBlue
+
+- name: Media & Messaging
+  description: Photography, videography, social media (Facebook, Instagram and Twitter) and press liaison
+  color: pink
+
+- name: Regenerative Culture
+  description: Organising regenerative events for youth rebels, and creating a culture of resilience, health and wellbeing
+  color: purple
+
+- name: Talks & Trainings
+  description: Organising and delivering talks and trainings (including youth non-violent direct action training) which are relevant and engaging for young people
+  color: red
