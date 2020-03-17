@@ -10,10 +10,6 @@
   description: Organising the monthly Youth General Meeting, which includes XR Youth, XR Next Generation and XR Universities
   color: lightGreen
 
-- name: LGBTQ+
-  description: ''
-  color: yellow
-
 - name: Mass Mobilisation & Outreach
   description: Mobilising and recruiting youth rebels, and facilitating collaboration with or contributions to other groups and organisations
   color: lightBlue
