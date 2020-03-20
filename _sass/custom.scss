@@ -15,6 +15,10 @@
   display: none;
 }
 
+.post-image {
+  width: 100%;
+}
+
 @include breakpoint($large) {
 	.three-demands {
 		margin-top: -20px;
@@ -57,7 +61,12 @@
 		img {
 			width: 60% !important;
 		}
-	}
+  }
+  
+  .post-image {
+    width: 60%;
+    margin: 20px;
+  }
 }
 
 /*  Roles page */
