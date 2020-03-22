@@ -101,3 +101,23 @@
 		display: none;
 	}
 }
+
+/* TEMP */
+.ck-green, .ck-blue, .ck-pink {
+  margin: 10px 0;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  border: 1px solid #000;
+}
+
+.ck-green {
+  background-color: $xr_light_green;
+}
+
+.ck-blue {
+  background-color: $xr_light_blue;
+}
+
+.ck-pink {
+  background-color: $xr_pink;
+}
