@@ -75,3 +75,9 @@
   description: 'We are a group who love plants, wildlife and nature and want to help nurture and promote these in our city and surrounding areas. Join the Facebook group: www.facebook.com/groups/362995691016535/.'
   icon:
   color: red
+
+- name: Silent Rebellion
+  email: jez@silentrebellion.org
+  description: Regular event where rebels come together, pause the treadmill of activity and rest in silence, usually in a busy public space. Find out more at [silentrebellion.org](http://www.silentrebellion.org).
+  icon:
+  color: red
