@@ -1,5 +1,5 @@
 ---
-title: 'Climate Kindness - Day 1'
+title: 'Climate Kindness - Day 1 of 28'
 layout: article
 theme: green
 share: true
