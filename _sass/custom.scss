@@ -19,6 +19,10 @@
   width: 100%;
 }
 
+.calendar-container {
+  margin-top: 20px;
+}
+
 @include breakpoint($large) {
 	.three-demands {
 		margin-top: -20px;
