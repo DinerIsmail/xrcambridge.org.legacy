@@ -1,3 +1,14 @@
+- working_group: Affinity Group Support
+  description: The Affinity Group Support working group helps affinity groups to function successfully and helps new and existing rebels to join and move between affinity groups.
+  email: xr_cam_ag_support_wg@protonmail.com 
+  roles:
+    - name: New Members Coordinator
+      description: The new members coordinator supports recent members to XR Cambridge, or rebels without an affinity group, to join an affinity group well suited to their needs. The role would suit a rebel with good IT skills, who is comfortable with communicating via social media and who enjoys supporting and engaging with new people.
+    - name: Inductions Coordinator
+      description: The Inductions Coordinator ensures that people new to XR who attend general meetings and events are introduced to the organisation and enabled to link with buddies, affinity groups and/or working groups as they require. This role would suit a rebel who enjoys meeting new people, has good communication skills and the confidence to deliver an introduction to XR to small groups - training can be given.
+    - name: Regional Affinity Group Support Network Representative for East of England 
+      description: The Regional AG Support Network Rep enables the XR Cambridge AGSWG to play a part in the regional affinity group support network in XR UK and, working with local AGs,  will help to build up a support network for affinity groups across the East of England. This role would suit a rebel who enjoys proactively engaging with others and has good social media and IT skills. They will need to be able to commit to one fortnightly Friday daytime meeting online and have interest in working in a team to develop support across the region.
+
 - working_group: Arts
   description: The arts group provides artwork for XR actions and runs events where people can get together and create artwork.
   email: linda@lindarichardson.net
