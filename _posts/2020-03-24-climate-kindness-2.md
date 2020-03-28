@@ -3,8 +3,6 @@ title: '#ClimateKindness - Day 2 of 28'
 layout: article
 theme: green
 share: true
-excerpt: >-
-
 ---
 
 * **Climate**

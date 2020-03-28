@@ -3,8 +3,6 @@ title: 'Climate Kindness - Day 1 of 28'
 layout: article
 theme: green
 share: true
-excerpt: >-
-
 ---
 
 Over the next 4 weeks, we invite everyone to do these 3 things:

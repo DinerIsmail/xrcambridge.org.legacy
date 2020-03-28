@@ -3,8 +3,6 @@ title: '#ClimateKindness - Day 4 of 28'
 layout: article
 theme: green
 share: true
-excerpt: >-
-
 ---
 
 <img class="post-image" src="/assets/images/news/rainbow.jpeg" style="float: right" />

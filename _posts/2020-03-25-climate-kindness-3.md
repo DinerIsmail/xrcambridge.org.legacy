@@ -3,8 +3,6 @@ title: '#ClimateKindness - Day 3 of 28'
 layout: article
 theme: green
 share: true
-excerpt: >-
-
 ---
 
 Today we’re looking at Climate. The Covid-19 pandemic has shown that our system is fragile, but also that together we can build strong, resilient communities. Community-building is central to XR and we are continuing to grow the movement even though we can’t go out and protest.
