@@ -1,11 +1,11 @@
 - name: Affinity Group Support
   email: xr_cam_ag_support_wg@protonmail.com
-  description: Supporting affinity groups and their coordinators, and promoting autonomy and decentralisation within XR Cambridge. Please contact us if you are looking to join an affinity group and we will try to match you up.<br> [Read coordinator support pack](https://xrcambridge.org/affinity-group-support-pack "Affinity Group Coordinator Support Pack")
+  description: Supporting affinity groups and their coordinators, and promoting autonomy and decentralisation within XR Cambridge. Please contact us if you are looking to join an affinity group and we will try to match you up.<br><br> [Read coordinator support pack](https://xrcambridge.org/affinity-group-support-pack "Affinity Group Coordinator Support Pack")
   color: lightBlue
 
 - name: Regenerative Culture
   email: polly.waterfield@icloud.com
-  description: Building long-term resilience, health and wellbeing in XR and the wider community.
+  description: Building long-term resilience, health and wellbeing in XR and the wider community. <br><br> [Read regen resources document](/a-regenerative-rebellion)
   icon: tree
   color: green
 
