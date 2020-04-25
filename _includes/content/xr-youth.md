@@ -3,8 +3,8 @@ We are XR Youth Cambridge, and we rise to defend those already dying from the cl
 We share a close relationship with XR and XR Cambridge, but are a separate organisation with a focus on the link between climate justice and social justice. Our sense of urgency to change things is strong, and we set our mission on what is necessary.
 
 XR Youth Cambridge welcomes anyone between the ages of 18 and 30 years. If you:
-* Are under 18 - XR Next Generation is for you
-* Work or study at any university - XR Universities would love to have you
+* Are under 18 - [XR Next Generation](/next_generation) is for you
+* Work or study at any university - [XR Universities](/universities) would love to have you
 * Are over 30 years - the main XR branch is for you
 
 You can be part of several of these groups simultaneously.
