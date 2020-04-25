@@ -7,14 +7,12 @@ excerpt: >-
 
 ---
 
-<img class="post-image" src="/assets/images/news/deepwater-horizon-anniversary/EWHautpWkAMvX5K.jpeg" width="70%" style="float: right" />
-
-<img class="post-image" src="/assets/images/news/deepwater-horizon-anniversary/EWHautjWkAED-QB.jpeg" width="70%" style="float: right" />
-
-<img class="post-image" src="/assets/images/news/deepwater-horizon-anniversary/EWHaut1XQAA3ruG.jpeg" width="70%" style="float: right" />
-
-<img class="post-image" src="/assets/images/news/deepwater-horizon-anniversary/EWHaut7X0AAF5PU.jpeg.jpeg" width="70%" style="float: right" />
-
+<div class="grid-gallery">
+	<img src="/assets/images/news/deepwater-horizon-anniversary/EWHautpWkAMvX5K.jpeg" />
+	<img src="/assets/images/news/deepwater-horizon-anniversary/EWHautjWkAED-QB.jpeg" />
+	<img src="/assets/images/news/deepwater-horizon-anniversary/EWHaut1XQAA3ruG.jpeg" />
+	<img src="/assets/images/news/deepwater-horizon-anniversary/EWHaut7X0AAF5PU.jpeg" />
+</div>
 
 On April 20th, a small number of rebels from Extinction Rebellion Youth Cambridge marked the 10-year anniversary of the Deepwater Horizon oil spill with a chalk spray action against the University of Cambridge’s BP Institute.
 
