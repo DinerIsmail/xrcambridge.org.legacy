@@ -1,5 +1,5 @@
 ---
-title: '#Extinction Rebellion Youth Cambridge mark BP’s Deepwater Horizon oil spill with action against University of Cambridge’s BP Institute'
+title: 'XR Youth Cambridge marks BP’s Deepwater Horizon oil spill 10th anniversary with action at BP Institute'
 layout: article
 theme: green
 share: true
