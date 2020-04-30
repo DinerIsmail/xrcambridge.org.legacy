@@ -3,7 +3,8 @@ title: 'Extinction Rebellion Cambridge demands end to polluting industries as UK
 layout: article
 theme: green
 share: true
-header-img: "/assets/images/news/ngb/preview.jpg"
+image: "/assets/images/news/ngb/preview.jpg"
+description: 'Extinction Rebellion Cambridge demands end to polluting industries'
 images:
   - image_path: /assets/images/news/ngb/ngb-1.jpg
     title: 'No Going Back'

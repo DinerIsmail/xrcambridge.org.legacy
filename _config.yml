@@ -73,8 +73,6 @@ tag_archive:
 category_archive:
   path: /categories/
 
-og_image: /assets/images/preview.jpg
-
 social:
   type: 'Organization'
   name: 'Extinction Rebellion Cambridge'
