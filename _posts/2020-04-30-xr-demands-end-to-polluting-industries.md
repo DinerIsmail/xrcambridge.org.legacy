@@ -21,6 +21,10 @@ images:
     title: 'No Going Back'
   - image_path: /assets/images/news/ngb/ngb-8.jpg
     title: 'No Going Back'
+  - image_path: /assets/images/news/ngb/ngb-9.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/news/ngb/ngb-10.jpg
+    title: 'No Going Back'
 excerpt: >-
 
 ---
