@@ -53,3 +53,9 @@ Another major target was Marshall, an aerospace and defence company that own Cam
 Cambridge Airport mainly serves business flights and private aircraft - two of the most polluting forms of air transport. Marshall's new director has made clear the company's plans for future expansion, saying "we are fully committed to growing our business and leisure traffic."
 
 Several other high-polluting businesses were also targeted and exposed on social media as part of the action, and the group says that many more will feature as this campaign unfolds. XR claims that Cambridge has a high concentration of businesses that are harmful to people and the climate, perhaps because of the strong ties between the University of Cambridge and the fossil fuel industry. Our planet is close to the edge of several irreversible climate tipping points: XR says that it is time that polluting businesses are seen for what they are and that appropriate action is taken to stop them destroying lives.
+
+## References
+
+[https://www.theguardian.com/environment/2020/apr/20/air-pollution-may-be-key-contributor-to-covid-19-deaths-study](https://www.theguardian.com/environment/2020/apr/20/air-pollution-may-be-key-contributor-to-covid-19-deaths-study)
+
+[https://www.theguardian.com/environment/2020/apr/24/coronavirus-detected-particles-air-pollution](https://www.theguardian.com/environment/2020/apr/24/coronavirus-detected-particles-air-pollution)
