@@ -10,6 +10,8 @@ excerpt: >-
 
 For over three decades, activists have been calling for action on climate and environmental breakdown through conventional means. We have marched in demonstrations, written letters to our MPs, signed petitions, even carried out direct action against the organisations actively contributing to the crisis and targeting infrastructure such as power stations and oil rigs. Many people have sought to make a difference through individual changes, reducing their environmental impact through their transport choices, by insulating their homes and recycling.
 
+<img class="post-image" src="/assets/images/news/why-we-swarm/preview.jpg" />
+
 Despite this, we are on a cliff-edge. David Attenborough says “If we don't take action, the collapse of our civilisations and the extinction of much of the natural world is on the horizon.” Greta Thunberg says “the science doesn’t mainly speak of great opportunities to create the society we always wanted. It tells of unspoken human sufferings, which will get worse and worse the longer we delay action – unless we start to act now”.
 
 While the environmental movement has done incredible, vital work over the past decades, Extinction Rebellion (XR) recognises that this is not enough to stop environmental catastrophe. Only government action to change the system we live in can save us – and new tactics are needed to force the government to sit up and listen. Polluters barely notice a power-station shut down, big infrastructure projects continue in spite of protesters physically impeding construction work, and the work of activists barely registers on the public consciousness.
