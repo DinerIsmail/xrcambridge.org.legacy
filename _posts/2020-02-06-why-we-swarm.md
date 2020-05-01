@@ -3,6 +3,7 @@ title: Why we swarm and disrupt the public
 layout: article
 theme: green
 share: true
+image: "/assets/images/news/why-we-swarm/preview.jpg"
 excerpt: >-
   For over three decades, activists have been calling for action on climate and environmental breakdown through conventional means. Despite this, we are on a cliff-edge...
 ---
