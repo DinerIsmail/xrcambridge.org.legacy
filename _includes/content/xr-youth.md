@@ -1,3 +1,12 @@
+<div class="grid-gallery">
+	<img src="/assets/images/youth/73364241_10219404797967359_5861773607553728512_o.jpg" />
+	<img src="/assets/images/youth/74217304_10219653656708672_1894416035956654080_o.jpg" />
+	<img src="/assets/images/youth/82343926_790777074725393_1589229167575040000_o.jpg" />
+	<img src="/assets/images/youth/82540246_789589358177498_6735195841880915968_o.jpg" />
+	<img src="/assets/images/youth/86338158_10220369098674274_3177456117416460288_o.jpg" />
+	<img src="/assets/images/youth/XD5JH6U8NMYYKS1HCX50.jpg" />
+</div>
+
 We are XR Youth Cambridge, and we rise to defend those already dying from the climate crisis. It isn’t about our grandchildren, it’s about you, us, and those who aren’t fortunate enough to be able to fight for their rights. The emergency isn’t coming, it’s already here.
 
 We share a close relationship with XR and XR Cambridge, but are a separate organisation with a focus on the link between climate justice and social justice. Our sense of urgency to change things is strong, and we set our mission on what is necessary.
