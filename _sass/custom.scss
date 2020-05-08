@@ -118,6 +118,11 @@
 	box-shadow: 0 0 3px;
 }
 
+.grid-gallery.special-ngb {
+	float: none;
+	grid-template-rows: none;
+}
+
 @media (min-width: 768px) {
 	.grid-gallery {
 		width: 50%;
@@ -125,8 +130,11 @@
 		margin-left: 15px;
 	}
 
-	.grid-gallery.full-width {
-		width: 100%;
+	.grid-gallery.special-ngb {
+		width: 80%;
+		float: none;
+		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-rows: none;
 	}
 }
 

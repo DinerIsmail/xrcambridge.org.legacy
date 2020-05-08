@@ -5,30 +5,37 @@ theme: green
 share: true
 image: "/assets/images/news/ngb/preview.jpg"
 description: 'Responses and reflections to the No Going Back actions'
-images:
-  - image_path: /assets/images/news/ngb-reflections/image2.png
+images0:
+  - image_path: /assets/images/news/ngb-reflections/image01.jpg
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image3.png
+  - image_path: /assets/images/news/ngb-reflections/image02.jpg
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image4.png
+  - image_path: /assets/images/news/ngb-reflections/image0.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image5.png
+images1:
+  - image_path: /assets/images/news/ngb-reflections/image11.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image6.png
+  - image_path: /assets/images/news/ngb-reflections/image12.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image7.png
+  - image_path: /assets/images/news/ngb-reflections/image13.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image8.png
+  - image_path: /assets/images/news/ngb-reflections/image10.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image9.png
+images2:
+  - image_path: /assets/images/news/ngb-reflections/image20.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image10.jpg
+images3:
+  - image_path: /assets/images/news/ngb-reflections/image30.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image11.jpg
+  - image_path: /assets/images/news/ngb-reflections/image31.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image.png
+images4:
+  - image_path: /assets/images/news/ngb-reflections/image40.png
     title: 'No Going Back'
-  - image_path: /assets/images/news/ngb-reflections/image1.png
+images5:
+  - image_path: /assets/images/news/ngb-reflections/image50.png
+    title: 'No Going Back'
+  - image_path: /assets/images/news/ngb-reflections/image51.png
     title: 'No Going Back'
 excerpt: >-
 
@@ -40,8 +47,48 @@ Last Thursday, members of XR took to the streets to combine their daily exercise
 
 There was lots of love for XR Cambridge:
 
-<div class="grid-gallery full-width">
-	{% for image in page.images %}
+<div class="grid-gallery special-ngb">
+	{% for image in page.images0 %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
+
+Many people responded to the message chalk sprayed on Land Rover, 'Let us breathe', and talked about the need for cleaner air:
+
+<div class="grid-gallery special-ngb">
+	{% for image in page.images1 %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
+
+People made the connection between COVID-19 and environmental exploitation:
+
+<div class="grid-gallery special-ngb">
+	{% for image in page.images2 %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
+
+Cambridge News referred to 'vandalism', and there was defence of flyposting and chalk spraying as tactics, including comparisons to the suffragette movement:
+
+<div class="grid-gallery special-ngb">
+	{% for image in page.images3 %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
+
+One brave individual took on the climate deniers:
+
+<div class="grid-gallery special-ngb">
+	{% for image in page.images4 %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
+
+And some supporters showed a sense of humour to those less convinced about the action:
+
+<div class="grid-gallery special-ngb">
+	{% for image in page.images5 %}
 		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
 	{% endfor %}
 </div>
