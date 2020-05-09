@@ -3,7 +3,26 @@ layout: xr-splash
 permalink: '/youth'
 title: Extinction Rebellion Youth
 excerpt: If not you, who? If not now, when?
+images:
+  - image_path: /assets/images/youth/73364241_10219404797967359_5861773607553728512_o.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/youth/74217304_10219653656708672_1894416035956654080_o.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/youth/82343926_790777074725393_1589229167575040000_o.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/youth/82540246_789589358177498_6735195841880915968_o.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/youth/86338158_10220369098674274_3177456117416460288_o.jpg
+    title: 'No Going Back'
+  - image_path: /assets/images/youth/XD5JH6U8NMYYKS1HCX50.jpg
+    title: 'No Going Back'
 ---
+
+<div class="grid-gallery">
+	{% for image in page.images %}
+		<img src="{{ image.image_path }}" alt="{{ image.title}}" />
+	{% endfor %}
+</div>
 
 {% capture xr_youth_content %}{% include content/xr-youth.md %}{% endcapture %}
 {{ xr_youth_content | markdownify }}
