@@ -138,7 +138,30 @@
 	}
 }
 
-/* TEMP */
+/* Signup form */
+.check_radio_label {
+	text-align: left !important;
+	font-size: 14px !important;
+}
+.check_radio_field > label {
+	text-align: left !important;
+	padding: 0 0 0 25px !important;
+	margin: 4px 20px 0 0 !important;
+	font-size: 16px !important;
+}
+.check_radio_field input {
+	top: 5px !important;
+}
+input[name=commit] {
+	font-size: 1.4em !important;
+	background-color: #36a826 !important;
+	transition: opacity 250ms !important;
+}
+input[name=commit]:hover {
+	opacity: 0.8 !important;
+}
+
+/* TEMP - climate kindness */
 .ck-green, .ck-blue, .ck-pink {
   margin: 10px 0;
   padding: 1rem;
