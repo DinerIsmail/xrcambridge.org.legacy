@@ -3,8 +3,8 @@ title: 'XR Youth Cambridge Expose Cambridge Oil Research Institute'
 layout: article
 theme: green
 share: true
-image: "/assets/images/news/ngb/preview.jpg"
-description: 'Responses and reflections to the No Going Back actions'
+image: "/assets/images/news/casp-exposure/signal-attachment-2020-05-09-202017_003.jpeg"
+description: 'XR Youth Cambridge Expose Cambridge Oil Research Institute'
 images:
   - image_path: /assets/images/news/casp-exposure/signal-attachment-2020-05-09-202017_003.jpeg
     title: 'Cambridge Arctic Shelf Project Exposed'
