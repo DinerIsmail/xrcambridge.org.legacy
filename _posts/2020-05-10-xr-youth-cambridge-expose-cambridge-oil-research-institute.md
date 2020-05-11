@@ -1,5 +1,5 @@
 ---
-title: 'XR Youth Cambridge Expose Cambridge Oil Research Institute'
+title: 'XR Youth Cambridge Expose Cambridge Oil Research Institute - CASP'
 layout: article
 theme: green
 share: true
