@@ -5,6 +5,7 @@ theme: green
 share: true
 image: "/assets/images/news/reclaim-the-streets/preview.jpg"
 description: 'The new lanes will help keep cyclists safe, as a first step in reimagining our streets as we emerge from the crisis.'
+permalink: 'xr-announce-opening-of-new-cycle-lanes'
 images:
   - image_path: /assets/images/news/reclaim-the-streets/preview.jpg
     title: 'XR announce opening of new cycle lanes'
