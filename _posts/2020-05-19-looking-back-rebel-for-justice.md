@@ -10,7 +10,7 @@ excerpt: >-
   It’s hard to believe that just 3 months ago, rebels were beginning the biggest and most disruptive protest Cambridge has seen since Reclaim the Streets in 1996.
 ---
 
-It’s hard to believe that just 4 months ago, rebels were beginning the biggest and most disruptive protest Cambridge has seen since Reclaim the Streets in 1996.
+It’s hard to believe that just 3 months ago, rebels were beginning the biggest and most disruptive protest Cambridge has seen since Reclaim the Streets in 1996.
 
 <img class="post-image w-40" src="/assets/images/news/looking-back-r4j/1.jpg" />
 
