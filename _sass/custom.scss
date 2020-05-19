@@ -65,13 +65,21 @@
 		img {
 			width: 60% !important;
 		}
-  }
+	}
 
-  .post-image {
-	width: 60%;
-	float: right;
-    margin: 20px;
-  }
+	.post-image {
+		width: 60%;
+		float: right;
+		margin: 20px;
+
+		&.w-30 {
+			width: 30%;
+		}
+
+		&.w-40 {
+			width: 40%;
+		}
+	}
 }
 
 /*  Roles page */
