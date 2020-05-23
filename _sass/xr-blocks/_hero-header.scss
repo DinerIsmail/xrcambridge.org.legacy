@@ -27,7 +27,7 @@
 .heroHeader__container {
 	@extend %body_container;
 
-	padding-top: 40px;
+	padding-top: 20px;
 	padding-bottom: 20px;
 
 	&--quote {
@@ -63,11 +63,13 @@
 
 .heroHeader__title {
 	@extend %title;
+	font-size: 2rem;
 	margin-bottom: 0;
 }
 
 .heroHeader__excerpt {
 	@extend %lead;
+	font-size: 1.1rem;
 	margin-bottom: 0;
 }
 

@@ -2,7 +2,7 @@
   @extend %body_container;
   @include colourize();
 
-  margin-top: 40px;
+  margin-top: 10px;
   margin-bottom: 40px;
 }
 
@@ -25,4 +25,12 @@
 
 .blogArticle__socials {
   margin-bottom: 40px;
+}
+
+@media (max-width: 768px) {
+	.blog-article__content {
+		p, ol, ul, a {
+			font-size: 1.2rem;
+		}
+	}
 }
