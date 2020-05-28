@@ -2,6 +2,8 @@
 title: 'Taking the time to let the emotions of grief run their course'
 layout: article
 theme: green
+author_profile: true
+author: linda
 share: true
 image: "/assets/images/news/lindas-articles/DHW7SUJAOTGFCYFG14LX.jpg"
 description: 'Our rebel Linda talks to us about grief.'
