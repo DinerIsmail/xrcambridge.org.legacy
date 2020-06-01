@@ -3,12 +3,12 @@ title: 'XR Cambridge calls for transport justice from Cambridgeshire County Coun
 layout: article
 theme: green
 share: true
-image: "/assets/images/news/ngb/ngb-10.jpg"
+image: "/assets/images/news/ngb/ngb-11.jpg"
 description: 'Extinction Rebellion Cambridge calls for transport justice from Cambridgeshire County Council.'
 permalink: 'no-going-back-part-3-press-release'
 ---
 
-<img class="post-image w-40" src="/assets/images/news/ngb/ngb-10.jpg" />
+<img class="post-image w-40" src="/assets/images/news/ngb/ngb-11.jpg" />
 
 On Saturday 30th May, Extinction Rebellion Cambridge stood alone together at Shire Hall to protest the lack of meaningful action on transport justice and pandemic safety from Cambridgeshire County Council and other local authorities. Rebels stood for a full hour - socially distanced at 3 metres apart and wearing face masks and gloves. They held placards bearing messages such as "Let Us Breathe", "Pandemic Safety = Road Safety" and "We need to socially distance".
 
