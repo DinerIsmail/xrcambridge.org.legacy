@@ -14,7 +14,7 @@ The brutal murder of George Floyd, Breonna Taylor, Ahmaud Arbery, Tony McDade an
 
 We acknowledge that the system we live in is racist by design, and that silence shows complicity with murder. It is not enough to be non-racist - we must be actively anti-racist. We have a vision of a more equal and just world and try to embody this through our actions and support. We are learning and growing and sometimes do not act swiftly or boldly enough. It is long overdue for racial justice to become a more explicit goal in our movement and in our theory of change.
 
-# Climate justice is social justice!
+# Climate justice is social justice
 
 Climate and environmental justice is far more than the reduction of emissions alone. There will be little progress if we separate the ecological issue from the social factors driving extractivism and destruction. Without social justice for marginalised and oppressed peoples we cannot build a sustainable future.
 
