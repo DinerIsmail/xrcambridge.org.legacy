@@ -32,11 +32,11 @@ Our key messages, including our introductory talks and inductions, are missing i
 
 We must also recognise that as an activist organisation, XR must always stand in solidarity with those activists who align with our Principles and Values whenever they face oppression. We are pleased that XR UK has encouraged rebels to attend rallies in support of black and brown protesters in the United States. We would like XR UK to go further and issue a public statement expressing solidarity with those facing violent repression as they gather to protest police brutality.
 
-This is a complex issue and we are not experts, just regular people who care. We are trying to express things in a sensitive way but might not get it right. If you have any feedback please email xrcambridgefeedback@protonmail.com. This is an ongoing conversation and we are here to learn. 
+This is a complex issue and we are not experts, just regular people who care. We are trying to express things in a sensitive way but might not get it right. If you have any feedback please email xrcambridgefeedback@protonmail.com. This is an ongoing conversation and we are here to learn.
 
 
 **What can individuals do?**
-* When XR supports other movements, it must not dominate the narrative or shout over other voices, but act with respect and humility. 
+* When XR supports other movements, it must not dominate the narrative or shout over other voices, but act with respect and humility.
 * As a movement disproportionately made up of white people, we must take charge of educating ourselves and seek to amplify the voices of people of colour.
 * We urge activists not to remain silent on intersectional issues such as racism.
 * We call upon members of XR to show solidarity with Black Lives Matter and other activist groups standing up for the rights of people of colour.
@@ -46,4 +46,4 @@ Signed:
 * **Extinction Rebellion Youth Cambridge**
 * **Extinction Rebellion Norwich**
 * **Animal Rebellion Norwich**
-* **Animal Rebellion Cambridge** 
+* **Animal Rebellion Cambridge**
