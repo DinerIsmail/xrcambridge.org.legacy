@@ -15,7 +15,7 @@ Details of all our meetings, trainings, talks and protests are on the [main XR C
 ## Meetings
 Newcomers are welcome to join us! We’ll give you an introduction to XR Youth, show you how to get involved, and make you
 aware of any upcoming protests. Vegan snacks are provided.
-* Open meetings: every Sunday 1 - 3 PM.
+* Weekly meetings: every Sunday 3 - 5 PM.
 * General meetings: one Sunday each month 12 - 3 PM. These are meetings where all the youth groups (XR Next Generation,
 XR Universities, and XR Youth) come together
 
