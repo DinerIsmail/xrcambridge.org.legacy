@@ -47,3 +47,4 @@ Signed:
 * **Animal Rebellion Norwich**
 * **Animal Rebellion Cambridge**
 * **Extinction Rebellion Bury St Edmunds**
+* **Extinction Rebellion Ely**
