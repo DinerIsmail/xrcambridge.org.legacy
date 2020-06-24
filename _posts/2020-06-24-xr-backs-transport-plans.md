@@ -5,12 +5,13 @@ theme: green
 share: true
 image: "/assets/images/news/millroad.jpg"
 description: 'Extinction Rebellion backs "impressive" transport plans for Cambridgeshire, supports closure of Mill Road Bridge and calls for full Mill Rd pedestrianisation'
+excerpt: >-
+  Extinction Rebellion backs "impressive" transport plans for Cambridgeshire, supports closure of Mill Road Bridge and calls for full Mill Rd pedestrianisation
 permalink: 'xr-backs-mill-road-bridge-closure'
 ---
 
 <img class="post-image w-40" src="/assets/images/news/millroad.jpg" />
 
-Extinction Rebellion backs “impressive” transport plans for Cambridgeshire, supports closure of Mill Road Bridge and calls for full Mill Road pedestrianisation
 Extinction Rebellion Cambridge (XRC) and Extinction Rebellion Youth Cambridge (XRYC) have backed plans unveiled by the authorities to aid active travel in Cambridgeshire.
 
 The groups say these “impressive plans” will provide a huge boost for public health and wellbeing in the county and have urged their implementation as soon as possible.
