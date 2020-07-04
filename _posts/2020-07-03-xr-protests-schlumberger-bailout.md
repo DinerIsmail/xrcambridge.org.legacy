@@ -3,7 +3,7 @@ title: 'Extinction Rebellion Cambridge protest fossil fuel bailouts at oilfield 
 layout: article
 theme: green
 share: true
-image: "/assets/images/news/2020-07-03/schlum3.jpg"
+image: "/assets/images/news/2020-07-03/schlum.jpg"
 description: 'XR returned to the Cambridge-based research centre of oilfield services giant Schlumberger today, highlighting its role in environmental destruction in a socially distanced protest.'
 excerpt: >-
   XR returned to the Cambridge-based research centre of oilfield services giant Schlumberger today, highlighting its role in environmental destruction in a socially distanced protest.
@@ -16,7 +16,7 @@ Extinction Rebellion (XR) and XR Youth Cambridge returned to the Cambridge-based
 
 Schlumberger, the world’s leading oilfield services company, operates in 85 countries and at its research centre in Cambridge it develops new ways of extracting oil and gas through Arctic exploration, deep-sea drilling, fracking and "re-fracking". The company has just accepted a £150m bailout loan from the UK government, in the same month that the government’s own Committee on Climate Change urged radical action to use the Covid-19 recovery to move the UK away from fossil fuels and onto a sustainable footing. XR Cambridge says the “oil spill” stunt it undertook today was intended to make Schlumberger look as oily on the outside as it is on the inside. Schlumberger was heavily involved in the Deepwater Horizon oil spill ten years ago, the clean-up for which is ongoing and predicted to still be in progress in another ten years time. It was the biggest environmental disaster in US history.
 
-<img class="post-image w-40" src="/assets/images/news/2020-07-03/schlum3.jpg" />
+<img class="post-image w-40" src="/assets/images/news/2020-07-03/schlum.jpg" />
 
 XR Cambridge says the government has to shut down companies like Schlumberger now if we are to have any chance of averting climate catastrophe. The group also points out that Schlumberger is one of many fossil fuel companies with deep connections to Cambridge University – which maintains these ties despite claiming to be following science-based targets to limit global heating to 1.5°C. As well as hosting Schlumberger on its West Cambridge Site, the University maintains the Schlumberger Cambridge International Scholarship to train another generation of professionals to work in the fossil fuel industry. The University also also hosts the BP Institute and associated professorships.
 
