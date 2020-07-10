@@ -1,7 +1,7 @@
 ---
 title: 'The University of Cambridge and its colleges must divest'
 layout: article
-theme: green
+theme: red
 share: true
 image: "/assets/images/news/2020-07-10/no-more-excuses.png"
 description: 'It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its 24 non-divested colleges divest their endowment funds immediately.'
