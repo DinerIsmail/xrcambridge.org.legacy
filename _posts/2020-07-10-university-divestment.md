@@ -10,7 +10,7 @@ excerpt: >-
 permalink: 'university-divestment'
 ---
 
-<img class="post-image w-40" src="/assets/images/news/2020-07-10/no-more-excuses.png" />
+<iframe width="560" height="315" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="float: right"></iframe>
 
 The climate and biodiversity crisis is getting worse by the day. Millions of people are already suffering its effects - catastrophic flooding, megafires, unprecedented droughts, and the beginnings of failed harvests. All over the world, fossil fuel companies are decimating areas of high biodiversity to retrieve oil, gas, and coal that they know we can't burn if we're to avoid climate and ecological collapse. These same companies do what they please to the communities they destroy in their extraction process. Due to unchallenged systemic racism, these communities are largely black or indigenous. In countless cases, fossil fuel companies literally get away with murder [1] [2] [3].
 
