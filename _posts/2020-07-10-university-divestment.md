@@ -27,7 +27,7 @@ It is time for the University and its colleges to listen to their constituent pa
 
 # Demands
 
-Thanks to the fossil fuel divestment student society, Zero Carbon, the University has been presented with two Graces, created a Divestment Working Group (which it later disbanded), and commissioned a report on divestment, all the while managing not to divest. The University Council was to be presented with the already delayed report in July 2020 in preparation for a vote on whether to divest the University endowment fund in September. To our disappointment, but not to our surprise, the report has just been delayed again.
+Thanks to the fossil fuel divestment student society, Cambridge Zero Carbon Society, the University has been presented with two Graces, created a Divestment Working Group (which it later disbanded), and commissioned a report on divestment, all the while managing not to divest. The University Council was to be presented with the already delayed report in July 2020 in preparation for a vote on whether to divest the University endowment fund in September. To our disappointment, but not to our surprise, the report has just been delayed again.
 
 This is unacceptable. Zero Carbon have demanded divestment for over five years [9], and XR Youth Cambridge have also demanded it in their Rebel for Justice campaign [11]. During this time, the climate crisis has worsened considerably - the Executive Director of the International Energy Agency very recently stated that we have just six months left to change our course to avoid climate catastrophe [12]. This is clearly an emergency. We do not have months to wait. The University must call an emergency Council meeting on divestment immediately.
 
