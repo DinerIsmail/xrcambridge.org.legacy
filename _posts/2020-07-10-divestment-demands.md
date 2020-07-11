@@ -1,0 +1,29 @@
+---
+title: '[Press release] Extinction Rebellion announce divestment demands for the University of Cambridge and its colleges'
+layout: article
+theme: green
+share: true
+image: "/assets/images/news/2020-07-10/no-more-excuses.png"
+description: 'The University and colleges are enabling and legitimising industries proven to be destroying the climate and harming millions of people - particularly in the Global South. In order to tackle their global hold, the fossil fuel industry and other ecocidal industries must have their social legitimacy removed, and the University must play its part in this.'
+excerpt: >-
+  The University and colleges are enabling and legitimising industries proven to be destroying the climate and harming millions of people - particularly in the Global South. In order to tackle their global hold, the fossil fuel industry and other ecocidal industries must have their social legitimacy removed, and the University must play its part in this.
+permalink: 'xr-announce-divestment-demands'
+---
+
+Extinction Rebellion Cambridge (XRC) and Extinction Rebellion Youth Cambridge (XRYC) have today announced a new divestment campaign targeted at the University of Cambridge and its colleges. The climate activist groups have demanded that the University and colleges divest from and make no future investment in any fossil fuel industries, corporations that destroy biodiversity, the arms trade (one of the largest consumers of fossil fuels globally), and intensive animal farming. The groups have further demanded the reinvestment of this money in ethical industries and companies that bring positive benefits to people, society, and the planet.
+
+The University and colleges have the largest combined university endowment fund in the world outside of the US - over £7 billion. According to reports from Cambridge Zero Carbon Society (a student society dedicated to fossil fuel divestment), around 6.4% of this is still invested in fossil fuels. The University and colleges are enabling and legitimising industries proven to be destroying the climate and harming millions of people - particularly in the Global South - the groups say. They state that, in order to tackle their global hold, the fossil fuel industry and other ecocidal industries must have their social legitimacy removed, and the University must play its part in this.
+
+Divestment of the combined wealth of the University and colleges would be one of the biggest higher education divestments in the world. So far, five of the colleges have partially divested, and two colleges (Clare Hall and Queens’) have fully divested. This leaves 24 non-divested colleges. This is in stark contrast to universities around the UK - over half have now divested, including the University of Oxford who have a similar sized endowment fund.
+
+Emily Ashton, an alumna of Clare College and XR Cambridge member, said: “Cambridge Zero Carbon Society, other groups of Cambridge students, and the UCU (a university staff union) have been calling for divestment for over five years now. We first joined them with the launch of our youth-led Rebel for Justice campaign in January, which demanded that the University cut its ties with the fossil fuel industry. The University, of course, ignored us, but we are not going to let this be the end of the matter. We demand that they use their power, wealth and influence to positive effect, rather than perpetuating the destruction caused to humans, animals and ecosystems by fossil fuel and other extractive industries.”
+
+To realise the calls for divestment, Cambridge Zero Carbon previously facilitated two successful divestment motions at the University’s governing body, Regent House, but the senior management found several ways to block and delay the process, XRC claims. For this reason, the new XR campaign demands that the University and colleges commit by the end of July 2020 to complete divestment, with the divestment process itself being carried out by the end of 2020.
+
+Mahoney Goodman, a member of XR Youth Cambridge, commented: “We are terrified by the sheer scale of the emergency we’re in and the lack of meaningful action from prestigious and supposedly forward-thinking institutions like the University of Cambridge. Temperatures were 18°C above normal in the Arctic Circle in June, and the Executive Director of the International Energy Agency has very recently warned the world that we have just six months left to avert our current course towards catastrophic climate change.
+
+“This is also not just a problem for the future: there are people, most of whom are black or indigenous people of colour, already dying as a result of the climate and ecological crisis. Right now, the University is getting away with funding this crisis, which amounts to complicity in the destruction of ecosystems and countless deaths. For example, deadly heatwaves, natural disasters, and disease outbreaks are increasing in frequency due to rising global temperatures caused by the exploitative system which chains us to continuously increasing carbon emissions. We really have no time left to wait around for University bureaucracy or the vested interests of its colleges, many of which have enormous resources. We cannot and will not allow these delays to continue.”
+
+XRC and XRYC are beginning their campaign by personally delivering their demands to the University and the non-divested colleges. If divestment isn’t announced by the end of July, they say they will begin an escalating campaign of non-violent direct action until it is.
+
+The full demands can be found at [http://xrcambridge.org/university-divestment](http://xrcambridge.org/university-divestment)
