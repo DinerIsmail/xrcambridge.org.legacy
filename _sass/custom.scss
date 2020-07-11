@@ -19,6 +19,18 @@
   width: 100%;
 }
 
+.youtube-video {
+	float: right;
+	width: 100%;
+}
+
+@media (min-width: 768px) {
+	.youtube-video {
+		float: right;
+		width: 50%;
+	}
+}
+
 .calendar-container {
   margin-top: 20px;
 }
