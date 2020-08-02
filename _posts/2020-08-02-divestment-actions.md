@@ -1,0 +1,23 @@
+---
+title: 'Press Release: Fresh wave of action against the University of Cambridge and its non-divested colleges after divestment deadline missed'
+layout: article
+theme: red
+share: true
+image: "/assets/images/news/2020-07-10/no-more-excuses.png"
+description: 'The demands required that the University and colleges make a commitment by the end of July to fully divest by the end of 2020 - or face non-violent direct action.'
+excerpt: >-
+  It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its 24 non-divested colleges divest their endowment funds immediately.
+permalink: 'university-divestment-deadline-missed'
+---
+
+Extinction Rebellion Cambridge (XRC) and Extinction Rebellion Youth Cambridge (XRYC) are beginning a fresh wave of action against the University of Cambridge and its non-divested colleges after their divestment demands deadline was not met. At the beginning of July, the groups demanded that the University and colleges announce their plans to divest from fossil fuels and other destructive industries. These were personally delivered as letters addressed to the University’s Vice-Chancellor and college bursars. The demands required that the University and colleges make a commitment by the end of July to fully divest by the end of 2020 - or face non-violent direct action.
+
+Since then, it has been revealed that Darwin College is in the early stages of divesting, although it has not announced this publicly. Two of the other 23 colleges have engaged in dialogue but have not, so far, agreed to divest. From the University and the remaining 21 colleges, there has been silence. As a result, XR is beginning its promised campaign.
+
+Jane Goodland, a member of XR Cambridge, as well as a Trinity alumna and current Corpus Christi Master’s student, said “The University and colleges may feel that the timeframe we gave them is unfairly short, but their scientists have known about the climate and ecological crisis for decades. We are in an emergency: right now, one third of Bangladesh is underwater due to intense flooding, and the Met Office’s annual climate report states that the climate crisis is exerting an increasing impact on the UK. Much of our current situation would have been preventable had the threat of global warming been acted upon when it was first discovered. The question should not be whether our demands are too difficult, but why so much time has already been wasted. Divestment was first asked for at the University over five years ago by groups including the Zero Carbon Society - we won’t take any more excuses.”
+
+Kim Ashton, a Bye-Fellow at Fitzwilliam and member of XR Cambridge, added “100 companies are responsible for 71% of global greenhouse gas emissions, while the United States military emits more than 140 countries. 2019 saw the murders of 212 land and environmental activists, making it the deadliest year on record. Around 40% of those murdered were Indigenous people, who make up less than 5% of the global population but protect 80% of Earth’s biodiversity. According to Rachel Cox, a campaigner with Global Witness, “Agribusiness and oil, gas and mining have been consistently the biggest drivers of attacks”.
+
+“This is not a crisis that can be solved merely by individual institutions improving the energy efficiency of their buildings or introducing policies to phase out single-use plastics. We must go much further and hold ecocidal companies and industries to account if we want to see a meaningful reduction in greenhouse gas emissions, ecosystem destruction, and murder for profit. When influential institutions such as the University of Cambridge and its colleges fail to use their social capital for good, and instead continue to invest in ecocidal companies, this legitimizes the actions of such companies and enables their evasion of justice. This is why we are demanding divestment.”
+
+The dates and details of these protests have not been made public in advance, except for the announcement of an “Oily Handed March” on the 28th August. The socially distanced march will involve rebels from across the East of England region as part of the “Fossil Fuels Day” of the recently announced Regional Rebellion [(facebook.com/events/2165236116954878)](https://www.facebook.com/events/2165236116954878/). This will lead into nationally-coordinated protests [(extinctionrebellion.uk/uk-rebellion-2020)](https://extinctionrebellion.uk/uk-rebellion-2020/) in London and Cardiff, coinciding with the reopening of Parliament.
