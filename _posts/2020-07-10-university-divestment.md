@@ -12,6 +12,8 @@ permalink: 'university-divestment'
 
 <iframe class="youtube-video" width="560" height="300" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
+**Update:** If you represent the University of Cambridge or one of its colleges, you can find out [here](/divestment-guide) how to update your divestment status and let us know your divestment plans.
+
 The climate and biodiversity crisis is getting worse by the day. Millions of people are already suffering its effects - catastrophic flooding, megafires, unprecedented droughts, and the beginnings of failed harvests. All over the world, fossil fuel companies are decimating areas of high biodiversity to retrieve oil, gas, and coal that they know we can't burn if we're to avoid climate and ecological collapse. These same companies do what they please to the communities they destroy in their extraction process. Due to unchallenged systemic racism, these communities are largely black or indigenous. In countless cases, fossil fuel companies literally get away with murder [1] [2] [3].
 
 The University of Cambridge knows all of this. They produce reams of research showing us that the crises are worse than we thought and that they reinforce and exacerbate each other. The University even has its very own climate crisis initiative, Cambridge Zero, which states that “if we are to avert a climate disaster, we must sharply reduce our emissions, starting today… We are the last generation who can do something about catastrophic climate change.” [4]
