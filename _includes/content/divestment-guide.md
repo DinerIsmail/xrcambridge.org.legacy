@@ -17,7 +17,7 @@ In [our demands](/university-divestment), we listed several unethical and ecocid
     * Any other information you think is relevant (e.g. perhaps you have decided
      to engage your pension provider to ask that they also divest, or maybe you'd like to also declare a climate and ecological emergency)
 
-2. A page/post on your website detailing the same details as above in perpetuity. It must:
+2. A page/post on your website with the same details as above in perpetuity. It must:
     * Be easily accessible to the public, students, and staff
     * Show up in your website's search results for the keywords 'divest' or
      'divestment', and the category of investment you are divesting from (e.g. 'fossil fuels')
