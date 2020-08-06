@@ -1,12 +1,11 @@
 ---
-title: 'XR Youth Cambridge protests University of Cambridge fossil fuel ties
- following BP's fraudulent "low carbon" funds'
+title: 'XR Youth Cambridge protests University of Cambridge fossil fuel ties following BP's fraudulent use of so-called low carbon funds'
 layout: article
-theme: red
+theme: green
 share: true
 image: "/assets/images/bpi/bpi_wall_2.jpeg"
-description: 'Extinction Rebellion Youth Cambridge protests University of
- Cambridge investments in response to news that BP funds fossil fuels extraction research with its “low carbon” money.'
+description: 'Extinction Rebellion Youth Cambridge protests University of Cambridge investments in response to news that BP funds fossil fuels extraction research with its “low carbon” money.'
+excerpt: >-
 ---
 
 <img class="post-image w-40" src="/assets/images/bpi/bpi_wall_2.jpeg" />
