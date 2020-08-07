@@ -59,7 +59,7 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 
 
-On 11th July 2020, the non-divested colleges were:
+On 7th August 2020, the non-divested colleges were:
 
 * Christ's
 * Churchill
@@ -77,7 +77,6 @@ On 11th July 2020, the non-divested colleges were:
 * Murray Edwards
 * Newnham
 * Pembroke
-* Robinson
 * Sidney Sussex
 * St Catharine's
 * St Edmund's
@@ -92,6 +91,7 @@ The partially divested (direct investments only) colleges were:
 * Emmanuel
 * Jesus
 * Peterhouse
+* Robinson
 * Selwyn
 
 The fully divested colleges were:
