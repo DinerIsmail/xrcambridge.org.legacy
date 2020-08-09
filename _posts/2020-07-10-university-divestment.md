@@ -59,14 +59,13 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 
 
-On 7th August 2020, the non-divested colleges were:
+On 9th August 2020, the non-divested colleges were:
 
 * Christ's
 * Churchill
 * Clare
 * Corpus Christi
 * Darwin
-* Fitzwilliam
 * Girton
 * Gonville and Caius
 * Homerton
@@ -89,6 +88,7 @@ The partially divested (direct investments only) colleges were:
 
 * Downing
 * Emmanuel
+* Fitzwilliam
 * Jesus
 * Peterhouse
 * Robinson
