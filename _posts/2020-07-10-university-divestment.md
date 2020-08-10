@@ -6,7 +6,7 @@ share: true
 image: "/assets/images/news/2020-07-10/no-more-excuses.png"
 description: 'It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its 24 non-divested colleges divest their endowment funds immediately.'
 excerpt: >-
-  It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its 24 non-divested colleges divest their endowment funds immediately.
+  It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its non-divested colleges divest their endowment funds immediately.
 permalink: 'university-divestment'
 ---
 
@@ -24,7 +24,7 @@ Divestment has been proven to be highly effective in removing the social legitim
 
 Students and staff of the University have demanded full divestment time and time again over the last five years [9]. In fact, they have exhausted every possible democratic avenue available to them. Despite many calls for divestment from the students, staff, and members of Regent House (the University’s official governing body), requests have been consistently ignored. At every stage they have faced resistance, prevarication, and delay from senior management and the opaque Investment Office [10]. University democracy has failed.
 
-It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its 24 non-divested colleges divest their endowment funds immediately. If they continue to ignore the needs of the society they exist to serve, the only reasonable response is a campaign of non-violent direct action. When those in power refuse to listen to calls for justice issued via the ‘proper channels’, they leave us with no alternative. The time for producing reports and discussing in council chambers is over. We cannot and will not wait any longer.
+It is time for the University and its colleges to listen to their constituent parts and the city and world they exist in. We demand, on behalf of both town and gown, that the University of Cambridge and its non-divested colleges divest their endowment funds immediately. If they continue to ignore the needs of the society they exist to serve, the only reasonable response is a campaign of non-violent direct action. When those in power refuse to listen to calls for justice issued via the ‘proper channels’, they leave us with no alternative. The time for producing reports and discussing in council chambers is over. We cannot and will not wait any longer.
 
 
 # Demands
@@ -59,7 +59,7 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 
 
-On 9th August 2020, the non-divested colleges were:
+On 10th August 2020, the colleges not divested from fossil fuels were:
 
 * Christ's
 * Churchill
@@ -79,20 +79,20 @@ On 9th August 2020, the non-divested colleges were:
 * Sidney Sussex
 * St Catharine's
 * St Edmund's
-* St John's
 * Trinity
 * Trinity Hall
 * Wolfson
 
-The partially divested (direct investments only) colleges were:
+The colleges partially divested from fossil fuels (direct investments only) were:
 
 * Downing
-* Emmanuel
-* Fitzwilliam
+* [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
+* [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
 * Jesus
 * Peterhouse
-* Robinson
+* [Robinson](https://www.robinson.cam.ac.uk/about-robinson/foia-publications/robinson-college-esg-policy)
 * Selwyn
+* [St John's](https://www.joh.cam.ac.uk/investments)
 
 The fully divested colleges were:
 
