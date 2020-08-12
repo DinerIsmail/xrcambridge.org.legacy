@@ -58,22 +58,22 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 **Signed: Extinction Rebellion Cambridge and Extinction Rebellion Youth Cambridge**
 
 
+## College fossil fuel divestment statuses
 
-On 10th August 2020, the colleges not divested from fossil fuels were:
+*Last updated: Wednesday 12th August 2020*
 
+### Non-divested
 * Christ's
 * Churchill
 * Clare
 * Corpus Christi
 * Darwin
 * Girton
-* Gonville and Caius
 * Homerton
-* Hughes Hall
-* King's
+* [Hughes Hall](https://www.hughes.cam.ac.uk/wp-content/uploads/2019/12/Hughes-Carbon-Reduction-Policy-agreed-by-Council-Nov-2019.pdf)
 * Lucy Cavendish
 * Magdalene
-* Murray Edwards
+* [Murray Edwards](https://www.murrayedwards.cam.ac.uk/news/responsible-investment)
 * Newnham
 * Pembroke
 * Sidney Sussex
@@ -83,8 +83,13 @@ On 10th August 2020, the colleges not divested from fossil fuels were:
 * Trinity Hall
 * Wolfson
 
-The colleges partially divested from fossil fuels (direct investments only) were:
 
+### Partially-divested, but with no commitment to remain so
+* [Gonville and Caius](https://www.cai.cam.ac.uk/discover/strategy-and-policies/endowment-and-investment-management)
+* [King's](https://www.kings.cam.ac.uk/about/green-activities)
+
+
+### Partially-divested
 * Downing
 * [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
 * [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
@@ -94,9 +99,9 @@ The colleges partially divested from fossil fuels (direct investments only) were
 * Selwyn
 * [St John's](https://www.joh.cam.ac.uk/investments)
 
-The fully divested colleges were:
 
-* Clare Hall
+### Fully-divested
+* [Clare Hall](https://www.clarehall.cam.ac.uk/events/clare-hall-gsb-green-week-whats-next-after-divestment-0)
 * Queens’
 
 
