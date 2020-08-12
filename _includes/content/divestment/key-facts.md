@@ -14,9 +14,9 @@ What do some relevant people think of divestment?
 Fossil fuel divestment is a worldwide campaign that has, as of April 2020, seen [$14 trillion of investments removed by a total of 1,192 institutions and over 58,000 individuals](https://en.wikipedia.org/wiki/Fossil_fuel_divestment).
 
 Fossil fuel divestment has the following power:
-**1.** Primarily, it removes the social legitimacy of the fossil fuel industry through organisations publicly stating they **will not** invest in fossil fuels because of the harm they cause.
-**2.** Secondarily, when social legitimacy is lost, it gives social power to politicians to legislate against the industry.
-**3.** Its tertiary power is in the financial effects this has on the industry - nobody wants to invest and people want to actively remove any investments they already have, which sends share prices tumbling and hits profits
+1. Primarily, it removes the social legitimacy of the fossil fuel industry through organisations publicly stating they **will not** invest in fossil fuels because of the harm they cause.
+2. Secondarily, when social legitimacy is lost, it gives social power to politicians to legislate against the industry.
+3. Its tertiary power is in the financial effects this has on the industry - nobody wants to invest and people want to actively remove any investments they already have, which sends share prices tumbling and hits profits
 
 This is all backed up by research and previous success - divestment campaigns have been run very successfully against, for example, the tobacco industry and, separately, South Africa when it was running its apartheid system.
 
