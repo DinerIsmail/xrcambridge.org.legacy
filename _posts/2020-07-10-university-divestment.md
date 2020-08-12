@@ -13,7 +13,7 @@ permalink: 'university-divestment'
 <iframe class="youtube-video" width="560" height="300" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Quick links**
-* Read some [key facts about fossil fuel divestment and the University of Cambridge](/university-divestment/key-facts) 
+* Read some [key facts about fossil fuel divestment and the University](/university-divestment/key-facts) 
 * Find out [what non-divested, partially divested, and fully divested mean](/university-divestment/definitions)
 * Find out [how to update a college's divestment status](/university-divestment/guide)
 
