@@ -13,6 +13,7 @@ permalink: 'university-divestment'
 <iframe class="youtube-video" width="560" height="300" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 **Quick links**
+* Read some [key facts about fossil fuel divestment and the University](/university-divestment/key-facts) 
 * Find out [what non-divested, partially divested, and fully divested mean](/university-divestment/definitions)
 * Find out [how to update a college's divestment status](/university-divestment/guide)
 
@@ -62,6 +63,8 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 
 ## College fossil fuel divestment statuses
+
+A *fossil fuel company* is any company involved in the exploration, extraction, refining, transporting, and/or marketing of fossil fuels. This includes the development and sale of technology used to aid any of these e.g. artificial intelligence software used to find new oil deposits, or research into better extraction techniques.
 
 Definitions of the divestment statuses [can be found here.](/university-divestment/definitions)
 
