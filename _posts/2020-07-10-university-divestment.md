@@ -63,6 +63,8 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 ## College fossil fuel divestment statuses
 
+A *fossil fuel company* is any company involved in the exploration, extraction, refining, transporting, and/or marketing of fossil fuels. This includes the development and sale of technology used to aid any of these e.g. artificial intelligence software used to find new oil deposits, or research into better extraction techniques.
+
 Definitions of the divestment statuses [can be found here.](/university-divestment/definitions)
 
 *Last updated: Wednesday 12th August 2020*
