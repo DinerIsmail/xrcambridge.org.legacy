@@ -12,7 +12,7 @@ permalink: 'university-divestment'
 
 <iframe class="youtube-video" width="560" height="300" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-**Update:** *If you represent the University of Cambridge or one of its colleges, you can [find out here how to update your divestment status ](/divestment-guide) and let us know your divestment plans.*
+**Update:** *If you represent the University of Cambridge or one of its colleges, you can [find out here how to update your divestment status ](/university-divestment/guide) and let us know your divestment plans.*
 
 The climate and biodiversity crisis is getting worse by the day. Millions of people are already suffering its effects - catastrophic flooding, megafires, unprecedented droughts, and the beginnings of failed harvests. All over the world, fossil fuel companies are decimating areas of high biodiversity to retrieve oil, gas, and coal that they know we can't burn if we're to avoid climate and ecological collapse. These same companies do what they please to the communities they destroy in their extraction process. Due to unchallenged systemic racism, these communities are largely black or indigenous. In countless cases, fossil fuel companies literally get away with murder [1] [2] [3].
 
@@ -59,6 +59,8 @@ By the end of July 2020, we demand that the University of Cambridge and all its 
 
 
 ## College fossil fuel divestment statuses
+
+Definitions of the divestment statuses [can be found here.](/university-divestment/definitions)
 
 *Last updated: Wednesday 12th August 2020*
 
