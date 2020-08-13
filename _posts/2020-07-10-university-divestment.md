@@ -82,7 +82,6 @@ Definitions of the divestment statuses [can be found here.](/university-divestme
 * Lucy Cavendish
 * Magdalene
 * [Murray Edwards](https://www.murrayedwards.cam.ac.uk/news/responsible-investment)
-* Newnham
 * Pembroke
 * Sidney Sussex
 * St Catharine's
@@ -102,6 +101,7 @@ Definitions of the divestment statuses [can be found here.](/university-divestme
 * [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
 * [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
 * Jesus
+* [Newnham](https://www.newn.cam.ac.uk/wp-content/uploads/2020/08/Newnham-College-ESG-Investment-Statement.pdf)
 * Peterhouse
 * [Robinson](https://www.robinson.cam.ac.uk/about-robinson/foia-publications/robinson-college-esg-policy)
 * Selwyn
