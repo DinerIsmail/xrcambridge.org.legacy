@@ -12,7 +12,7 @@ permalink: 'university-divestment/update-2020-08-15'
 Since the NVDA phase of our divestment campaign started on 1st August, rebels from XR Cambridge have outdone themselves with action after amazing action! So far (in under two weeks), we've seen:
 * A divestment play written and performed outside of Darwin College
 * Reverse graffiti on Garret Hostel Bridge
-* An oil slick rebel march (this got over 22,000 impressions on Twitter!)
+* An oil slick rebel march (this got over 25,000 impressions on Twitter!)
 * Croquet on Senate House lawn (we made page 3 of the Telegraph!)
 * A dinosaur die-in (and other dinosaur-related actions)
 * Divestment stencilling on several University buildings
