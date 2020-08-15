@@ -16,7 +16,7 @@ permalink: 'university-divestment'
 
 * [Our demands](/university-divestment/demands)
 * [Key facts about fossil fuel divestment and the University](/university-divestment/key-facts) 
-* [Divestment status definitions](/university-divestment/definitions)
+* [What does divestment mean?](/university-divestment/definitions)
 * [Updating a college's divestment status](/university-divestment/guide)
 
 ## Updates
