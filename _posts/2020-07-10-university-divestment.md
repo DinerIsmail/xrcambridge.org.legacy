@@ -12,12 +12,14 @@ permalink: 'university-divestment'
 
 <iframe class="youtube-video" width="560" height="300" src="https://www.youtube.com/embed/0bckNVcb6to" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-* Read [our demands](/university-divestment/demands)
-* Read some [key facts about fossil fuel divestment and the University](/university-divestment/key-facts) 
-* Find out [what non-divested, partially divested, and fully divested mean](/university-divestment/definitions)
-* Find out [how to update a college's divestment status](/university-divestment/guide)
+## Navigation
 
-Updates:
+* [Our demands](/university-divestment/demands)
+* [Key facts about fossil fuel divestment and the University](/university-divestment/key-facts) 
+* [Divestment status definitions](/university-divestment/definitions)
+* [Updating a college's divestment status](/university-divestment/guide)
+
+## Updates
 * [15th August 2020](/university-divestment/update-2020-08-15)
 
 
