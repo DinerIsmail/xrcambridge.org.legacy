@@ -5,7 +5,7 @@ theme: red
 share: true
 image: "/assets/images/news/2020-07-10/no-more-excuses.png"
 description: 'An update on the University of Cambridge and colleges divestment campaign'
-excerpt: >- We're making progress
+excerpt: "We're making progress"
 permalink: 'university-divestment/update-2020-08-15'
 ---
 
