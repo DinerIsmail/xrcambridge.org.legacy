@@ -20,18 +20,20 @@ permalink: 'university-divestment'
 * [Updating a college's divestment status](/university-divestment/guide)
 
 ## Updates
-* [15th August 2020](/university-divestment/update-2020-08-15)
+* [10th July 2020 - divestment campaign launched](/xr-announce-divestment-demands)
+* [2nd August 2020 - University and all colleges miss divestment deadline](/university-divestment-deadline-missed)
+* [15th August 2020 - first signs of progress](/university-divestment/update-2020-08-15)
 
 
 ## College fossil fuel divestment statuses
 
 A *fossil fuel company* is any company involved in the exploration, extraction, refining, transporting, and/or marketing of fossil fuels. This includes the development and sale of technology used to aid any of these e.g. artificial intelligence software used to find new oil deposits, or research into better extraction techniques.
 
-Definitions of the divestment statuses [can be found here.](/university-divestment/definitions)
+Definitions of the divestment statuses are linked above.
 
 *Last updated: Wednesday 12th August 2020*
 
-### Non-divested
+**Non-divested**
 * Christ's
 * Churchill
 * Clare
@@ -52,12 +54,12 @@ Definitions of the divestment statuses [can be found here.](/university-divestme
 * Wolfson
 
 
-### Partially-divested, but with no commitment to remain so
+**Partially-divested, but with no commitment to remain so**
 * [Gonville and Caius](https://www.cai.cam.ac.uk/discover/strategy-and-policies/endowment-and-investment-management)
 * [King's](https://www.kings.cam.ac.uk/about/green-activities)
 
 
-### Partially-divested
+**Partially-divested**
 * Downing
 * [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
 * [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
@@ -69,6 +71,6 @@ Definitions of the divestment statuses [can be found here.](/university-divestme
 * [St John's](https://www.joh.cam.ac.uk/investments)
 
 
-### Fully-divested
+**Fully-divested**
 * [Clare Hall](https://www.clarehall.cam.ac.uk/events/clare-hall-gsb-green-week-whats-next-after-divestment-0)
 * Queens’
