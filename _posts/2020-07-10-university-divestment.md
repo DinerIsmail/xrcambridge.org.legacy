@@ -25,15 +25,16 @@ permalink: 'university-divestment'
 * [15th August 2020 - first signs of progress](/university-divestment/update-2020-08-15)
 
 
-## College fossil fuel divestment statuses
+## University and colleges fossil fuel divestment statuses
 
 A *fossil fuel company* is any company involved in the exploration, extraction, refining, transporting, and/or marketing of fossil fuels. This includes the development and sale of technology used to aid any of these e.g. artificial intelligence software used to find new oil deposits, or research into better extraction techniques.
 
 Definitions of the divestment statuses are linked above.
 
-*Last updated: Wednesday 12th August 2020*
+*Last updated: Wednesday 17th August 2020*
 
 **Non-divested**
+* [The University of Cambridge](https://www.reuters.com/article/us-cambridge-oil-divestment/cambridge-university-sticks-to-indirect-fossil-fuel-investments-idUSKBN1JB1KX)
 * Christ's
 * Churchill
 * Clare
