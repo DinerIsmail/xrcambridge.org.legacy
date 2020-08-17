@@ -61,7 +61,7 @@ Definitions of the divestment statuses are linked above.
 
 **Partially-divested**
 * [Downing](https://www.varsity.co.uk/news/16635)
-* [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
+* [Emmanuel](https://www.varsity.co.uk/news/17586)
 * [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
 * [Jesus](https://www.varsity.co.uk/news/17841)
 * [Newnham](https://www.newn.cam.ac.uk/wp-content/uploads/2020/08/Newnham-College-ESG-Investment-Statement.pdf)
