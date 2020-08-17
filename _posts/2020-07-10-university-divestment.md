@@ -60,17 +60,20 @@ Definitions of the divestment statuses are linked above.
 
 
 **Partially-divested**
-* Downing
+* [Downing](https://www.varsity.co.uk/news/16635)
 * [Emmanuel](https://www.emma.cam.ac.uk/publications/UPDATED%20WEB%20PDF%2020.12.2019%20-%20EMMA%20MAGAZINE%202019%20aafinalWEB.pdf)
 * [Fitzwilliam](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
-* Jesus
+* [Jesus](https://www.varsity.co.uk/news/17841)
 * [Newnham](https://www.newn.cam.ac.uk/wp-content/uploads/2020/08/Newnham-College-ESG-Investment-Statement.pdf)
-* Peterhouse
+* [Peterhouse](https://www.varsity.co.uk/news/15101)
 * [Robinson](https://www.robinson.cam.ac.uk/about-robinson/foia-publications/robinson-college-esg-policy)
-* Selwyn
+* [Selwyn](https://www.varsity.co.uk/news/17060)
 * [St John's](https://www.joh.cam.ac.uk/investments)
 
 
+**Committed to fully divest**
+* [Clare Hall - by March 2024](https://www.clarehall.cam.ac.uk/events/clare-hall-gsb-green-week-whats-next-after-divestment-0)
+
+
 **Fully-divested**
-* [Clare Hall](https://www.clarehall.cam.ac.uk/events/clare-hall-gsb-green-week-whats-next-after-divestment-0)
-* Queens’
+* [Queens’](https://www.varsity.co.uk/news/15930)
