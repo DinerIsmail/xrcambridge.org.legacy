@@ -31,50 +31,6 @@ A *fossil fuel company* is any company involved in the exploration, extraction, 
 
 Definitions of the divestment statuses are linked above.
 
-*Last updated: Wednesday 17th August 2020*
+*Last updated: Tuesday 18th August 2020*
 
-**Non-divested**
-* [The University of Cambridge](https://www.reuters.com/article/us-cambridge-oil-divestment/cambridge-university-sticks-to-indirect-fossil-fuel-investments-idUSKBN1JB1KX)
-* Christ's College
-* Churchill College
-* Clare College
-* Corpus Christi College
-* Darwin College
-* Girton College
-* Homerton College
-* [Hughes Hall College](https://www.hughes.cam.ac.uk/wp-content/uploads/2019/12/Hughes-Carbon-Reduction-Policy-agreed-by-Council-Nov-2019.pdf)
-* Lucy Cavendish College
-* Magdalene College
-* [Murray Edwards College](https://www.murrayedwards.cam.ac.uk/news/responsible-investment)
-* Pembroke College
-* Sidney Sussex College
-* St Catharine's College
-* St Edmund's College
-* Trinity College
-* Trinity Hall College
-* Wolfson College
-
-
-**Partially-divested, but with no commitment to remain so**
-* [Gonville and Caius College](https://www.cai.cam.ac.uk/discover/strategy-and-policies/endowment-and-investment-management)
-* [King's College](https://www.kings.cam.ac.uk/about/green-activities)
-
-
-**Partially-divested**
-* [Downing College](https://www.varsity.co.uk/news/16635)
-* [Emmanuel College](https://www.varsity.co.uk/news/17586)
-* [Fitzwilliam College](https://www.fitz.cam.ac.uk/news/fitzwilliam-college-adopts-sustainable-investment-policy)
-* [Jesus College](https://www.varsity.co.uk/news/17841)
-* [Newnham College](https://www.newn.cam.ac.uk/wp-content/uploads/2020/08/Newnham-College-ESG-Investment-Statement.pdf)
-* [Peterhouse College](https://www.varsity.co.uk/news/15101)
-* [Robinson College](https://www.robinson.cam.ac.uk/about-robinson/foia-publications/robinson-college-esg-policy)
-* [Selwyn College](https://www.varsity.co.uk/news/17060)
-* [St John's College](https://www.joh.cam.ac.uk/investments)
-
-
-**Committed to fully divest**
-* [Clare Hall College - by March 2024](https://www.clarehall.cam.ac.uk/events/clare-hall-gsb-green-week-whats-next-after-divestment-0)
-
-
-**Fully-divested**
-* [Queens’ College](https://www.varsity.co.uk/news/15930)
+<img class="post-image w-40" src="/assets/images/divestment_matrix" />
