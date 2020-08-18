@@ -34,3 +34,5 @@ Definitions of the divestment statuses are linked above.
 *Last updated: Tuesday 18th August 2020*
 
 <img class="post-image w-40" src="/assets/images/divestment_matrix" />
+
+<img class="post-image w-40" src="/assets/images/divestment_matrix_key" />
